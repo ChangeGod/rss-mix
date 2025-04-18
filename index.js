@@ -8,7 +8,7 @@ import { XMLBuilder } from 'fast-xml-parser';
 // Tạo parser với header giả lập trình duyệt
 const parser = new Parser({
   headers: {
-    'User-Agent': 'Mozilla/5.0 (compatible; RSSBot/1.0; +https://example.com/rss)'
+    'User-Agent': 'Inoreader/1.0 (+https://www.inoreader.com)'
   }
 });
 
