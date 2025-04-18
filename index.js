@@ -10,9 +10,7 @@ const parser = new Parser({
 });
 
 const clusters = [
-  { input: 'cumdauvao1.txt', output: 'cumdaura1.xml' },
-  { input: 'cumdauvao2.txt', output: 'cumdaura2.xml' },
-  { input: 'cumdauvao3.txt', output: 'cumdaura3.xml' }
+  { input: 'cumdauvao1.txt', output: 'cumdaura1.xml' }
 ];
 
 async function processCluster(inputFile, outputFile) {
