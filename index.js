@@ -1,14 +1,11 @@
 import fs from 'fs';
 import Parser from 'rss-parser';
 import { XMLBuilder } from 'fast-xml-parser';
-import fs from 'fs';
-import Parser from 'rss-parser';
-import { XMLBuilder } from 'fast-xml-parser';
 
 // Tạo parser với header giả lập trình duyệt
 const parser = new Parser({
   headers: {
-    'User-Agent': 'Inoreader/1.0 (+https://www.inoreader.com)'
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36'
   }
 });
 
