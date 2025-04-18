@@ -5,7 +5,7 @@ import { XMLBuilder } from 'fast-xml-parser';
 // Tạo parser với header giả lập trình duyệt
 const parser = new Parser({
   headers: {
-    'User-Agent': 'Feedly/1.0 (+http://www.feedly.com/fetcher.html)'
+    'User-Agent': 'Mozilla/5.0 (compatible; RSSBot/1.0; +https://example.com/rss)'
   }
 });
 
