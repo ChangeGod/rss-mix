@@ -1,0 +1,31 @@
+name: Update RSS Clusters
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install dependencies
+        run: npm install rss-parser fast-xml-parser
+
+      - name: Run RSS merger
+        run: node index.js
+
+      - name: Commit & Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add cumdaura*.xml
+          git commit -m "🔄 Update RSS clusters"
+          git push
