@@ -1,3 +1,8 @@
+process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
+
+import fs from 'fs';
+import Parser from 'rss-parser';
+import { XMLBuilder } from 'fast-xml-parser';
 import fs from 'fs';
 import Parser from 'rss-parser';
 import { XMLBuilder } from 'fast-xml-parser';
