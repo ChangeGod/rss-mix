@@ -2,15 +2,13 @@ import fs from 'fs/promises';
 import axios from 'axios';
 import Parser from 'rss-parser';
 import { XMLBuilder } from 'fast-xml-parser';
-import HttpsProxyAgent from 'https-proxy-agent';
+import { HttpsProxyAgent } from 'https-proxy-agent'; // Import đúng cách
 import { fileURLToPath } from 'url';
 import path from 'path';
 
-// Xác định thư mục hiện tại
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Cấu hình
 const CONFIG = {
   headers: [
     {
@@ -24,15 +22,18 @@ const CONFIG = {
       'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8',
       'Accept-Language': 'en-US,en;q=0.5',
       'Connection': 'keep-alive'
+    },
+    {
+      'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',
+      'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8',
+      'Accept-Language': 'en-US,en;q=0.5',
+      'Connection': 'keep-alive'
     }
   ],
-  proxies: [
-    'http://45.140.143.77:18080'
-    // Thêm proxy nếu cần, ví dụ: 'http://proxy1:port'
-  ],
-  maxRetries: 3,
-  retryDelay: 2000,
-  timeout: 10000,
+  proxies: ['http://45.140.143.77:18080'], // Thêm proxy nếu cần, ví dụ: ['http://123.45.67.89:8080']
+  maxRetries: 5, // Tăng số lần thử
+  retryDelay: 3000, // Tăng delay
+  timeout: 15000, // Tăng timeout
   clusters: [
     {
       input: path.join(__dirname, 'cumdauvao1.txt'),
@@ -46,12 +47,10 @@ const CONFIG = {
 
 const parser = new Parser();
 
-// Lấy header ngẫu nhiên
 function getRandomHeader() {
   return CONFIG.headers[Math.floor(Math.random() * CONFIG.headers.length)];
 }
 
-// Hàm lấy RSS với retry và proxy
 async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
   try {
     const config = {
@@ -59,7 +58,8 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
       timeout: CONFIG.timeout
     };
 
-    if (CONFIG.proxies.length > proxyIndex) {
+    // Chỉ dùng proxy nếu proxies không trống và proxyIndex hợp lệ
+    if (CONFIG.proxies.length > 0 && proxyIndex < CONFIG.proxies.length) {
       config.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[proxyIndex]);
       console.log(`Using proxy: ${CONFIG.proxies[proxyIndex]}`);
     }
@@ -77,11 +77,10 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
       return fetchWithBypass(url, 0, proxyIndex + 1);
     }
     console.error(`❌ Error fetching ${url}: ${err.message}`);
-    return null; // Trả về null thay vì ném lỗi để tiếp tục xử lý các URL khác
+    return null;
   }
 }
 
-// Hàm kiểm tra file
 async function checkFile(filePath, type = 'input') {
   try {
     await fs.access(filePath);
@@ -92,16 +91,13 @@ async function checkFile(filePath, type = 'input') {
   }
 }
 
-// Hàm xử lý một cluster
 async function processCluster({ input, output, title, link, description }) {
   console.log(`📋 Processing cluster: ${input} -> ${output}`);
   try {
-    // Kiểm tra file đầu vào
     if (!(await checkFile(input, 'Input'))) {
       return;
     }
 
-    // Đọc URL
     let urls = [];
     try {
       const fileContent = await fs.readFile(input, 'utf-8');
@@ -117,7 +113,6 @@ async function processCluster({ input, output, title, link, description }) {
 
     const allItems = [];
 
-    // Lấy dữ liệu từ các URL
     for (const url of urls) {
       const feed = await fetchWithBypass(url);
       if (feed && feed.items) {
@@ -131,14 +126,12 @@ async function processCluster({ input, output, title, link, description }) {
       return;
     }
 
-    // Sắp xếp theo ngày xuất bản
     allItems.sort((a, b) => {
       const dateA = a.pubDate ? new Date(a.pubDate) : new Date(0);
       const dateB = b.pubDate ? new Date(b.pubDate) : new Date(0);
       return dateB - dateA;
     });
 
-    // Tạo XML
     const builder = new XMLBuilder({ ignoreAttributes: false });
     const xml = builder.build({
       rss: {
@@ -159,7 +152,6 @@ async function processCluster({ input, output, title, link, description }) {
       }
     });
 
-    // Lưu file
     try {
       await fs.writeFile(output, xml);
       console.log(`✅ Created ${output} with ${allItems.length} items`);
@@ -171,19 +163,12 @@ async function processCluster({ input, output, title, link, description }) {
   }
 }
 
-// Hàm chính
 async function main() {
   console.log('🚀 Starting RSS merge process...');
   try {
-    // Kiểm tra môi trường
     console.log('🔍 Checking environment...');
-    const nodeVersion = process.version;
-    console.log(`Node.js version: ${nodeVersion}`);
-    if (!nodeVersion.startsWith('v16') && !nodeVersion.startsWith('v18') && !nodeVersion.startsWith('v20')) {
-      console.warn('⚠️ Recommended Node.js versions: 16.x, 18.x, or 20.x');
-    }
+    console.log(`Node.js version: ${process.version}`);
 
-    // Kiểm tra cluster
     if (!CONFIG.clusters.length) {
       throw new Error('No clusters defined in CONFIG');
     }
@@ -198,5 +183,4 @@ async function main() {
   }
 }
 
-// Chạy chương trình
 main();
