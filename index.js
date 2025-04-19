@@ -2,17 +2,12 @@ import fs from 'fs/promises';
 import axios from 'axios';
 import Parser from 'rss-parser';
 import { XMLBuilder } from 'fast-xml-parser';
-import { HttpsProxyAgent } from 'https-proxy-agent';
+import { HttpsProxyAgent } from 'https-proxy-agent'; // Import đúng cách
 import { fileURLToPath } from 'url';
 import path from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-
-const PROXY_LIST_URLS = [
-  'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/facebook.txt',
-  'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/twitter.txt'
-];
 
 const CONFIG = {
   headers: [
@@ -35,10 +30,10 @@ const CONFIG = {
       'Connection': 'keep-alive'
     }
   ],
-  proxies: [],
-  maxRetries: 5,
-  retryDelay: 3000,
-  timeout: 15000,
+  proxies: ['http://45.140.143.77:18080'], // Thêm proxy nếu cần, ví dụ: ['http://123.45.67.89:8080']
+  maxRetries: 5, // Tăng số lần thử
+  retryDelay: 3000, // Tăng delay
+  timeout: 15000, // Tăng timeout
   clusters: [
     {
       input: path.join(__dirname, 'cumdauvao1.txt'),
@@ -56,28 +51,6 @@ function getRandomHeader() {
   return CONFIG.headers[Math.floor(Math.random() * CONFIG.headers.length)];
 }
 
-async function loadProxyLists() {
-  const proxies = [];
-  for (const url of PROXY_LIST_URLS) {
-    try {
-      const response = await axios.get(url, {
-        headers: getRandomHeader(),
-        timeout: CONFIG.timeout
-      });
-      const proxyList = response.data
-        .split('\n')
-        .map(line => line.trim())
-        .filter(line => line && /^(\d{1,3}\.){3}\d{1,3}:\d{1,5}$/.test(line))
-        .map(proxy => `http://${proxy}`);
-      proxies.push(...proxyList);
-      console.log(`✅ Loaded ${proxyList.length} proxies from ${url}`);
-    } catch (err) {
-      console.error(`❌ Error loading proxy list from ${url}: ${err.message}`);
-    }
-  }
-  return proxies;
-}
-
 async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
   try {
     const config = {
@@ -85,11 +58,10 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
       timeout: CONFIG.timeout
     };
 
+    // Chỉ dùng proxy nếu proxies không trống và proxyIndex hợp lệ
     if (CONFIG.proxies.length > 0 && proxyIndex < CONFIG.proxies.length) {
       config.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[proxyIndex]);
       console.log(`Using proxy: ${CONFIG.proxies[proxyIndex]}`);
-    } else if (proxyIndex >= CONFIG.proxies.length) {
-      console.log(`No more proxies available, attempting direct connection for ${url}`);
     }
 
     const response = await axios.get(url, config);
@@ -100,19 +72,9 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
       console.warn(`⚠️ 403 Forbidden for ${url}, retrying (${retryCount + 1}/${CONFIG.maxRetries})...`);
       await new Promise(resolve => setTimeout(resolve, CONFIG.retryDelay));
       return fetchWithBypass(url, retryCount + 1, proxyIndex);
-    } else if (
-      (err.response && err.response.status === 403) ||
-      err.message.includes('certificate') ||
-      err.code === 'ECONNRESET' ||
-      err.code === 'ETIMEDOUT'
-    ) {
-      if (proxyIndex < CONFIG.proxies.length - 1) {
-        console.warn(`⚠️ Switching to next proxy for ${url} due to error: ${err.message}`);
-        return fetchWithBypass(url, 0, proxyIndex + 1);
-      } else {
-        console.warn(`⚠️ All proxies failed for ${url}, attempting direct connection...`);
-        return fetchWithBypass(url, 0, CONFIG.proxies.length); // Direct connection
-      }
+    } else if (err.response && err.response.status === 403 && proxyIndex < CONFIG.proxies.length - 1) {
+      console.warn(`⚠️ Switching to next proxy for ${url}...`);
+      return fetchWithBypass(url, 0, proxyIndex + 1);
     }
     console.error(`❌ Error fetching ${url}: ${err.message}`);
     return null;
@@ -206,10 +168,6 @@ async function main() {
   try {
     console.log('🔍 Checking environment...');
     console.log(`Node.js version: ${process.version}`);
-
-    console.log('🌐 Loading proxy lists...');
-    CONFIG.proxies = await loadProxyLists();
-    console.log(`🔗 Total proxies loaded: ${CONFIG.proxies.length}`);
 
     if (!CONFIG.clusters.length) {
       throw new Error('No clusters defined in CONFIG');
