@@ -9,6 +9,11 @@ import path from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+const PROXY_LIST_URLS = [
+  'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/facebook.txt',
+  'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/twitter.txt'
+];
+
 const CONFIG = {
   headers: [
     {
@@ -18,7 +23,7 @@ const CONFIG = {
       'Connection': 'keep-alive'
     },
     {
-      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'User-Agent': 'Mozilla/5.0 (1340; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
       'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8',
       'Accept-Language': 'en-US,en;q=0.5',
       'Connection': 'keep-alive'
@@ -30,10 +35,7 @@ const CONFIG = {
       'Connection': 'keep-alive'
     }
   ],
-  proxyListUrls: [
-    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/http-tested/facebook.txt'
-    // Thêm các URL danh sách proxy khác nếu muốn
-  ],
+  proxies: [], // Sẽ được điền sau khi tải proxy
   maxRetries: 5,
   retryDelay: 3000,
   timeout: 15000,
@@ -50,46 +52,42 @@ const CONFIG = {
 
 const parser = new Parser();
 
-async function fetchProxies() {
-  const allProxies = new Set();
-  for (const proxyListUrl of CONFIG.proxyListUrls) {
-    try {
-      const response = await axios.get(proxyListUrl, {
-        headers: getRandomHeader(),
-        timeout: CONFIG.timeout
-      });
-      const proxies = response.data
-        .split('\n')
-        .map(line => line.trim())
-        .filter(line => line && line.includes(':'))
-        .map(line => (line.startsWith('http') ? line : `http://${line}`));
-      proxies.forEach(proxy => allProxies.add(proxy));
-      console.log(`📡 Fetched ${proxies.length} proxies from ${proxyListUrl}`);
-    } catch (err) {
-      console.error(`❌ Error fetching proxy list ${proxyListUrl}: ${err.message}`);
-    }
-  }
-  const proxyArray = Array.from(allProxies);
-  console.log(`📡 Total unique proxies: ${proxyArray.length}`);
-  return proxyArray;
-}
-
 function getRandomHeader() {
   return CONFIG.headers[Math.floor(Math.random() * CONFIG.headers.length)];
 }
 
-async function fetchWithBypass(url, proxies, retryCount = 0, proxyIndex = 0) {
+async function loadProxyLists() {
+  const proxies = [];
+  for (const url of PROXY_LIST_URLS) {
+    try {
+      const response = await axios.get(url, {
+        headers: getRandomHeader(),
+        timeout: CONFIG.timeout
+      });
+      const proxyList = response.data
+        .split('\n')
+        .map(line => line.trim())
+        .filter(line => line && /^(\d{1,3}\.){3}\d{1,3}:\d{1,5}$/.test(line))
+        .map(proxy => `http://${proxy}`);
+      proxies.push(...proxyList);
+      console.log(`✅ Loaded ${proxyList.length} proxies from ${url}`);
+    } catch (err) {
+      console.error(`❌ Error loading proxy list from ${url}: ${err.message}`);
+    }
+  }
+  return proxies;
+}
+
+async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
   try {
     const config = {
       headers: getRandomHeader(),
       timeout: CONFIG.timeout
     };
 
-    if (proxies.length > 0 && proxyIndex < proxies.length) {
-      config.httpsAgent = new HttpsProxyAgent(proxies[proxyIndex]);
-      console.log(`Using proxy: ${proxies[proxyIndex]}`);
-    } else if (proxyIndex > 0) {
-      console.log(`No more proxies, falling back to direct request`);
+    if (CONFIG.proxies.length > 0 && proxyIndex < CONFIG.proxies.length) {
+      config.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[proxyIndex]);
+      console.log(`Using proxy: ${CONFIG.proxies[proxyIndex]}`);
     }
 
     const response = await axios.get(url, config);
@@ -99,10 +97,10 @@ async function fetchWithBypass(url, proxies, retryCount = 0, proxyIndex = 0) {
     if (err.response && err.response.status === 403 && retryCount < CONFIG.maxRetries) {
       console.warn(`⚠️ 403 Forbidden for ${url}, retrying (${retryCount + 1}/${CONFIG.maxRetries})...`);
       await new Promise(resolve => setTimeout(resolve, CONFIG.retryDelay));
-      return fetchWithBypass(url, proxies, retryCount + 1, proxyIndex);
-    } else if (proxyIndex < proxies.length - 1) {
-      console.warn(`⚠️ Failed with ${proxyIndex < proxies.length ? `proxy ${proxies[proxyIndex]}` : 'direct request'}, switching to next proxy...`);
-      return fetchWithBypass(url, proxies, 0, proxyIndex + 1);
+      return fetchWithBypass(url, retryCount + 1, proxyIndex);
+    } else if (err.response && err.response.status === 403 && proxyIndex < CONFIG.proxies.length - 1) {
+      console.warn(`⚠️ Switching to next proxy for ${url}...`);
+      return fetchWithBypass(url, 0, proxyIndex + 1);
     }
     console.error(`❌ Error fetching ${url}: ${err.message}`);
     return null;
@@ -139,11 +137,10 @@ async function processCluster({ input, output, title, link, description }) {
       return;
     }
 
-    const proxies = await fetchProxies();
     const allItems = [];
 
     for (const url of urls) {
-      const feed = await fetchWithBypass(url, proxies);
+      const feed = await fetchWithBypass(url);
       if (feed && feed.items) {
         allItems.push(...feed.items);
         console.log(`✅ Fetched ${url} (${feed.items.length} items)`);
@@ -197,6 +194,10 @@ async function main() {
   try {
     console.log('🔍 Checking environment...');
     console.log(`Node.js version: ${process.version}`);
+
+    console.log('🌐 Loading proxy lists...');
+    CONFIG.proxies = await loadProxyLists();
+    console.log(`🔗 Total proxies loaded: ${CONFIG.proxies.length}`);
 
     if (!CONFIG.clusters.length) {
       throw new Error('No clusters defined in CONFIG');
