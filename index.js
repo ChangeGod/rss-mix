@@ -23,7 +23,7 @@ const CONFIG = {
       'Connection': 'keep-alive'
     },
     {
-      'User-Agent': 'Mozilla/5.0 (1340; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
+      'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
       'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8',
       'Accept-Language': 'en-US,en;q=0.5',
       'Connection': 'keep-alive'
@@ -35,7 +35,7 @@ const CONFIG = {
       'Connection': 'keep-alive'
     }
   ],
-  proxies: [], // Sẽ được điền sau khi tải proxy
+  proxies: [],
   maxRetries: 5,
   retryDelay: 3000,
   timeout: 15000,
@@ -88,6 +88,8 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
     if (CONFIG.proxies.length > 0 && proxyIndex < CONFIG.proxies.length) {
       config.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[proxyIndex]);
       console.log(`Using proxy: ${CONFIG.proxies[proxyIndex]}`);
+    } else if (proxyIndex >= CONFIG.proxies.length) {
+      console.log(`No more proxies available, attempting direct connection for ${url}`);
     }
 
     const response = await axios.get(url, config);
@@ -98,9 +100,19 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
       console.warn(`⚠️ 403 Forbidden for ${url}, retrying (${retryCount + 1}/${CONFIG.maxRetries})...`);
       await new Promise(resolve => setTimeout(resolve, CONFIG.retryDelay));
       return fetchWithBypass(url, retryCount + 1, proxyIndex);
-    } else if (err.response && err.response.status === 403 && proxyIndex < CONFIG.proxies.length - 1) {
-      console.warn(`⚠️ Switching to next proxy for ${url}...`);
-      return fetchWithBypass(url, 0, proxyIndex + 1);
+    } else if (
+      (err.response && err.response.status === 403) ||
+      err.message.includes('certificate') ||
+      err.code === 'ECONNRESET' ||
+      err.code === 'ETIMEDOUT'
+    ) {
+      if (proxyIndex < CONFIG.proxies.length - 1) {
+        console.warn(`⚠️ Switching to next proxy for ${url} due to error: ${err.message}`);
+        return fetchWithBypass(url, 0, proxyIndex + 1);
+      } else {
+        console.warn(`⚠️ All proxies failed for ${url}, attempting direct connection...`);
+        return fetchWithBypass(url, 0, CONFIG.proxies.length); // Direct connection
+      }
     }
     console.error(`❌ Error fetching ${url}: ${err.message}`);
     return null;
