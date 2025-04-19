@@ -1,4 +1,4 @@
-name:  Build & Deploy RSS to gh-pages 2
+name:  Build & Deploy RSS to gh-pages 3
 
 on:
   schedule:
