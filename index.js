@@ -31,7 +31,7 @@ const CONFIG = {
     }
   ],
   proxyListUrls: [
-    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/facebook.txt'
+    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/http-tested/facebook.txt'
     // Thêm các URL danh sách proxy khác nếu muốn
   ],
   maxRetries: 5,
