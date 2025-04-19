@@ -42,6 +42,20 @@ const CONFIG = {
       link: 'https://example.com/feed1',
       description: 'RSS feed merged from source 1'
     }
+    // {
+    //   input: path.join(__dirname, 'cumdauvao2.txt'),
+    //   output: path.join(__dirname, 'cumdaura2.xml'),
+    //   title: 'Merged Feed 2',
+    //   link: 'https://example.com/feed2',
+    //   description: 'RSS feed merged from source 2'
+    // },
+    // {
+    //   input: path.join(__dirname, 'cumdauvao3.txt'),
+    //   output: path.join(__dirname, 'cumdaura3.xml'),
+    //   title: 'Merged Feed 3',
+    //   link: 'https://example.com/feed3',
+    //   description: 'RSS feed merged from source 3'
+    // }
   ]
 };
 
