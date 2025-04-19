@@ -31,9 +31,9 @@ const CONFIG = {
     }
   ],
   proxyListUrls: [
-    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/https.txt',
-    'https://raw.githubusercontent.com/proxifly/free-proxy-list/main/proxies/protocols/http/data.txt',
-    'https://raw.githubusercontent.com/officialputuid/KangProxy/KangProxy/http/http.txt'
+    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/twitter.txt',
+    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/facebook.txt',
+    'https://raw.githubusercontent.com/Vann-Dev/proxy-list/main/proxies/https-tested/youtube.txt'
     // Thêm các URL danh sách proxy khác nếu muốn
   ],
   maxRetries: 5,
