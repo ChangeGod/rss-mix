@@ -1,17 +1,27 @@
 import fs from 'fs';
+import axios from 'axios';
 import Parser from 'rss-parser';
 import { XMLBuilder } from 'fast-xml-parser';
 
-// Tạo parser với header giả lập trình duyệt
-const parser = new Parser({
-  headers: {
-    'User-Agent': 'Inoreader/1.0 (+https://www.inoreader.com)'
-  }
-});
+const parser = new Parser();
+
+const headers = {
+  'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:119.0) Gecko/20100101 Firefox/119.0',
+  'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8',
+  'Accept-Language': 'en-US,en;q=0.5',
+  'Connection': 'keep-alive'
+};
 
 const clusters = [
-  { input: 'cumdauvao1.txt', output: 'cumdaura1.xml' }
+  { input: 'cumdauvao1.txt', output: 'cumdaura1.xml' },
+  { input: 'cumdauvao2.txt', output: 'cumdaura2.xml' },
+  { input: 'cumdauvao3.txt', output: 'cumdaura3.xml' }
 ];
+
+async function fetchWithBypass(url) {
+  const response = await axios.get(url, { headers });
+  return await parser.parseString(response.data);
+}
 
 async function processCluster(inputFile, outputFile) {
   if (!fs.existsSync(inputFile)) return;
@@ -25,7 +35,7 @@ async function processCluster(inputFile, outputFile) {
 
   for (const url of urls) {
     try {
-      const feed = await parser.parseURL(url);
+      const feed = await fetchWithBypass(url);
       allItems.push(...feed.items);
     } catch (err) {
       console.error(`❌ Error loading ${url}: ${err.message}`);
