@@ -2,7 +2,7 @@ name: Build & Deploy RSS to gh-pages
 
 on:
   schedule:
-    - cron: "*/3 * * * *"
+    - cron: "*/6 * * * *"
   workflow_dispatch:
 
 jobs:
