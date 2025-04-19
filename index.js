@@ -143,7 +143,7 @@ async function processCluster({ input, output, title, link, description }) {
           language: 'en',
           item: allItems.map(item => ({
             title: item.title || 'No title',
-            link: item.link || item.guid || 'No link',
+            link: item.link?.replace('nitter.poast.org', 'x.com') || item.guid || 'No link',
             pubDate: item.pubDate || new Date().toISOString(),
             guid: item.guid || item.link || 'No guid',
             description: item.content || item.summary || 'No description'
