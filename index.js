@@ -27,6 +27,7 @@ const CONFIG = {
     }
   ],
   proxies: [
+    'http://45.140.143.77:18080'
     // Thêm proxy nếu cần, ví dụ: 'http://proxy1:port'
   ],
   maxRetries: 3,
