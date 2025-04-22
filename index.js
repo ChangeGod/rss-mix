@@ -2,12 +2,14 @@ import fs from 'fs/promises';
 import axios from 'axios';
 import Parser from 'rss-parser';
 import { XMLBuilder } from 'fast-xml-parser';
-import { HttpsProxyAgent } from 'https-proxy-agent'; // Import đúng cách
+import { HttpsProxyAgent } from 'https-proxy-agent';
 import { fileURLToPath } from 'url';
 import path from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+const SOURCE_DIR = path.join(__dirname, 'source'); // Directory containing cumdauvao*.txt files
 
 const CONFIG = {
   headers: [
@@ -30,33 +32,10 @@ const CONFIG = {
       'Connection': 'keep-alive'
     }
   ],
-  proxies: ['http://45.140.143.77:18080'], // Thêm proxy nếu cần, ví dụ: ['http://123.45.67.89:8080']
-  maxRetries: 5, // Tăng số lần thử
-  retryDelay: 3000, // Tăng delay
-  timeout: 15000, // Tăng timeout
-  clusters: [
-    {
-      input: path.join(__dirname, 'cumdauvao1.txt'),
-      output: path.join(__dirname, 'cumdaura1.xml'),
-      title: 'Merged Feed 1',
-      link: 'https://example.com/feed1',
-      description: 'RSS feed merged from source 1'
-    }
-    // {
-    //   input: path.join(__dirname, 'cumdauvao2.txt'),
-    //   output: path.join(__dirname, 'cumdaura2.xml'),
-    //   title: 'Merged Feed 2',
-    //   link: 'https://example.com/feed2',
-    //   description: 'RSS feed merged from source 2'
-    // },
-    // {
-    //   input: path.join(__dirname, 'cumdauvao3.txt'),
-    //   output: path.join(__dirname, 'cumdaura3.xml'),
-    //   title: 'Merged Feed 3',
-    //   link: 'https://example.com/feed3',
-    //   description: 'RSS feed merged from source 3'
-    // }
-  ]
+  proxies: ['http://45.140.143.77:18080'],
+  maxRetries: 5,
+  retryDelay: 3000,
+  timeout: 15000
 };
 
 const parser = new Parser();
@@ -72,7 +51,6 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
       timeout: CONFIG.timeout
     };
 
-    // Chỉ dùng proxy nếu proxies không trống và proxyIndex hợp lệ
     if (CONFIG.proxies.length > 0 && proxyIndex < CONFIG.proxies.length) {
       config.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[proxyIndex]);
       console.log(`Using proxy: ${CONFIG.proxies[proxyIndex]}`);
@@ -177,17 +155,43 @@ async function processCluster({ input, output, title, link, description }) {
   }
 }
 
+async function generateClusters() {
+  try {
+    const files = await fs.readdir(SOURCE_DIR);
+    const txtFiles = files.filter(f => f.match(/^cumdauvao\d+\.txt$/));
+
+    if (txtFiles.length === 0) {
+      throw new Error(`No cumdauvao*.txt files found in ${SOURCE_DIR}`);
+    }
+
+    return txtFiles.map(file => {
+      const number = file.match(/\d+/)?.[0] || '1';
+      return {
+        input: path.join(SOURCE_DIR, file),
+        output: path.join(__dirname, `cumdaura${number}.xml`),
+        title: `Merged Feed ${number}`,
+        link: `https://example.com/feed${number}`,
+        description: `RSS feed merged from source ${number}`
+      };
+    });
+  } catch (err) {
+    console.error(`❌ Error reading directory ${SOURCE_DIR}: ${err.message}`);
+    return [];
+  }
+}
+
 async function main() {
   console.log('🚀 Starting RSS merge process...');
   try {
     console.log('🔍 Checking environment...');
     console.log(`Node.js version: ${process.version}`);
 
-    if (!CONFIG.clusters.length) {
-      throw new Error('No clusters defined in CONFIG');
+    const clusters = await generateClusters();
+    if (!clusters.length) {
+      throw new Error('No valid clusters to process');
     }
 
-    for (const cluster of CONFIG.clusters) {
+    for (const cluster of clusters) {
       await processCluster(cluster);
     }
     console.log('🏁 RSS merge process completed.');
