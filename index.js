@@ -9,7 +9,7 @@ import path from 'path';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const SOURCE_DIR = path.join(__dirname, 'source'); // Directory containing cumdauvao*.txt files
+const SOURCE_DIR = path.join(__dirname, 'source');
 
 const CONFIG = {
   headers: [
@@ -90,14 +90,29 @@ async function processCluster({ input, output, title, link, description }) {
       return;
     }
 
-    let urls = [];
+    let feedSources = [];
     try {
       const fileContent = await fs.readFile(input, 'utf-8');
-      urls = fileContent
+      feedSources = fileContent
         .split('\n')
-        .map(line => line.trim())
+        .map(line => {
+          const trimmedLine = line.trim();
+          if (!trimmedLine) return null;
+
+          // Extract URL and source label (if present)
+          const match = trimmedLine.match(/^(https:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
+          if (!match) {
+            console.warn(`⚠️ Invalid line format in ${input}: ${trimmedLine}`);
+            return null;
+          }
+
+          return {
+            url: match[1],
+            sourceLabel: match[2] || null // e.g., "From Walter Bloomberg" or null
+          };
+        })
         .filter(Boolean);
-      console.log(`📄 Found ${urls.length} URLs in ${input}`);
+      console.log(`📄 Found ${feedSources.length} URLs in ${input}`);
     } catch (err) {
       console.error(`❌ Error reading ${input}: ${err.message}`);
       return;
@@ -105,10 +120,15 @@ async function processCluster({ input, output, title, link, description }) {
 
     const allItems = [];
 
-    for (const url of urls) {
+    for (const { url, sourceLabel } of feedSources) {
       const feed = await fetchWithBypass(url);
       if (feed && feed.items) {
-        allItems.push(...feed.items);
+        // Add the sourceLabel to each item
+        const itemsWithSource = feed.items.map(item => ({
+          ...item,
+          sourceLabel // Attach the source label to the item
+        }));
+        allItems.push(...itemsWithSource);
         console.log(`✅ Fetched ${url} (${feed.items.length} items)`);
       }
     }
@@ -134,7 +154,9 @@ async function processCluster({ input, output, title, link, description }) {
           description: description || 'RSS feed merged from sources',
           language: 'en',
           item: allItems.map(item => ({
-            title: item.title || 'No title',
+            title: item.sourceLabel
+              ? `${item.title || 'No title'} (${item.sourceLabel})` // Append source label to title
+              : item.title || 'No title',
             link: item.link?.replace('nitter.poast.org', 'x.com') || item.guid || 'No link',
             pubDate: item.pubDate || new Date().toISOString(),
             guid: item.guid || item.link || 'No guid',
