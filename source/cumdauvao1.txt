@@ -1,2 +1,7 @@
 https://nitter.poast.org/DeItaone/rss (From Walter Bloomberg)
-https://nitter.poast.org/zerohedge/rss
+https://nitter.poast.org/EconomyApp/rss (From App Economy Insights)
+https://nitter.poast.org/Barchart/rss (From Barchart)
+https://nitter.poast.org/KobeissiLetter/rss (From TKL)
+https://nitter.poast.org/VisualCap/rss (From Visual Capitalist)
+https://nitter.poast.org/nickgerli1/rss (From Nick Gerli_Realestate)
+https://nitter.poast.org/SchwabResearch/rss (From SchwabR)
