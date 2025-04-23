@@ -10,6 +10,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const SOURCE_DIR = path.join(__dirname, 'source');
+const NAME_DIR = path.join(__dirname, 'name'); // Directory for name*.txt files
 
 const CONFIG = {
   headers: [
@@ -51,9 +52,12 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
       timeout: CONFIG.timeout
     };
 
-    if (CONFIG.proxies.length > 0 && proxyIndex < CONFIG.proxies.length) {
+    // Use proxy only if the URL contains 'nitter.poast.org'
+    if (url.includes('nitter.poast.org') && CONFIG.proxies.length > 0 && proxyIndex < CONFIG.proxies.length) {
       config.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[proxyIndex]);
-      console.log(`Using proxy: ${CONFIG.proxies[proxyIndex]}`);
+      console.log(`Using proxy: ${CONFIG.proxies[proxyIndex]} for ${url}`);
+    } else {
+      console.log(`No proxy used for ${url}`);
     }
 
     const response = await axios.get(url, config);
@@ -64,7 +68,7 @@ async function fetchWithBypass(url, retryCount = 0, proxyIndex = 0) {
       console.warn(`⚠️ 403 Forbidden for ${url}, retrying (${retryCount + 1}/${CONFIG.maxRetries})...`);
       await new Promise(resolve => setTimeout(resolve, CONFIG.retryDelay));
       return fetchWithBypass(url, retryCount + 1, proxyIndex);
-    } else if (err.response && err.response.status === 403 && proxyIndex < CONFIG.proxies.length - 1) {
+    } else if (err.response && err.response.status === 403 && proxyIndex < CONFIG.proxies.length - 1 && url.includes('nitter.poast.org')) {
       console.warn(`⚠️ Switching to next proxy for ${url}...`);
       return fetchWithBypass(url, 0, proxyIndex + 1);
     }
@@ -81,6 +85,19 @@ async function checkFile(filePath, type = 'input') {
     console.error(`❌ ${type} file ${filePath} does not exist or is inaccessible`);
     return false;
   }
+}
+
+async function getTitleForCluster(number) {
+  const nameFile = path.join(NAME_DIR, `name${number}.txt`);
+  if (await checkFile(nameFile, 'Name')) {
+    try {
+      const content = await fs.readFile(nameFile, 'utf-8');
+      return content.trim() || 'No name';
+    } catch (err) {
+      console.error(`❌ Error reading ${nameFile}: ${err.message}`);
+    }
+  }
+  return 'No name';
 }
 
 async function processCluster({ input, output, title, link, description }) {
@@ -186,16 +203,17 @@ async function generateClusters() {
       throw new Error(`No cumdauvao*.txt files found in ${SOURCE_DIR}`);
     }
 
-    return txtFiles.map(file => {
+    return Promise.all(txtFiles.map(async file => {
       const number = file.match(/\d+/)?.[0] || '1';
+      const title = await getTitleForCluster(number); // Get title from name*.txt
       return {
         input: path.join(SOURCE_DIR, file),
         output: path.join(__dirname, `cumdaura${number}.xml`),
-        title: `Merged Feed ${number}`,
+        title: title,
         link: `https://example.com/feed${number}`,
         description: `RSS feed merged from source ${number}`
       };
-    });
+    }));
   } catch (err) {
     console.error(`❌ Error reading directory ${SOURCE_DIR}: ${err.message}`);
     return [];
@@ -207,6 +225,14 @@ async function main() {
   try {
     console.log('🔍 Checking environment...');
     console.log(`Node.js version: ${process.version}`);
+
+    // Ensure name directory exists
+    try {
+      await fs.access(NAME_DIR);
+    } catch {
+      console.log(`📁 Creating name directory: ${NAME_DIR}`);
+      await fs.mkdir(NAME_DIR);
+    }
 
     const clusters = await generateClusters();
     if (!clusters.length) {
