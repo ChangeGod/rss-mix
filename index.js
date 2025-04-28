@@ -9,11 +9,11 @@ import path from 'path';
 // ---------------------------------------------------------------------------
 // 🔐 1.  Đọc biến môi trường (được cấp qua GitHub Secrets hoặc .env local)
 // ---------------------------------------------------------------------------
-const BASE_URL       = process.env.BASE_URL       || '';   // eg. http://ziplyfiber9232.tplinkdns.com:8011
+const BASE_URL       = process.env.BASE_URL       || '';   
 const API_USERNAME   = process.env.API_USERNAME   || '';
 const API_PASSWORD   = process.env.API_PASSWORD   || '';
 
-const PROXY_URL      = process.env.PROXY_URL      || '';   // full string inc. auth → http://admin:nambuonthangnhongaythuong@ziplyfiber9232.tplinkdns.com:49123
+const PROXY_URL      = process.env.PROXY_URL      || '';   
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname  = path.dirname(__filename);
