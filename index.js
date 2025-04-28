@@ -111,7 +111,16 @@ async function processCluster({input,output,title,link,description}){
   console.log(`\n📦 ${path.basename(input)} → ${path.basename(output)}`);
   if(!(await fileExists(input))){console.error(`❌ Missing ${input}`);return;}
   const lines=(await fs.readFile(input,'utf8')).split(/\r?\n/).filter(Boolean);
-  const sources=lines.map(l=>{const m=l.trim().match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);if(!m){console.warn(`⚠️ Bad line ${l}`);return null;}return{url:resolvePlaceholders(m[1]),sourceLabel:m[2]||null};}).filter(Boolean);
+  const sources = lines.map(l => {
+  const resolvedLine = resolvePlaceholders(l.trim());
+  const m = resolvedLine.match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
+  if (!m) {
+    console.warn(`⚠️ Bad line ${l}`);
+    return null;
+  }
+  return { url: m[1], sourceLabel: m[2] || null };
+}).filter(Boolean);
+
   const items=[];
   for(const {url,sourceLabel} of sources){
     const feed=await fetchWithBypass(url);
