@@ -9,10 +9,10 @@ import path from 'path';
 // ---------------------------------------------------------------------------
 // 🔐 1. Environment variables (GitHub Secrets or local .env)
 // ---------------------------------------------------------------------------
-const BASE_URL_LOCAL   = process.env.BASE_URL_LOCAL   || ''; // 
+const BASE_URL_LOCAL   = process.env.BASE_URL_LOCAL   || '';
 const API_USERNAME     = process.env.API_USERNAME     || '';
 const API_PASSWORD     = process.env.API_PASSWORD     || '';
-const PROXY_LOCAL_URL  = process.env.PROXY_LOCAL_URL  || ''; // http://admin:pass@host:port
+const PROXY_LOCAL_URL  = process.env.PROXY_LOCAL_URL  || '';
 const RSS_KEY_SECRET   = process.env.RSS_KEY_SECRET   || '';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -111,15 +111,14 @@ async function processCluster({input,output,title,link,description}){
   console.log(`\n📦 ${path.basename(input)} → ${path.basename(output)}`);
   if(!(await fileExists(input))){console.error(`❌ Missing ${input}`);return;}
   const lines=(await fs.readFile(input,'utf8')).split(/\r?\n/).filter(Boolean);
-  const sources = lines.map(l => {
-  const resolvedLine = resolvePlaceholders(l.trim());
-  const m = resolvedLine.match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
-  if (!m) {
-    console.warn(`⚠️ Bad line ${l}`);
-    return null;
-  }
-  return { url: m[1], sourceLabel: m[2] || null };
-}).filter(Boolean);
+
+  // Resolve placeholders BEFORE regex validation
+  const sources=lines.map(l=>{
+    const resolvedLine = resolvePlaceholders(l.trim());
+    const m = resolvedLine.match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
+    if(!m){console.warn(`⚠️ Bad line ${l}`);return null;}
+    return{url:m[1],sourceLabel:m[2]||null};
+  }).filter(Boolean);
 
   const items=[];
   for(const {url,sourceLabel} of sources){
