@@ -1,2 +1,2 @@
-{{BASE_URL_LOCAL}}/DeItaone (My Local Feed)
+(My Local Feed) {{BASE_URL_LOCAL}}/DeItaone
 https://www.forexlive.com/feed
