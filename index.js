@@ -44,19 +44,26 @@ function resolvePlaceholders(rawLine) {
   if (!rawLine.includes('{{BASE_URL_LOCAL}}')) return rawLine;
   if (!BASE_URL_LOCAL) return null;
 
-  let resolved = rawLine.replace(/{{\\s*BASE_URL_LOCAL\\s*}}/g, BASE_URL_LOCAL);
-  if (/\\/rss\\?key=/.test(resolved)) return resolved;
+  let resolved = rawLine.replace(/{{\s*BASE_URL_LOCAL\s*}}/g, BASE_URL_LOCAL);
 
   const labelIdx = resolved.indexOf(' (');
   if (labelIdx !== -1) {
-    const urlPart = resolved.slice(0, labelIdx).replace(/\\/$/, '');
-    const labelPart = resolved.slice(labelIdx);
-    resolved = `${urlPart}/rss?key=${RSS_KEY_SECRET}${labelPart}`;
+    const urlPart = resolved.slice(0, labelIdx).replace(/\/$/, '');  // URL riêng
+    const labelPart = resolved.slice(labelIdx);                      // (My Local Feed)
+    let finalUrl = urlPart;
+    if (!finalUrl.endsWith('/rss')) {
+      finalUrl += '/rss';
+    }
+    finalUrl += `?key=${RSS_KEY_SECRET}`;
+    return finalUrl + labelPart; // gắn lại label
   } else {
-    resolved = resolved.replace(/\\/$/, '');
-    resolved = `${resolved}/rss?key=${RSS_KEY_SECRET}`;
+    resolved = resolved.replace(/\/$/, '');
+    if (!resolved.endsWith('/rss')) {
+      resolved += '/rss';
+    }
+    resolved += `?key=${RSS_KEY_SECRET}`;
+    return resolved;
   }
-  return resolved;
 }
 
 function toPublicLink(href) {
