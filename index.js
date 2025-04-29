@@ -6,33 +6,23 @@ import { HttpsProxyAgent } from 'https-proxy-agent';
 import { fileURLToPath } from 'url';
 import path from 'path';
 
-// ---------------------------------------------------------------------------
-// 🔐 1. Environment variables (GitHub Secrets or local .env)
-// ---------------------------------------------------------------------------
-const BASE_URL_LOCAL   = process.env.BASE_URL_LOCAL   || '';
-const API_USERNAME     = process.env.API_USERNAME     || '';
-const API_PASSWORD     = process.env.API_PASSWORD     || '';
-const PROXY_LOCAL_URL  = process.env.PROXY_LOCAL_URL  || '';
-const RSS_KEY_SECRET   = process.env.RSS_KEY_SECRET   || '';
-
-if (!BASE_URL_LOCAL) {
-  console.error('❌ BASE_URL_LOCAL env not set. Any line containing {{BASE_URL_LOCAL}} will be skipped.');
-}
+const BASE_URL_LOCAL = process.env.BASE_URL_LOCAL || '';
+const API_USERNAME = process.env.API_USERNAME || '';
+const API_PASSWORD = process.env.API_PASSWORD || '';
+const PROXY_LOCAL_URL = process.env.PROXY_LOCAL_URL || '';
+const RSS_KEY_SECRET = process.env.RSS_KEY_SECRET || '';
 
 const __filename = fileURLToPath(import.meta.url);
-const __dirname  = path.dirname(__filename);
+const __dirname = path.dirname(__filename);
 
 const SOURCE_DIR = path.join(__dirname, 'source');
-const NAME_DIR   = path.join(__dirname, 'name');
+const NAME_DIR = path.join(__dirname, 'name');
 
-// ---------------------------------------------------------------------------
-// ⚙️ 2. Global config
-// ---------------------------------------------------------------------------
 const CONFIG = {
   headers: [
-    { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:119.0) Gecko/20100101 Firefox/119.0', 'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.5', 'Connection': 'keep-alive' },
-    { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.5', 'Connection': 'keep-alive' },
-    { 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0', 'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.5', 'Connection': 'keep-alive' }
+    { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:119.0) Gecko/20100101 Firefox/119.0' },
+    { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36' },
+    { 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0' }
   ],
   proxies: PROXY_LOCAL_URL ? [PROXY_LOCAL_URL] : [],
   maxRetries: 5,
@@ -43,19 +33,25 @@ const CONFIG = {
 const parser = new Parser();
 const randHeader = () => CONFIG.headers[Math.floor(Math.random() * CONFIG.headers.length)];
 
-// ---------------------------------------------------------------------------
-// 🛠️ 3. Helper functions
-// ---------------------------------------------------------------------------
 function resolvePlaceholders(rawLine) {
   if (!rawLine.includes('{{BASE_URL_LOCAL}}')) return rawLine;
   if (!BASE_URL_LOCAL) return null;
 
-  let resolved = rawLine.replace(/\{\{\s*BASE_URL_LOCAL\s*}}/g, BASE_URL_LOCAL);
-  if (!/\/rss\?key=/.test(resolved)) {
-    resolved = resolved.replace(/\/?$/, '');
-    resolved = `${resolved}/rss?key=${RSS_KEY_SECRET}`;
+  let resolved = rawLine.replace(/{{\s*BASE_URL_LOCAL\s*}}/g, BASE_URL_LOCAL);
+  const labelIdx = resolved.indexOf(' (');
+  if (labelIdx !== -1) {
+    const urlPart = resolved.slice(0, labelIdx).replace(/\/$/, '');
+    const labelPart = resolved.slice(labelIdx);
+    let finalUrl = urlPart;
+    if (!finalUrl.endsWith('/rss')) finalUrl += '/rss';
+    finalUrl += `?key=${RSS_KEY_SECRET}`;
+    return finalUrl + labelPart;
+  } else {
+    resolved = resolved.replace(/\/$/, '');
+    if (!resolved.endsWith('/rss')) resolved += '/rss';
+    resolved += `?key=${RSS_KEY_SECRET}`;
+    return resolved;
   }
-  return resolved;
 }
 
 function toPublicLink(href) {
@@ -79,9 +75,6 @@ function buildAxiosConfig(url, idx = 0) {
   return cfg;
 }
 
-// ---------------------------------------------------------------------------
-// 🚚 4. Fetch with retry & proxy rotation
-// ---------------------------------------------------------------------------
 async function fetchWithBypass(url, retry = 0, idx = 0) {
   try {
     const res = await axios.get(url, buildAxiosConfig(url, idx));
@@ -102,18 +95,13 @@ async function fetchWithBypass(url, retry = 0, idx = 0) {
   }
 }
 
-// ---------------------------------------------------------------------------
-// 🔄 5. File & title helpers
-// ---------------------------------------------------------------------------
-async function fileExists(p) { try { await fs.access(p); return true; } catch { return false; } }
+const fileExists = async p => !!(await fs.stat(p).catch(() => false));
+
 async function getTitle(num) {
   const f = path.join(NAME_DIR, `name${num}.txt`);
   return (await fileExists(f)) ? (await fs.readFile(f, 'utf8')).trim() || 'No name' : 'No name';
 }
 
-// ---------------------------------------------------------------------------
-// 🔄 6. Process one cluster
-// ---------------------------------------------------------------------------
 async function processCluster({ input, output, title, link, description }) {
   console.log(`\n📦 ${path.basename(input)} → ${path.basename(output)}`);
   if (!(await fileExists(input))) { console.error(`❌ Missing ${input}`); return; }
@@ -123,9 +111,21 @@ async function processCluster({ input, output, title, link, description }) {
   const sources = lines.map(original => {
     const resolved = resolvePlaceholders(original.trim());
     if (!resolved) { console.warn(`⚠️ Placeholder unresolved in line: ${original}`); return null; }
-    const m = resolved.match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
-    if (!m) { console.warn(`⚠️ Bad resolved line: Resolved: ${resolved} Original: ${original}`); return null; }
-    return { url: m[1], sourceLabel: m[2] || null };
+
+    let url = resolved.trim();
+    let label = null;
+    const labelIdx = url.indexOf(' (');
+    if (labelIdx !== -1) {
+      label = url.slice(labelIdx + 2, -1);
+      url = url.slice(0, labelIdx);
+    }
+
+    if (!url.startsWith('http')) {
+      console.warn(`⚠️ Bad resolved line: ${resolved} Original: ${original}`);
+      return null;
+    }
+
+    return { url, sourceLabel: label };
   }).filter(Boolean);
 
   const items = [];
@@ -136,6 +136,7 @@ async function processCluster({ input, output, title, link, description }) {
       console.log(`   • ${url} (${feed.items.length})`);
     }
   }
+
   if (!items.length) { console.warn(`⚠️ No items for ${input}`); return; }
 
   items.sort((a, b) => new Date(b.pubDate || 0) - new Date(a.pubDate || 0));
@@ -164,9 +165,6 @@ async function processCluster({ input, output, title, link, description }) {
   console.log(`✅ ${output} (${items.length})`);
 }
 
-// ---------------------------------------------------------------------------
-// 🚀 7. Generate cluster list & run
-// ---------------------------------------------------------------------------
 async function generateClusters() {
   const files = (await fs.readdir(SOURCE_DIR)).filter(f => /^cumdauvao\d+\.txt$/.test(f));
   if (!files.length) throw new Error(`No cumdauvao*.txt in ${SOURCE_DIR}`);
@@ -183,14 +181,12 @@ async function generateClusters() {
 }
 
 (async () => {
-  console.log(`
-🚀 Merge RSS clusters`);
+  console.log('\n🚀 Merge RSS clusters');
   try {
     if (!(await fileExists(NAME_DIR))) await fs.mkdir(NAME_DIR, { recursive: true });
     const clusters = await generateClusters();
     for (const c of clusters) await processCluster(c);
-    console.log(`
-🏁 Done`);
+    console.log('\n🏁 Done');
   } catch (err) {
     console.error(`❌ Fatal: ${err.message}`);
     process.exit(1);
