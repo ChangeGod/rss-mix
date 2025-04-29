@@ -1,4 +1,4 @@
-name: Build & Deploy RSS to gh-pages 1
+name: Build & Deploy RSS to gh-pages
 
 on:
   schedule:
@@ -10,25 +10,33 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     env:
-        BASE_URL_LOCAL:  'http://ziplyfiber9232.tplinkdns.com:8011'
-        API_USERNAME:    ${{ secrets.API_USERNAME }}
-        API_PASSWORD:    ${{ secrets.API_PASSWORD }}
-        PROXY_LOCAL_URL: ${{ secrets.PROXY_LOCAL_URL }}
-        RSS_KEY_SECRET:  ${{ secrets.RSS_KEY_SECRET }}
+      BASE_URL_LOCAL:  ${{ secrets.BASE_URL_LOCAL }}
+      API_USERNAME:    ${{ secrets.API_USERNAME }}
+      API_PASSWORD:    ${{ secrets.API_PASSWORD }}
+      PROXY_LOCAL_URL: ${{ secrets.PROXY_LOCAL_URL }}
+      RSS_KEY_SECRET:  ${{ secrets.RSS_KEY_SECRET }}
+
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Setup Node.js
+      - name: Setup Node.js 20
         uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install axios rss-parser fast-xml-parser https-proxy-agent
+
+      - name: Debug ENV
+        run: |
+          echo "BASE_URL_LOCAL=$BASE_URL_LOCAL"
+          echo "LENGTH=$(echo -n \"$BASE_URL_LOCAL\" | wc -c)"
 
       - name: Run script
         run: node index.js
@@ -37,6 +45,6 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./
+          publish_dir: ./     # xuất root folder
           publish_branch: gh-pages
           commit_message: "🚀 Update Nitter RSS"
