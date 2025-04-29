@@ -35,6 +35,7 @@ const CONFIG = {
     { 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0', 'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.5', 'Connection': 'keep-alive' }
   ],
   proxies: PROXY_LOCAL_URL ? [PROXY_LOCAL_URL] : [],
+ ROP_LOCAL_URL ? [PROXY_LOCAL_URL] : [],
   maxRetries: 5,
   retryDelay: 3000,
   timeout: 15000
@@ -123,8 +124,8 @@ async function processCluster({ input, output, title, link, description }) {
   const sources = lines.map(original => {
     const resolved = resolvePlaceholders(original.trim());
     if (!resolved) { console.warn(`⚠️ Placeholder unresolved in line: ${original}`); return null; }
-    const m = resolved.match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
-    if (!m) { console.warn(`⚠️ Bad resolved line: Resolved: ${resolved} Original: ${original}`); return null; }
+    const m = resolved.match(/^(https?:\/\/[^?\s]+(?:\?[^()\s]*)?)(?:\s*\(([^)]+)\))?$/);
+    if (!m) { console.warn(`⚠️ Bad resolved line: Resolved: ${resolved} | Original: ${original}`); return null; }
     return { url: m[1], sourceLabel: m[2] || null };
   }).filter(Boolean);
 
@@ -134,6 +135,8 @@ async function processCluster({ input, output, title, link, description }) {
     if (feed?.items?.length) {
       items.push(...feed.items.map(i => ({ ...i, sourceLabel })));
       console.log(`   • ${url} (${feed.items.length})`);
+    } else {
+      console.warn(`⚠️ No items fetched for URL: ${url}`);
     }
   }
   if (!items.length) { console.warn(`⚠️ No items for ${input}`); return; }
@@ -168,18 +171,30 @@ async function processCluster({ input, output, title, link, description }) {
 // 🚀 7. Generate cluster list & run
 // ---------------------------------------------------------------------------
 async function generateClusters() {
-  const files = (await fs.readdir(SOURCE_DIR)).filter(f => /^cumdauvao\d+\.txt$/.test(f));
-  if (!files.length) throw new Error(`No cumdauvao*.txt in ${SOURCE_DIR}`);
-  return Promise.all(files.map(async f => {
-    const n = f.match(/\d+/)[0];
-    return {
-      input: path.join(SOURCE_DIR, f),
-      output: path.join(__dirname, `cumdaura${n}.xml`),
-      title: await getTitle(n),
-      link: `https://example.com/feed${n}`,
-      description: `RSS feed merged from source ${n}`
-    };
-  }));
+  try {
+    if (!(await fileExists(SOURCE_DIR))) {
+      console.warn(`⚠️ Source directory ${SOURCE_DIR} does not exist. Creating it.`);
+      await fs.mkdir(SOURCE_DIR, { recursive: true });
+    }
+    const files = (await fs.readdir(SOURCE_DIR)).filter(f => /^cumdauvao\d+\.txt$/.test(f));
+    if (!files.length) {
+      console.warn(`⚠️ No cumdauvao*.txt files found in ${SOURCE_DIR}. Skipping cluster generation.`);
+      return [];
+    }
+    return Promise.all(files.map(async f => {
+      const n = f.match(/\d+/)[0];
+      return {
+        input: path.join(SOURCE_DIR, f),
+        output: path.join(__dirname, `cumdaura${n}.xml`),
+        title: await getTitle(n),
+        link: `https://example.com/feed${n}`,
+        description: `RSS feed merged from source ${n}`
+      };
+    }));
+  } catch (err) {
+    console.error(`❌ Error reading source directory: ${err.message}`);
+    return [];
+  }
 }
 
 (async () => {
@@ -188,6 +203,10 @@ async function generateClusters() {
   try {
     if (!(await fileExists(NAME_DIR))) await fs.mkdir(NAME_DIR, { recursive: true });
     const clusters = await generateClusters();
+    if (!clusters.length) {
+      console.warn(`⚠️ No clusters to process. Exiting.`);
+      return;
+    }
     for (const c of clusters) await processCluster(c);
     console.log(`
 🏁 Done`);
