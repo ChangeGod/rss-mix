@@ -5,6 +5,20 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) TRUMP: WE ARE ENDING INFLATION</title>
+      <link>http://localhost:8080/DeItaone/status/1917341711589658994#m</link>
+      <pubDate>Tue, 29 Apr 2025 22:14:21 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917341711589658994#m</guid>
+      <description>&lt;p&gt;TRUMP: WE ARE ENDING INFLATION&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) TRUMP: WEEK BY WEEK WE ARE ENDING ILLEGAL IMMIGRATION</title>
+      <link>http://localhost:8080/DeItaone/status/1917341363865088120#m</link>
+      <pubDate>Tue, 29 Apr 2025 22:12:58 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917341363865088120#m</guid>
+      <description>&lt;p&gt;TRUMP: WEEK BY WEEK WE ARE ENDING ILLEGAL IMMIGRATION&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) BESSENT: WE ARE ANALYZING 15% MADE-IN-AMERICA TAX BRACKET FOR COMPANIES -FOX BUSINESS INTERVIEW</title>
       <link>http://localhost:8080/DeItaone/status/1917312460249522411#m</link>
       <pubDate>Tue, 29 Apr 2025 20:18:07 GMT</pubDate>
@@ -126,21 +140,6 @@ LUTNICK: THERE IS NO THIRD YEAR OF RELIEF&lt;/p&gt;</description>
       <pubDate>Tue, 29 Apr 2025 16:06:26 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917249122676937187#m</guid>
       <description>&lt;p&gt;META LAUNCHES STANDALONE AI APP IN BID TO COMPETE WITH CHATGPT&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) LUTNICK: AUTO MAKERS WILL PAY EITHER STEEL OR AUTO TARIFF, WHICHEVER IS HIGHER</title>
-      <link>http://localhost:8080/DeItaone/status/1917245920686592271#m</link>
-      <pubDate>Tue, 29 Apr 2025 15:53:42 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917245920686592271#m</guid>
-      <description>&lt;p&gt;LUTNICK: AUTO MAKERS WILL PAY EITHER STEEL OR AUTO TARIFF, WHICHEVER IS HIGHER&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) R to @DeItaone: reuters.com/world/us/us-supr…</title>
-      <link>http://localhost:8080/DeItaone/status/1917245407115042986#m</link>
-      <pubDate>Tue, 29 Apr 2025 15:51:40 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917245407115042986#m</guid>
-      <description>&lt;p&gt;&lt;a href=&quot;https://www.reuters.com/world/us/us-supreme-court-fight-may-shape-trumps-ability-fire-fed-chair-2025-04-29/?taid=6810f40aae6d0200017eec19&quot;&gt;reuters.com/world/us/us-supr…&lt;/a&gt;&lt;/p&gt;
-&lt;img src=&quot;http://localhost:8080/pic/card_img%2F1917160732031934464%2FWw5kOs16%3Fformat%3Djpg%26name%3D800x419&quot; style=&quot;max-width:250px;&quot; /&gt;</description>
     </item>
   </channel>
 </rss>
