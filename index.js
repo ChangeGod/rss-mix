@@ -170,30 +170,18 @@ async function processCluster({ input, output, title, link, description }) {
 // 🚀 7. Generate cluster list & run
 // ---------------------------------------------------------------------------
 async function generateClusters() {
-  try {
-    if (!(await fileExists(SOURCE_DIR))) {
-      console.warn(`⚠️ Source directory ${SOURCE_DIR} does not exist. Creating it.`);
-      await fs.mkdir(SOURCE_DIR, { recursive: true });
-    }
-    const files = (await fs.readdir(SOURCE_DIR)).filter(f => /^cumdauvao\d+\.txt$/.test(f));
-    if (!files.length) {
-      console.warn(`⚠️ No cumdauvao*.txt files found in ${SOURCE_DIR}. Skipping cluster generation.`);
-      return [];
-    }
-    return Promise.all(files.map(async f => {
-      const n = f.match(/\d+/)[0];
-      return {
-        input: path.join(SOURCE_DIR, f),
-        output: path.join(__dirname, `cumdaura${n}.xml`),
-        title: await getTitle(n),
-        link: `https://example.com/feed${n}`,
-        description: `RSS feed merged from source ${n}`
-      };
-    }));
-  } catch (err) {
-    console.error(`❌ Error reading source directory: ${err.message}`);
-    return [];
-  }
+  const files = (await fs.readdir(SOURCE_DIR)).filter(f => /^cumdauvao\d+\.txt$/.test(f));
+  if (!files.length) throw new Error(`No cumdauvao*.txt in ${SOURCE_DIR}`);
+  return Promise.all(files.map(async f => {
+    const n = f.match(/\d+/)[0];
+    return {
+      input: path.join(SOURCE_DIR, f),
+      output: path.join(__dirname, `cumdaura${n}.xml`),
+      title: await getTitle(n),
+      link: `https://example.com/feed${n}`,
+      description: `RSS feed merged from source ${n}`
+    };
+  }));
 }
 
 (async () => {
@@ -202,10 +190,6 @@ async function generateClusters() {
   try {
     if (!(await fileExists(NAME_DIR))) await fs.mkdir(NAME_DIR, { recursive: true });
     const clusters = await generateClusters();
-    if (!clusters.length) {
-      console.warn(`⚠️ No clusters to process. Exiting.`);
-      return;
-    }
     for (const c of clusters) await processCluster(c);
     console.log(`
 🏁 Done`);
