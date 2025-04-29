@@ -5,6 +5,34 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *TRUMP: GOING TO BE REDUCING PEOPLE’S TAXES</title>
+      <link>http://localhost:8080/DeItaone/status/1917285371970245011#m</link>
+      <pubDate>Tue, 29 Apr 2025 18:30:28 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917285371970245011#m</guid>
+      <description>&lt;p&gt;*TRUMP: GOING TO BE REDUCING PEOPLE’S TAXES&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) TRUMP SAYS INDIA COMING ALONG GREAT THINK WE HAVE A DEAL ON TARIFFS</title>
+      <link>http://localhost:8080/DeItaone/status/1917285292534268087#m</link>
+      <pubDate>Tue, 29 Apr 2025 18:30:09 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917285292534268087#m</guid>
+      <description>&lt;p&gt;TRUMP SAYS INDIA COMING ALONG GREAT THINK WE HAVE A DEAL ON TARIFFS&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) TRUMP SAYS: HE WILL VISIT AFRICA</title>
+      <link>http://localhost:8080/DeItaone/status/1917285215388729741#m</link>
+      <pubDate>Tue, 29 Apr 2025 18:29:51 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917285215388729741#m</guid>
+      <description>&lt;p&gt;TRUMP SAYS: HE WILL VISIT AFRICA&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) TRUMP SAYS: HE WILL SPEAK TO AUSTRALIANS</title>
+      <link>http://localhost:8080/DeItaone/status/1917285146954457491#m</link>
+      <pubDate>Tue, 29 Apr 2025 18:29:35 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917285146954457491#m</guid>
+      <description>&lt;p&gt;TRUMP SAYS: HE WILL SPEAK TO AUSTRALIANS&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) *EUROPE NOT ENGAGING WELL ON TARIFF TALKS, USTR SAYS: PBS</title>
       <link>http://localhost:8080/DeItaone/status/1917279826324476207#m</link>
       <pubDate>Tue, 29 Apr 2025 18:08:26 GMT</pubDate>
@@ -117,35 +145,6 @@ Legal experts said that if the Supreme Court decides to eliminate removal protec
       <pubDate>Tue, 29 Apr 2025 15:43:49 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917243433472737728#m</guid>
       <description>&lt;p&gt;LUTNICK:  TARIFF WILL APPLY TO FOREIGN CAR MAKERS BUILDING CARS IN U.S.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) 🚨 LUTNICK: TARIFF RELIEF AVAILABLE TO ALL U.S.-BUILT VEHICLES</title>
-      <link>http://localhost:8080/DeItaone/status/1917243332495130926#m</link>
-      <pubDate>Tue, 29 Apr 2025 15:43:25 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917243332495130926#m</guid>
-      <description>&lt;p&gt;🚨 LUTNICK: TARIFF RELIEF AVAILABLE TO ALL U.S.-BUILT VEHICLES&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) 🚨 LUTNICK:  ALL CARS THAT ARE FINISHED IN U.S. THAT HAVE 85% DOMESTIC CONTENT WILL HAVE NO TARIFFS</title>
-      <link>http://localhost:8080/DeItaone/status/1917243060053741779#m</link>
-      <pubDate>Tue, 29 Apr 2025 15:42:20 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917243060053741779#m</guid>
-      <description>&lt;p&gt;🚨 LUTNICK:  ALL CARS THAT ARE FINISHED IN U.S. THAT HAVE 85% DOMESTIC CONTENT WILL HAVE NO TARIFFS&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) LUTNICK:   THIS WILL HELP DOMESTIC CAR MAKERS TO MOVE SUPPLY CHAINS TO U.S.</title>
-      <link>http://localhost:8080/DeItaone/status/1917242900355715353#m</link>
-      <pubDate>Tue, 29 Apr 2025 15:41:42 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917242900355715353#m</guid>
-      <description>&lt;p&gt;LUTNICK:   THIS WILL HELP DOMESTIC CAR MAKERS TO MOVE SUPPLY CHAINS TO U.S.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://localhost:8080/DeItaone/status/1917242592690884743#m&quot;&gt;localhost:8080/DeItaone/status/1917242592690884743#m&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) 🚨 LUTNICK:  : MANUFACTURERS OF U.S.-BUILT AUTOS WILL GET A 15% OFFSET FOR THE VALUE OF THOSE VEHICLES AGAINST PARTS IMPORTS</title>
-      <link>http://localhost:8080/DeItaone/status/1917242592690884743#m</link>
-      <pubDate>Tue, 29 Apr 2025 15:40:29 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917242592690884743#m</guid>
-      <description>&lt;p&gt;🚨 LUTNICK:  : MANUFACTURERS OF U.S.-BUILT AUTOS WILL GET A 15% OFFSET FOR THE VALUE OF THOSE VEHICLES AGAINST PARTS IMPORTS&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
