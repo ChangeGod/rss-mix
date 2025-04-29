@@ -5,6 +5,27 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *PUTIN SAID TO DEMAND CONTROL OF 4 UKRAINE REGIONS AT US TALKS</title>
+      <link>http://localhost:8080/DeItaone/status/1917234025418395932#m</link>
+      <pubDate>Tue, 29 Apr 2025 15:06:26 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917234025418395932#m</guid>
+      <description>&lt;p&gt;*PUTIN SAID TO DEMAND CONTROL OF 4 UKRAINE REGIONS AT US TALKS&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) META: INTRODUCING META AI APP</title>
+      <link>http://localhost:8080/DeItaone/status/1917232821007167602#m</link>
+      <pubDate>Tue, 29 Apr 2025 15:01:39 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917232821007167602#m</guid>
+      <description>&lt;p&gt;META: INTRODUCING META AI APP&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) US ATLANTA FED GDPNOW Q1: -2.7% (PREV -2.4%)</title>
+      <link>http://localhost:8080/DeItaone/status/1917232002828259826#m</link>
+      <pubDate>Tue, 29 Apr 2025 14:58:24 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917232002828259826#m</guid>
+      <description>&lt;p&gt;US ATLANTA FED GDPNOW Q1: -2.7% (PREV -2.4%)&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) FIREFLY AEROSPACE SAYS ALPHA ROCKET SUFFERED MISHAP IN SPACE AFTER LAUNCH FROM CALIFORNIA, PUTTING LOCKHEED MARTIN SATELLITES IN &quot;LOWER THAN PLANNED&quot; ORBIT</title>
       <link>http://localhost:8080/DeItaone/status/1917225917765591265#m</link>
       <pubDate>Tue, 29 Apr 2025 14:34:13 GMT</pubDate>
@@ -132,28 +153,6 @@ DOW E-MINIS DOWN 0.01%&lt;/p&gt;</description>
       <guid>http://localhost:8080/DeItaone/status/1917202509166236129#m</guid>
       <description>&lt;p&gt;BESSENT: TAX BILL IS MOVING FORWARD&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;http://localhost:8080/DeItaone/status/1917202420729544706#m&quot;&gt;localhost:8080/DeItaone/status/1917202420729544706#m&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) 🚨 BESSENT: TAX BILL IS MOVING FORWARD</title>
-      <link>http://localhost:8080/DeItaone/status/1917202420729544706#m</link>
-      <pubDate>Tue, 29 Apr 2025 13:00:51 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917202420729544706#m</guid>
-      <description>&lt;p&gt;🚨 BESSENT: TAX BILL IS MOVING FORWARD&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) $AMZN -2% premkt</title>
-      <link>http://localhost:8080/DeItaone/status/1917201797065699449#m</link>
-      <pubDate>Tue, 29 Apr 2025 12:58:22 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917201797065699449#m</guid>
-      <description>&lt;p&gt;&lt;a href=&quot;http://localhost:8080/search?q=%23AMZN&quot;&gt;$AMZN&lt;/a&gt; -2% premkt&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://localhost:8080/DeItaone/status/1917201457344074105#m&quot;&gt;localhost:8080/DeItaone/status/1917201457344074105#m&lt;/a&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) 🚨 WHITE HOUSE: AMAZON SHOWING TARIFFS ON EACH PRODUCT IS A HOSTILE AND POLITICAL ACT</title>
-      <link>http://localhost:8080/DeItaone/status/1917201457344074105#m</link>
-      <pubDate>Tue, 29 Apr 2025 12:57:01 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917201457344074105#m</guid>
-      <description>&lt;p&gt;🚨 WHITE HOUSE: AMAZON SHOWING TARIFFS ON EACH PRODUCT IS A HOSTILE AND POLITICAL ACT&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
