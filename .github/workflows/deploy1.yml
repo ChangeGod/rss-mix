@@ -10,7 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
+    env:
+        BASE_URL_LOCAL:  ${{ secrets.BASE_URL_LOCAL }}
+        API_USERNAME:    ${{ secrets.API_USERNAME }}
+        API_PASSWORD:    ${{ secrets.API_PASSWORD }}
+        PROXY_LOCAL_URL: ${{ secrets.PROXY_LOCAL_URL }}
+        RSS_KEY_SECRET:  ${{ secrets.RSS_KEY_SECRET }}
     steps:
       - name: Checkout main branch
         uses: actions/checkout@v4
