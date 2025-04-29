@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) CBOE FUTURES EXCHANGE LAUNCHES TRADING IN CBOE FTSE BITCOIN INDEX FUTURES</title>
+      <link>http://localhost:8080/DeItaone/status/1917236306859724974#m</link>
+      <pubDate>Tue, 29 Apr 2025 15:15:30 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917236306859724974#m</guid>
+      <description>&lt;p&gt;CBOE FUTURES EXCHANGE LAUNCHES TRADING IN CBOE FTSE BITCOIN INDEX FUTURES&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) *PUTIN SAID TO DEMAND CONTROL OF 4 UKRAINE REGIONS AT US TALKS</title>
       <link>http://localhost:8080/DeItaone/status/1917234025418395932#m</link>
       <pubDate>Tue, 29 Apr 2025 15:06:26 GMT</pubDate>
@@ -145,14 +152,6 @@ DOW E-MINIS DOWN 0.01%&lt;/p&gt;</description>
       <pubDate>Tue, 29 Apr 2025 13:02:16 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917202777551364112#m</guid>
       <description>&lt;p&gt;🚨 BESSENT: WON&apos;T DETAIL AUTO TARIFF RELIEF&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) BESSENT: TAX BILL IS MOVING FORWARD</title>
-      <link>http://localhost:8080/DeItaone/status/1917202509166236129#m</link>
-      <pubDate>Tue, 29 Apr 2025 13:01:12 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917202509166236129#m</guid>
-      <description>&lt;p&gt;BESSENT: TAX BILL IS MOVING FORWARD&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;http://localhost:8080/DeItaone/status/1917202420729544706#m&quot;&gt;localhost:8080/DeItaone/status/1917202420729544706#m&lt;/a&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
