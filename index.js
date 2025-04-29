@@ -30,9 +30,9 @@ const NAME_DIR   = path.join(__dirname, 'name');
 // ---------------------------------------------------------------------------
 const CONFIG = {
   headers: [
-    { 'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:119.0) Gecko/20100101 Firefox/119.0','Accept':'application/rss+xml,application/xml;q=0.9,*/*;q=0.8','Accept-Language':'en-US,en;q=0.5','Connection':'keep-alive' },
-    { 'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36','Accept':'application/rss+xml,application/xml;q=0.9,*/*;q=0.8','Accept-Language':'en-US,en;q=0.5','Connection':'keep-alive' },
-    { 'User-Agent':'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0','Accept':'application/rss+xml,application/xml;q=0.9,*/*;q=0.8','Accept-Language':'en-US,en;q=0.5','Connection':'keep-alive' }
+    { 'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:119.0) Gecko/20100101 Firefox/119.0', 'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.5', 'Connection': 'keep-alive' },
+    { 'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36', 'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.5', 'Connection': 'keep-alive' },
+    { 'User-Agent': 'Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0', 'Accept': 'application/rss+xml,application/xml;q=0.9,*/*;q=0.8', 'Accept-Language': 'en-US,en;q=0.5', 'Connection': 'keep-alive' }
   ],
   proxies: PROXY_LOCAL_URL ? [PROXY_LOCAL_URL] : [],
   maxRetries: 5,
@@ -47,8 +47,8 @@ const randHeader = () => CONFIG.headers[Math.floor(Math.random() * CONFIG.header
 // 🛠️ 3. Helper functions
 // ---------------------------------------------------------------------------
 function resolvePlaceholders(rawLine) {
-  if (!rawLine.includes('{{BASE_URL_LOCAL}}')) return rawLine; // không có placeholder
-  if (!BASE_URL_LOCAL) return null;                             // chưa set env
+  if (!rawLine.includes('{{BASE_URL_LOCAL}}')) return rawLine;
+  if (!BASE_URL_LOCAL) return null;
 
   let resolved = rawLine.replace(/\{\{\s*BASE_URL_LOCAL\s*}}/g, BASE_URL_LOCAL);
   if (!/\/rss\?key=/.test(resolved)) {
@@ -73,7 +73,7 @@ function buildAxiosConfig(url, idx = 0) {
     if (API_USERNAME && API_PASSWORD) cfg.auth = { username: API_USERNAME, password: API_PASSWORD };
     if (CONFIG.proxies.length && idx < CONFIG.proxies.length) {
       cfg.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[idx]);
-      console.log(`🛡️  Proxy ${CONFIG.proxies[idx]} → ${url}`);
+      console.log(`🛡️ Proxy ${CONFIG.proxies[idx]} → ${url}`);
     }
   }
   return cfg;
@@ -124,7 +124,7 @@ async function processCluster({ input, output, title, link, description }) {
     const resolved = resolvePlaceholders(original.trim());
     if (!resolved) { console.warn(`⚠️ Placeholder unresolved in line: ${original}`); return null; }
     const m = resolved.match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
-    if (!m) { console.warn(`⚠️ Bad resolved line: ${resolved}`); return null; }
+    if (!m) { console.warn(`⚠️ Bad resolved line: Resolved: ${resolved} Original: ${original}`); return null; }
     return { url: m[1], sourceLabel: m[2] || null };
   }).filter(Boolean);
 
@@ -183,14 +183,14 @@ async function generateClusters() {
 }
 
 (async () => {
-  console.log('
-🚀 Merge RSS clusters');🚀 Merge RSS clusters');
+  console.log(`
+🚀 Merge RSS clusters`);
   try {
     if (!(await fileExists(NAME_DIR))) await fs.mkdir(NAME_DIR, { recursive: true });
     const clusters = await generateClusters();
     for (const c of clusters) await processCluster(c);
-    console.log('
-🏁 Done');
+    console.log(`
+🏁 Done`);
   } catch (err) {
     console.error(`❌ Fatal: ${err.message}`);
     process.exit(1);
