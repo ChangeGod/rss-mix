@@ -184,7 +184,7 @@ async function generateClusters() {
 
 (async () => {
   console.log('
-🚀 Merge RSS clusters');
+🚀 Merge RSS clusters');🚀 Merge RSS clusters');
   try {
     if (!(await fileExists(NAME_DIR))) await fs.mkdir(NAME_DIR, { recursive: true });
     const clusters = await generateClusters();
