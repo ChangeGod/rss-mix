@@ -5,6 +5,20 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) TRUMP: WE WOULD LIKE LOW INTEREST RATES, SAYS WORLD UNDERGOING ‘COMMON SENSE’ REVOLUTION</title>
+      <link>http://localhost:8080/DeItaone/status/1917343029729415505#m</link>
+      <pubDate>Tue, 29 Apr 2025 22:19:35 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917343029729415505#m</guid>
+      <description>&lt;p&gt;TRUMP: WE WOULD LIKE LOW INTEREST RATES, SAYS WORLD UNDERGOING ‘COMMON SENSE’ REVOLUTION&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) TRUMP: DEMOCRATS HAVE LOST THEIR CONFIDENCE</title>
+      <link>http://localhost:8080/DeItaone/status/1917342714913251811#m</link>
+      <pubDate>Tue, 29 Apr 2025 22:18:20 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917342714913251811#m</guid>
+      <description>&lt;p&gt;TRUMP: DEMOCRATS HAVE LOST THEIR CONFIDENCE&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) TRUMP: WE ARE ENDING INFLATION</title>
       <link>http://localhost:8080/DeItaone/status/1917341711589658994#m</link>
       <pubDate>Tue, 29 Apr 2025 22:14:21 GMT</pubDate>
@@ -126,20 +140,6 @@ LUTNICK: THERE IS NO THIRD YEAR OF RELIEF</title>
       <description>&lt;p&gt;LUTNICK:  TWO YEARS WAS AGREED TIME TO GIVE MANUFACTURERS SUFFICIENT TIME TO BUILD UP SUPPLY CHAIN&lt;br&gt;
 &lt;br&gt;
 LUTNICK: THERE IS NO THIRD YEAR OF RELIEF&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) LUTNICK: AUTO MAKERS TOLD TRUMP THEY NEEDED RELIEF TO BOOST HIRING PLANS</title>
-      <link>http://localhost:8080/DeItaone/status/1917249441410507133#m</link>
-      <pubDate>Tue, 29 Apr 2025 16:07:42 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917249441410507133#m</guid>
-      <description>&lt;p&gt;LUTNICK: AUTO MAKERS TOLD TRUMP THEY NEEDED RELIEF TO BOOST HIRING PLANS&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) META LAUNCHES STANDALONE AI APP IN BID TO COMPETE WITH CHATGPT</title>
-      <link>http://localhost:8080/DeItaone/status/1917249122676937187#m</link>
-      <pubDate>Tue, 29 Apr 2025 16:06:26 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917249122676937187#m</guid>
-      <description>&lt;p&gt;META LAUNCHES STANDALONE AI APP IN BID TO COMPETE WITH CHATGPT&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
