@@ -123,8 +123,8 @@ async function processCluster({ input, output, title, link, description }) {
   const sources = lines.map(original => {
     const resolved = resolvePlaceholders(original.trim());
     if (!resolved) { console.warn(`⚠️ Placeholder unresolved in line: ${original}`); return null; }
-    const m = resolved.match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
-    if (!m) { console.warn(`⚠️ Bad resolved line: Resolved: ${resolved} Original: ${original}`); return null; }
+    const m = resolved.match(/^(https?:\/\/[^?\s]+(?:\?[^()\s]*)?)(?:\s*\(([^)]+)\))?$/);
+    if (!m) { console.warn(`⚠️ Bad resolved line: Resolved: ${resolved} | Original: ${original}`); return null; }
     return { url: m[1], sourceLabel: m[2] || null };
   }).filter(Boolean);
 
@@ -134,6 +134,8 @@ async function processCluster({ input, output, title, link, description }) {
     if (feed?.items?.length) {
       items.push(...feed.items.map(i => ({ ...i, sourceLabel })));
       console.log(`   • ${url} (${feed.items.length})`);
+    } else {
+      console.warn(`⚠️ No items fetched for URL: ${url}`);
     }
   }
   if (!items.length) { console.warn(`⚠️ No items for ${input}`); return; }
