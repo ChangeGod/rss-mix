@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:                      # ⬅️  Đổ secret vào biến môi trường cho index.js
-      BASE_URL_LOCAL: 'http://ziplyfiber9232.tplinkdns.com:8011'
+      BASE_URL_LOCAL:  ${{ secrets.BASE_URL_LOCAL }}
       API_USERNAME:    ${{ secrets.API_USERNAME }}
       API_PASSWORD:    ${{ secrets.API_PASSWORD }}
       PROXY_LOCAL_URL: ${{ secrets.PROXY_LOCAL_URL }}
