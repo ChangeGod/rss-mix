@@ -2,48 +2,30 @@ name: Update RSS Clusters
 
 on:
   schedule:
-    # chạy 15 phút/lần
     - cron: "*/15 * * * *"
-  workflow_dispatch:   # run → “Actions ▸ Run workflow” thủ công
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
-
-    env:                      # ⬅️  Đổ secret vào biến môi trường cho index.js
-      BASE_URL_LOCAL:  ${{ secrets.BASE_URL_LOCAL }}
-      API_USERNAME:    ${{ secrets.API_USERNAME }}
-      API_PASSWORD:    ${{ secrets.API_PASSWORD }}
-      PROXY_LOCAL_URL: ${{ secrets.PROXY_LOCAL_URL }}
-      RSS_KEY_SECRET:  ${{ secrets.RSS_KEY_SECRET }}
-
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 0            # cần full history để commit đè
+      - uses: actions/checkout@v4
 
-      - name: Setup Node.js 20
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: npm               # cache ~/.npm
 
-      - name: Install deps
-        run: |
-          npm install axios rss-parser fast-xml-parser https-proxy-agent
+      - name: Install dependencies
+        run: npm install rss-parser fast-xml-parser
 
       - name: Run RSS merger
         run: node index.js
 
-      - name: Commit & push if changed
+      - name: Commit & Push
         run: |
-          if git status --porcelain | grep -q 'cumdaura.*\\.xml'; then
-            git config user.name  "github-actions[bot]"
-            git config user.email "github-actions[bot]@users.noreply.github.com"
-            git add cumdaura*.xml
-            git commit -m "🔄 update RSS clusters [skip ci]"
-            git push
-          else
-            echo "No change — skip commit."
-          fi
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add cumdaura*.xml
+          git commit -m "🔄 Update RSS clusters"
+          git push
