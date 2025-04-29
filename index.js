@@ -121,12 +121,24 @@ async function processCluster({ input, output, title, link, description }) {
   const lines = (await fs.readFile(input, 'utf8')).split(/\\r?\\n/).filter(Boolean);
 
   const sources = lines.map(original => {
-    const resolved = resolvePlaceholders(original.trim());
-    if (!resolved) { console.warn(`⚠️ Placeholder unresolved in line: ${original}`); return null; }
-    const m = resolved.match(/^(https?:\\/\\/[^\\s]+)(?:\\s*\\(([^)]+)\\))?$/);
-    if (!m) { console.warn(`⚠️ Bad resolved line: ${resolved} Original: ${original}`); return null; }
-    return { url: m[1], sourceLabel: m[2] || null };
-  }).filter(Boolean);
+  const resolved = resolvePlaceholders(original.trim());
+  if (!resolved) { console.warn(`⚠️ Placeholder unresolved in line: ${original}`); return null; }
+
+  let url = resolved.trim();
+  let label = null;
+  const labelIdx = url.indexOf(' (');
+  if (labelIdx !== -1) {
+    label = url.slice(labelIdx + 2, -1); // lấy text trong ngoặc
+    url = url.slice(0, labelIdx);
+  }
+
+  if (!url.startsWith('http')) {
+    console.warn(`⚠️ Bad resolved line: ${resolved}  Original: ${original}`);
+    return null;
+  }
+
+  return { url, sourceLabel: label };
+}).filter(Boolean);
 
   const items = [];
   for (const { url, sourceLabel } of sources) {
