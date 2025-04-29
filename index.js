@@ -47,13 +47,9 @@ const randHeader = () => CONFIG.headers[Math.floor(Math.random() * CONFIG.header
 // 🛠️ 3. Helper functions
 // ---------------------------------------------------------------------------
 function resolvePlaceholders(rawLine) {
-  // Không chứa placeholder
-  if (!rawLine.includes('{{BASE_URL_LOCAL}}')) return rawLine;
+  if (!rawLine.includes('{{BASE_URL_LOCAL}}')) return rawLine; // không có placeholder
+  if (!BASE_URL_LOCAL) return null;                             // chưa set env
 
-  // Có placeholder nhưng chưa set env ➜ bỏ dòng đó
-  if (!BASE_URL_LOCAL) return null;
-
-  // Thay thế & gắn key
   let resolved = rawLine.replace(/\{\{\s*BASE_URL_LOCAL\s*}}/g, BASE_URL_LOCAL);
   if (!/\/rss\?key=/.test(resolved)) {
     resolved = resolved.replace(/\/?$/, '');
@@ -73,16 +69,12 @@ function toPublicLink(href) {
 
 function buildAxiosConfig(url, idx = 0) {
   const cfg = { headers: randHeader(), timeout: CONFIG.timeout };
-
-  // Basic auth cho API nội bộ
-  if (BASE_URL_LOCAL && url.startsWith(BASE_URL_LOCAL) && API_USERNAME && API_PASSWORD) {
-    cfg.auth = { username: API_USERNAME, password: API_PASSWORD };
-  }
-
-  // Proxy chỉ áp dụng cho URL nội bộ
-  if (url.startsWith(BASE_URL_LOCAL) && CONFIG.proxies.length && idx < CONFIG.proxies.length) {
-    cfg.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[idx]);
-    console.log(`🛡️  Proxy ${CONFIG.proxies[idx]} → ${url}`);
+  if (url.startsWith(BASE_URL_LOCAL)) {
+    if (API_USERNAME && API_PASSWORD) cfg.auth = { username: API_USERNAME, password: API_PASSWORD };
+    if (CONFIG.proxies.length && idx < CONFIG.proxies.length) {
+      cfg.httpsAgent = new HttpsProxyAgent(CONFIG.proxies[idx]);
+      console.log(`🛡️  Proxy ${CONFIG.proxies[idx]} → ${url}`);
+    }
   }
   return cfg;
 }
@@ -96,7 +88,6 @@ async function fetchWithBypass(url, retry = 0, idx = 0) {
     return await parser.parseString(res.data);
   } catch (err) {
     const st = err.response?.status;
-    // Chỉ retry proxy cho URL nội bộ
     if (st === 403 && url.startsWith(BASE_URL_LOCAL) && idx < CONFIG.proxies.length - 1) {
       console.warn(`403 → switch proxy (${idx + 1})`);
       return fetchWithBypass(url, 0, idx + 1);
@@ -131,15 +122,9 @@ async function processCluster({ input, output, title, link, description }) {
 
   const sources = lines.map(original => {
     const resolved = resolvePlaceholders(original.trim());
-    if (!resolved) {
-      console.warn(`⚠️ Placeholder unresolved in line: ${original}`);
-      return null;
-    }
+    if (!resolved) { console.warn(`⚠️ Placeholder unresolved in line: ${original}`); return null; }
     const m = resolved.match(/^(https?:\/\/[^\s]+)(?:\s*\(([^)]+)\))?$/);
-    if (!m) {
-      console.warn(`⚠️ Bad resolved line: ${resolved}`);
-      return null;
-    }
+    if (!m) { console.warn(`⚠️ Bad resolved line: ${resolved}`); return null; }
     return { url: m[1], sourceLabel: m[2] || null };
   }).filter(Boolean);
 
@@ -191,4 +176,23 @@ async function generateClusters() {
       input: path.join(SOURCE_DIR, f),
       output: path.join(__dirname, `cumdaura${n}.xml`),
       title: await getTitle(n),
-      link: `https
+      link: `https://example.com/feed${n}`,
+      description: `RSS feed merged from source ${n}`
+    };
+  }));
+}
+
+(async () => {
+  console.log('
+🚀 Merge RSS clusters');
+  try {
+    if (!(await fileExists(NAME_DIR))) await fs.mkdir(NAME_DIR, { recursive: true });
+    const clusters = await generateClusters();
+    for (const c of clusters) await processCluster(c);
+    console.log('
+🏁 Done');
+  } catch (err) {
+    console.error(`❌ Fatal: ${err.message}`);
+    process.exit(1);
+  }
+})();
