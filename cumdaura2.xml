@@ -5,6 +5,25 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *TRUMP TO HOLD CABINET MEETING 11AM EST
+
+*TRUMP TO PARTICIPATE IN SWEARING-IN FOR UK AMBASSADOR 2PM EST – CLOSED PRESS
+
+*TRUMP TO DELIVER &quot;INVESTING IN AMERICA&quot; REMARKS 4PM EST
+
+*TRUMP TO JOIN NEWSNATION CUOMO TOWNHALL 8PM EST – CLOSED PRESS</title>
+      <link>http://localhost:8080/DeItaone/status/1917547924797501453#m</link>
+      <pubDate>Wed, 30 Apr 2025 11:53:46 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917547924797501453#m</guid>
+      <description>&lt;p&gt;*TRUMP TO HOLD CABINET MEETING 11AM EST&lt;br&gt;
+&lt;br&gt;
+*TRUMP TO PARTICIPATE IN SWEARING-IN FOR UK AMBASSADOR 2PM EST – CLOSED PRESS&lt;br&gt;
+&lt;br&gt;
+*TRUMP TO DELIVER &quot;INVESTING IN AMERICA&quot; REMARKS 4PM EST&lt;br&gt;
+&lt;br&gt;
+*TRUMP TO JOIN NEWSNATION CUOMO TOWNHALL 8PM EST – CLOSED PRESS&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) UKRAINE&apos;S FOREIGN MINISTER SAYS IF RUSSIA IS READY FOR A 60- OR 90-DAY CEASEFIRE, UKRAINE IS OPEN FOR IT AS WELL</title>
       <link>http://localhost:8080/DeItaone/status/1917544769355423949#m</link>
       <pubDate>Wed, 30 Apr 2025 11:41:13 GMT</pubDate>
@@ -142,13 +161,6 @@
       <pubDate>Tue, 29 Apr 2025 20:16:45 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917312119487217782#m</guid>
       <description>&lt;p&gt;*BESSENT: NO TRADE DEAL IS DONE UNTIL TRUMP ANNOUNCES IT&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) *TRUMP: GOING TO BE REDUCING PEOPLE’S TAXES</title>
-      <link>http://localhost:8080/DeItaone/status/1917285371970245011#m</link>
-      <pubDate>Tue, 29 Apr 2025 18:30:28 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917285371970245011#m</guid>
-      <description>&lt;p&gt;*TRUMP: GOING TO BE REDUCING PEOPLE’S TAXES&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
