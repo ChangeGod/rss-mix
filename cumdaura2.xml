@@ -5,6 +5,20 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) RUBIO: SEARCHING FOR MORE COUNTRIES TO TAKE MIGRANTS FROM U.S.</title>
+      <link>http://localhost:8080/DeItaone/status/1917629068528300089#m</link>
+      <pubDate>Wed, 30 Apr 2025 17:16:12 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917629068528300089#m</guid>
+      <description>&lt;p&gt;RUBIO: SEARCHING FOR MORE COUNTRIES TO TAKE MIGRANTS FROM U.S.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) KENNEDY: WORKING W/ ROLLINS TO GET SODA, CANDY OFF FOOD STAMPS</title>
+      <link>http://localhost:8080/DeItaone/status/1917625457673134500#m</link>
+      <pubDate>Wed, 30 Apr 2025 17:01:51 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917625457673134500#m</guid>
+      <description>&lt;p&gt;KENNEDY: WORKING W/ ROLLINS TO GET SODA, CANDY OFF FOOD STAMPS&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) US OFFICIAL: MORE DOCUMENTS COMING ON JFK ASSASSINATION</title>
       <link>http://localhost:8080/DeItaone/status/1917622819216613598#m</link>
       <pubDate>Wed, 30 Apr 2025 16:51:22 GMT</pubDate>
@@ -130,20 +144,6 @@
       <pubDate>Wed, 30 Apr 2025 15:53:18 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917608207444279715#m</guid>
       <description>&lt;p&gt;TRUMP: WE WANT TO PUT BRAND NEW AIR TRAFFIC CONTROL SYSTEM IN&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) LUTNICK TOUTS REMOVING DE MINIMIS TO HELP SMALL BUSINESSES</title>
-      <link>http://localhost:8080/DeItaone/status/1917607439932784941#m</link>
-      <pubDate>Wed, 30 Apr 2025 15:50:15 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917607439932784941#m</guid>
-      <description>&lt;p&gt;LUTNICK TOUTS REMOVING DE MINIMIS TO HELP SMALL BUSINESSES&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) LUTNICK: SOVERIGN WEALTH FUNDS WANT TO INVEST IN THE US</title>
-      <link>http://localhost:8080/DeItaone/status/1917607042019385513#m</link>
-      <pubDate>Wed, 30 Apr 2025 15:48:40 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917607042019385513#m</guid>
-      <description>&lt;p&gt;LUTNICK: SOVERIGN WEALTH FUNDS WANT TO INVEST IN THE US&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
