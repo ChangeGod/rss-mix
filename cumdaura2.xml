@@ -5,6 +5,15 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *TRUMP TO HOLD CABINET MEETING 11AM EST
+*TRUMP TO DELIVER &quot;INVESTING IN AMERICA&quot; REMARKS 4PM EST</title>
+      <link>http://localhost:8080/DeItaone/status/1917418046655697124#m</link>
+      <pubDate>Wed, 30 Apr 2025 03:17:40 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917418046655697124#m</guid>
+      <description>&lt;p&gt;*TRUMP TO HOLD CABINET MEETING 11AM EST&lt;br&gt;
+*TRUMP TO DELIVER &quot;INVESTING IN AMERICA&quot; REMARKS 4PM EST&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) TOYOTA AND WAYMO OUTLINE STRATEGIC PARTNERSHIP TO ADVANCE AUTONOMOUS DRIVING DEPLOYMENT</title>
       <link>http://localhost:8080/DeItaone/status/1917353802849738770#m</link>
       <pubDate>Tue, 29 Apr 2025 23:02:23 GMT</pubDate>
@@ -129,13 +138,6 @@
       <pubDate>Tue, 29 Apr 2025 17:13:05 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917265895216341209#m</guid>
       <description>&lt;p&gt;WHITE HOUSE DEPUTY CHIEF OF STAFF MILLER: WE&apos;LL TAKE THE AMAZON STATEMENT AT FACE VALUE&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP CONFIDENT UKRAINE MINERALS DEAL WILL BE SIGNED: LEAVITT</title>
-      <link>http://localhost:8080/DeItaone/status/1917259223743766674#m</link>
-      <pubDate>Tue, 29 Apr 2025 16:46:34 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917259223743766674#m</guid>
-      <description>&lt;p&gt;TRUMP CONFIDENT UKRAINE MINERALS DEAL WILL BE SIGNED: LEAVITT&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
