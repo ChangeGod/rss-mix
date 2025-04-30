@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) TRUMP HOSTS A CABINET MEETING - NOW LIVE</title>
+      <link>http://localhost:8080/DeItaone/status/1917604243713745091#m</link>
+      <pubDate>Wed, 30 Apr 2025 15:37:33 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917604243713745091#m</guid>
+      <description>&lt;p&gt;TRUMP HOSTS A CABINET MEETING - NOW LIVE&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) 🚨 CHINA LIFTS SANCTIONS AGAINST EUROPEAN PARLIAMENT MEMBERS</title>
       <link>http://localhost:8080/DeItaone/status/1917594254815420447#m</link>
       <pubDate>Wed, 30 Apr 2025 14:57:52 GMT</pubDate>
@@ -153,13 +160,6 @@ White House trade adviser Peter Navarro said the Trump administration is working
       <pubDate>Wed, 30 Apr 2025 13:57:24 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917579040560488448#m</guid>
       <description>&lt;p&gt;🚨 *NAVARRO: THIS WAS THE BEST NEGATIVE PRINT FOR GDP I&apos;VE SEEN&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) SEVERAL PEOPLE HIT BY CAR IN #COPENHAGEN, NEWS AGENCY RITZAU REPORTS, CITING EMERGENCY SERVICES</title>
-      <link>http://localhost:8080/DeItaone/status/1917577875160535203#m</link>
-      <pubDate>Wed, 30 Apr 2025 13:52:46 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917577875160535203#m</guid>
-      <description>&lt;p&gt;SEVERAL PEOPLE HIT BY CAR IN &lt;a href=&quot;http://localhost:8080/search?q=%23COPENHAGEN&quot;&gt;#COPENHAGEN&lt;/a&gt;, NEWS AGENCY RITZAU REPORTS, CITING EMERGENCY SERVICES&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
