@@ -47,10 +47,18 @@ function resolvePlaceholders(raw) {
 
 function toPublicLink(l) {
   if (!l) return 'No link';
+
   let out = l.replace('nitter.poast.org', 'x.com');
+
   if (BASE_URL_LOCAL && out.startsWith(BASE_URL_LOCAL)) {
     out = out.replace(BASE_URL_LOCAL, 'https://x.com');
   }
+
+  // Bổ sung xử lý cho localhost:8080
+  if (out.startsWith('http://localhost:8080')) {
+    out = out.replace('http://localhost:8080', 'https://x.com');
+  }
+
   return out;
 }
 
