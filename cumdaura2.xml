@@ -5,6 +5,20 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) 🚨 MEXICAN PRESIDENT SHEINBAUM: U.S. EASING OF TARIFFS ON THE AUTO SECTOR IS A STEP FORWARD, A RECOGNITION OF THE NORTH AMERICAN TRADE AGREEMENT</title>
+      <link>http://localhost:8080/DeItaone/status/1917590205726433610#m</link>
+      <pubDate>Wed, 30 Apr 2025 14:41:46 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917590205726433610#m</guid>
+      <description>&lt;p&gt;🚨 MEXICAN PRESIDENT SHEINBAUM: U.S. EASING OF TARIFFS ON THE AUTO SECTOR IS A STEP FORWARD, A RECOGNITION OF THE NORTH AMERICAN TRADE AGREEMENT&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) $NVDA - HUANG: HUAWEI &apos;FORMIDABLE&apos; AND HAS MADE ENORMOUS PROGRESS IN AI</title>
+      <link>http://localhost:8080/DeItaone/status/1917587797847990716#m</link>
+      <pubDate>Wed, 30 Apr 2025 14:32:12 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917587797847990716#m</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://localhost:8080/search?q=%23NVDA&quot;&gt;$NVDA&lt;/a&gt; - HUANG: HUAWEI &apos;FORMIDABLE&apos; AND HAS MADE ENORMOUS PROGRESS IN AI&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) $NVDA - NVIDIA CEO SAYS TRUMP SHOULD REVISE RULES FOR AI CHIPS EXPORTS</title>
       <link>http://localhost:8080/DeItaone/status/1917587686954569979#m</link>
       <pubDate>Wed, 30 Apr 2025 14:31:46 GMT</pubDate>
@@ -146,20 +160,6 @@ White House trade adviser Peter Navarro said the Trump administration is working
       <pubDate>Wed, 30 Apr 2025 13:50:40 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917577346548220357#m</guid>
       <description>&lt;p&gt;🚨 CHINA&apos;S TIKTOK TO INVEST 1 BLN EUROS IN FINLAND TO BUILD DATA CENTRE, SOURCES SAY&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) 🚨 NAVARRO: BEST WAY TO NEGOTIATE WITH CHINA IS VERY QUIETLY</title>
-      <link>http://localhost:8080/DeItaone/status/1917576925674950986#m</link>
-      <pubDate>Wed, 30 Apr 2025 13:49:00 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917576925674950986#m</guid>
-      <description>&lt;p&gt;🚨 NAVARRO: BEST WAY TO NEGOTIATE WITH CHINA IS VERY QUIETLY&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) 🚨 NAVARRO: GDP WAS DRAGGED DOWN, WON&apos;T BE THE CASE NEXT QUARTER</title>
-      <link>http://localhost:8080/DeItaone/status/1917576799271411811#m</link>
-      <pubDate>Wed, 30 Apr 2025 13:48:30 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917576799271411811#m</guid>
-      <description>&lt;p&gt;🚨 NAVARRO: GDP WAS DRAGGED DOWN, WON&apos;T BE THE CASE NEXT QUARTER&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
