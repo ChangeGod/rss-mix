@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) $MSFT - *MICROSOFT SAID SOME NEW XBOX GAMES WILL BE $80 FOR HOLIDAYS</title>
+      <link>https://x.com/DeItaone/status/1917935713909133705#m</link>
+      <pubDate>Thu, 01 May 2025 13:34:42 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1917935713909133705#m</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://localhost:8080/search?q=%23MSFT&quot;&gt;$MSFT&lt;/a&gt; - *MICROSOFT SAID SOME NEW XBOX GAMES WILL BE $80 FOR HOLIDAYS&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) 🚨 WHITE HOUSE ADVISER MILLER DOES NOT COMMIT TO TAX RELIEF FOR SMALL BUSINESSES</title>
       <link>https://x.com/DeItaone/status/1917934926474760387#m</link>
       <pubDate>Thu, 01 May 2025 13:31:34 GMT</pubDate>
@@ -264,13 +271,6 @@ US APR-19 WEEK JOBLESS CLAIMS REVISED TO 223K&lt;/p&gt;</description>
       <pubDate>Thu, 01 May 2025 11:34:32 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1917905473690386490#m</guid>
       <description>&lt;p&gt;BESSENT: GDP DECLINE MAY HAVE BEEN DUE TO INVENTORY STOCKING OF IMPORTS&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) 🚨 BESSENT: WE EXPECT TO SEE GDP REVISED</title>
-      <link>https://x.com/DeItaone/status/1917905321307054242#m</link>
-      <pubDate>Thu, 01 May 2025 11:33:56 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1917905321307054242#m</guid>
-      <description>&lt;p&gt;🚨 BESSENT: WE EXPECT TO SEE GDP REVISED&lt;/p&gt;</description>
     </item>
     <item>
       <title>US April Challenger layoffs 105.44k vs 275.24k prior</title>
