@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) APPLE HAS APPROVED SPOTIFY’S U.S. APP UPDATE - SPOTIFY SPOKESPERSON</title>
+      <link>https://x.com/DeItaone/status/1918271874124927351#m</link>
+      <pubDate>Fri, 02 May 2025 11:50:29 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1918271874124927351#m</guid>
+      <description>&lt;p&gt;APPLE HAS APPROVED SPOTIFY’S U.S. APP UPDATE - SPOTIFY SPOKESPERSON&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Earnings Headlines vs Earnings Price Action</title>
       <link>https://www.forexlive.com/stock-market-update/earnings-headlines-vs-earnings-price-action-20250502/</link>
       <pubDate>Fri, 02 May 2025 11:42:33 GMT</pubDate>
@@ -687,13 +694,6 @@ weaker operating conditions overall, employment growth in this sector continues.
       <pubDate>Thu, 01 May 2025 21:34:42 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1918056508694188374#m</guid>
       <description>&lt;p&gt;APPLE IS &apos;VERY ENGAGED&apos; ON TARIFF DICUSSIONS - APPLE CEO TIM COOK ON CONF CALL&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) *APPLE ESTIMATES $900 MILLION IN COST INCREASES ON TARIFFS IN Q3</title>
-      <link>https://x.com/DeItaone/status/1918055965867332069#m</link>
-      <pubDate>Thu, 01 May 2025 21:32:32 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1918055965867332069#m</guid>
-      <description>&lt;p&gt;*APPLE ESTIMATES $900 MILLION IN COST INCREASES ON TARIFFS IN Q3&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
