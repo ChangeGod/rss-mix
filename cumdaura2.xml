@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) BLOOMBERG SPOX: SYSTEMS ARE RETURNING TO NORMAL OPERATIONS</title>
+      <link>https://x.com/DeItaone/status/1925140320099987877#m</link>
+      <pubDate>Wed, 21 May 2025 10:43:14 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1925140320099987877#m</guid>
+      <description>&lt;p&gt;BLOOMBERG SPOX: SYSTEMS ARE RETURNING TO NORMAL OPERATIONS&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) U.S. 30-YEAR TREASURY YIELD TOPS 5% AGAIN AMID GLOBAL BOND SELLOFF
 
 🔸 This marks only the second time since 2007 that 30-year yields have topped 5%.
@@ -641,13 +648,6 @@ TRUMP: WILL INCLUDE SPACE-BASED INTERCEPTORS&lt;/p&gt;</description>
       <pubDate>Tue, 20 May 2025 19:59:34 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1924917940178022564#m</guid>
       <description>&lt;p&gt;TRUMP: WE MUST MAINTAIN OUR STATUS AS THE WORLDWIDE LEADER IN WIFI, 5G, AND 6G&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP: WILL FREE UP SPECTRUM FOR AUCTION</title>
-      <link>https://x.com/DeItaone/status/1924917887036178797#m</link>
-      <pubDate>Tue, 20 May 2025 19:59:22 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1924917887036178797#m</guid>
-      <description>&lt;p&gt;TRUMP: WILL FREE UP SPECTRUM FOR AUCTION&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
