@@ -5,6 +5,27 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *BESSENT: &apos;WE ARE SUFFERING&apos; FROM BUDGET BLOW-OUT UNDER BIDEN</title>
+      <link>https://x.com/DeItaone/status/1932810995354755281#m</link>
+      <pubDate>Wed, 11 Jun 2025 14:43:45 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1932810995354755281#m</guid>
+      <description>&lt;p&gt;*BESSENT: &apos;WE ARE SUFFERING&apos; FROM BUDGET BLOW-OUT UNDER BIDEN&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) *BESSENT SEES 6.5% TO 6.7% BUDGET GAP FOR FISCAL 2025</title>
+      <link>https://x.com/DeItaone/status/1932810945765544397#m</link>
+      <pubDate>Wed, 11 Jun 2025 14:43:34 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1932810945765544397#m</guid>
+      <description>&lt;p&gt;*BESSENT SEES 6.5% TO 6.7% BUDGET GAP FOR FISCAL 2025&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) BESSENT: CHINA SHOULD NOT BE ALLOWED TO EXPORT ITS WAY BACK TO PROSPERITY</title>
+      <link>https://x.com/DeItaone/status/1932808521919205769#m</link>
+      <pubDate>Wed, 11 Jun 2025 14:33:56 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1932808521919205769#m</guid>
+      <description>&lt;p&gt;BESSENT: CHINA SHOULD NOT BE ALLOWED TO EXPORT ITS WAY BACK TO PROSPERITY&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) BESSENT: BIDEN ADMINISTRATION OUTSOURCED U.S. SOVEREIGNTY ON TAX MATTERS WITH GLOBAL TAX DEAL</title>
       <link>https://x.com/DeItaone/status/1932807773848248614#m</link>
       <pubDate>Wed, 11 Jun 2025 14:30:57 GMT</pubDate>
@@ -18,7 +39,7 @@
       <guid>https://www.forexlive.com/news/eia-weekly-us-oil-inventories-3644k-vs-1960k-expected-20250611/</guid>
       <description>
                             
-                            &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.forexlive.com/news/eia-weekly-us-oil-inventories-4304k-vs-1035k-expected-20250604/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;Prior &lt;/a&gt;was -4304K&lt;/li&gt;&lt;li&gt;Gasoline K vs +853K&lt;/li&gt;&lt;li&gt;Distillates K vs +824K&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;API data from late yesterday:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Crude -370K&lt;/li&gt;&lt;li&gt;Gasoline +3969K &lt;/li&gt;&lt;li&gt;Distllates +3712K&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;WTI crude oil was trading at a two-month high ahead of this report, up $1.57 to $66.55.&lt;/p&gt;
+                            &lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://www.forexlive.com/news/eia-weekly-us-oil-inventories-4304k-vs-1035k-expected-20250604/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;Prior &lt;/a&gt;was -4304K&lt;/li&gt;&lt;li&gt;Gasoline +1504K vs +853K&lt;/li&gt;&lt;li&gt;Distillates +1246K vs +824K&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;API data from late yesterday:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Crude -370K&lt;/li&gt;&lt;li&gt;Gasoline +3969K &lt;/li&gt;&lt;li&gt;Distllates +3712K&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;WTI crude oil was trading at a two-month high ahead of this report, up $1.57 to $66.55.&lt;/p&gt;
                             This article was written by Adam Button at www.forexlive.com.
                         
                         </description>
@@ -44,7 +65,7 @@
       <guid>https://www.forexlive.com/news/eia-inventory-data-will-be-released-at-the-bottom-of-the-hour-20250611/</guid>
       <description>
                             
-                            &lt;p&gt;Expectations:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Crude oil -1.960 million.&lt;/li&gt;&lt;li&gt;Distillates +0.824M&lt;/li&gt;&lt;li&gt;Gasoline +0.853 million&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The private data released late yesterday showed:&lt;/p&gt;&lt;p&gt;Crude oil is trading at $66.50 up $1.51 or 2.34%. The price is above its 100 day moving average for the first time since April 3.  The last time the price broke above the 100 day moving average, the momentum faded ahead of the 200-day moving average (green line on the chart below). The break could only last two days before gapping below and moving sharply lower. &lt;/p&gt;
+                            &lt;p&gt;Expectations:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Crude oil -1.960 million.&lt;/li&gt;&lt;li&gt;Distillates +0.824M&lt;/li&gt;&lt;li&gt;Gasoline +0.853 million&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The private data released late yesterday showed:&lt;/p&gt;&lt;p&gt;Crude oil is trading at $66.50 up $1.51 or 2.34%. The price is above its 100-day moving average for the first time since April 3 (blue line on the chart below).  The last time the price broke above the 100-day moving average, the momentum faded ahead of the 200-day moving average (green line on the chart below). The break could only last two days before gapping below and moving sharply lower. &lt;/p&gt;
                             This article was written by Greg Michalowski at www.forexlive.com.
                         
                         </description>
@@ -371,20 +392,6 @@ With BLS staffing levels and CPI data collection under scrutiny, the BLS says it
 With BLS staffing levels and CPI data collection under scrutiny, the BLS says it will change its methodology for collecting data on wireless phone service prices. The agency says that starting in the July inflation data, &quot;BLS will replace the survey data collected for the CPI&apos;s wireless telephone services index with secondary source data and non-traditional index methods,&quot; the agency writes in a release accompanying the May inflation data. The BLS didn&apos;t add information about the reason for the change, but says it will publish a paper on the new methodology in July.&lt;/p&gt;</description>
     </item>
     <item>
-      <title>(My Local Feed) CHINESE TARIFF RATES EXPECTED TO BE 10% FOLLOWING GENEVA DEAL - U.S. OFFICIAL</title>
-      <link>https://x.com/DeItaone/status/1932782554119078332#m</link>
-      <pubDate>Wed, 11 Jun 2025 12:50:44 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1932782554119078332#m</guid>
-      <description>&lt;p&gt;CHINESE TARIFF RATES EXPECTED TO BE 10% FOLLOWING GENEVA DEAL - U.S. OFFICIAL&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) U.S. TO CHARGE 55% TARIFF ON CHINESE GOODS, RETAINING 30% NEW TARIFFS PLUS 25% PRE-EXISTING -U.S. OFFICIAL</title>
-      <link>https://x.com/DeItaone/status/1932782354231148557#m</link>
-      <pubDate>Wed, 11 Jun 2025 12:49:57 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1932782354231148557#m</guid>
-      <description>&lt;p&gt;U.S. TO CHARGE 55% TARIFF ON CHINESE GOODS, RETAINING 30% NEW TARIFFS PLUS 25% PRE-EXISTING -U.S. OFFICIAL&lt;/p&gt;</description>
-    </item>
-    <item>
       <title>US official: Trump to hold China tariffs at 30%</title>
       <link>https://www.forexlive.com/news/us-official-trump-to-hold-china-tariffs-at-30-20250611/</link>
       <pubDate>Wed, 11 Jun 2025 12:37:27 GMT</pubDate>
@@ -395,13 +402,6 @@ With BLS staffing levels and CPI data collection under scrutiny, the BLS says it
                             This article was written by Adam Button at www.forexlive.com.
                         
                         </description>
-    </item>
-    <item>
-      <title>(My Local Feed) CBOE VOLATILITY INDEX HITS LOWEST SINCE FEBRUARY 21; LAST DOWN 0.56 POINTS AT 16.39</title>
-      <link>https://x.com/DeItaone/status/1932779014210437359#m</link>
-      <pubDate>Wed, 11 Jun 2025 12:36:40 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1932779014210437359#m</guid>
-      <description>&lt;p&gt;CBOE VOLATILITY INDEX HITS LOWEST SINCE FEBRUARY 21; LAST DOWN 0.56 POINTS AT 16.39&lt;/p&gt;</description>
     </item>
     <item>
       <title>Canada building permits for April -6.6% vs 2.0% estimate</title>
