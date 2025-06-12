@@ -5,6 +5,20 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *US EMBASSY IN ISRAEL RESTRICTS TRAVEL FOR STAFF, FAMILIES</title>
+      <link>https://x.com/DeItaone/status/1933089714065543176#m</link>
+      <pubDate>Thu, 12 Jun 2025 09:11:17 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1933089714065543176#m</guid>
+      <description>&lt;p&gt;*US EMBASSY IN ISRAEL RESTRICTS TRAVEL FOR STAFF, FAMILIES&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) *US RESTRICTS TRAVEL OF GOVERNMENT EMPLOYEES WITHIN ISRAEL</title>
+      <link>https://x.com/DeItaone/status/1933089646730498225#m</link>
+      <pubDate>Thu, 12 Jun 2025 09:11:01 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1933089646730498225#m</guid>
+      <description>&lt;p&gt;*US RESTRICTS TRAVEL OF GOVERNMENT EMPLOYEES WITHIN ISRAEL&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>How have interest rates expectations changed after the US CPI report?</title>
       <link>https://www.forexlive.com/news/how-have-interest-rates-expectations-changed-after-the-us-cpi-report-20250612/</link>
       <pubDate>Thu, 12 Jun 2025 08:36:15 GMT</pubDate>
@@ -528,20 +542,6 @@ Claims remain inside the 200K-260K range created since 2022, while Continuing Cl
       <pubDate>Wed, 11 Jun 2025 17:26:28 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1932851941140541699#m</guid>
       <description>&lt;p&gt;WHITE HOUSE: PRESIDENT REMAINS RECEPTIVE TO CORRESPONDENCE WITH NORTH KOREA LEADER&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) *CHANOS: I&apos;M SELLING MICROSTRATEGY SECURITIES TO BUY BITCOIN</title>
-      <link>https://x.com/DeItaone/status/1932851762622300240#m</link>
-      <pubDate>Wed, 11 Jun 2025 17:25:45 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1932851762622300240#m</guid>
-      <description>&lt;p&gt;*CHANOS: I&apos;M SELLING MICROSTRATEGY SECURITIES TO BUY BITCOIN&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) WHITE HOUSE: TRUMP TALKING TO TRADE TEAM ABOUT CHINA TRADE DEAL</title>
-      <link>https://x.com/DeItaone/status/1932851752702812241#m</link>
-      <pubDate>Wed, 11 Jun 2025 17:25:43 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1932851752702812241#m</guid>
-      <description>&lt;p&gt;WHITE HOUSE: TRUMP TALKING TO TRADE TEAM ABOUT CHINA TRADE DEAL&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
