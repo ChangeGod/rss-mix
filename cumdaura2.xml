@@ -5,6 +5,18 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>Eurozone May final CPI +1.9% vs +1.9% y/y prelim</title>
+      <link>https://www.forexlive.com/news/eurozone-may-final-cpi-19-vs-19-yy-prelim-20250618/</link>
+      <pubDate>Wed, 18 Jun 2025 09:00:10 GMT</pubDate>
+      <guid>https://www.forexlive.com/news/eurozone-may-final-cpi-19-vs-19-yy-prelim-20250618/</guid>
+      <description>
+                            
+                            &lt;ul&gt;&lt;li&gt;Prior +2.2%&lt;/li&gt;&lt;li&gt;Core CPI +2.4% vs +2.4% y/y prelim&lt;/li&gt;&lt;li&gt;Prior +2.7%&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;text-align-justify&quot;&gt;No changes to the initial estimates as the further easing in price pressures allows for more flexibility on the ECB&apos;s part going into the summer. As things stand, markets are only pricing in ~21 bps of rate cuts by year-end currently.&lt;/p&gt;
+                            This article was written by Justin Low at www.forexlive.com.
+                        
+                        </description>
+    </item>
+    <item>
       <title>ECB&apos;s Panetta: Will continue to take decisions on a meeting-by-meeting basis</title>
       <link>https://www.forexlive.com/centralbank/ecbs-panetta-will-continue-to-take-decisions-on-a-meeting-by-meeting-basis-20250618/</link>
       <pubDate>Wed, 18 Jun 2025 08:32:17 GMT</pubDate>
@@ -322,21 +334,6 @@ Decision. &lt;/p&gt;
       <description>
                             
                             &lt;p&gt;As background to this, a couple of months ago news hit that US regulators are planning to ease a capital rule, specifically the supplementary leverage ratio (SLR), that limits how much banks can hold in Treasury securities. In brief:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;This move aims to boost liquidity in the $29 trillion Treasury market and reduce borrowing costs for the government. &lt;/li&gt;&lt;li&gt;The SLR, introduced after the 2008 crisis, requires banks to hold a certain amount of capital against their total leverage exposure, including assets like Treasuries. &lt;/li&gt;&lt;li&gt;The proposed change would likely exclude Treasuries and central bank deposits from the SLR calculation, allowing banks to hold more of these low-risk assets without impacting their capital requirements. &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;---&lt;/p&gt;&lt;p&gt;Bloomberg have popped up an update to this, again in brief:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;US regulators are considering changes to a key capital rule for major banks, according to people familiar with the matter.&lt;/li&gt;&lt;li&gt;The Federal Reserve, Federal Deposit Insurance Corp (FDIC), and Office of the Comptroller of the Currency are reviewing adjustments to the enhanced supplementary leverage ratio (eSLR) — a rule that applies to the largest U.S. banks, including JPMorgan Chase, Goldman Sachs, and Morgan Stanley.&lt;/li&gt;&lt;li&gt;Under the proposal, the capital requirement for bank holding companies could be reduced to a range of 3.5% to 4.5%, down from the current 5%. The banks&apos; operating subsidiaries would likely see their requirements fall to the same range, compared to the existing 6%, the sources said, speaking on condition of anonymity due to the non-public nature of the discussions.&lt;/li&gt;&lt;/ul&gt;
-                            This article was written by Eamonn Sheridan at www.forexlive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>Here&apos;s how you can track oil price volatility using options implied volatility</title>
-      <link>https://www.forexlive.com/Education/heres-how-you-can-track-oil-price-volatility-using-options-implied-volatility-20250618/</link>
-      <pubDate>Wed, 18 Jun 2025 00:02:39 GMT</pubDate>
-      <guid>https://www.forexlive.com/Education/heres-how-you-can-track-oil-price-volatility-using-options-implied-volatility-20250618/</guid>
-      <description>
-                            
-                            &lt;p data-start=&quot;0&quot; data-end=&quot;97&quot;&gt;The CBOE (Chicago Board Options Exchange) Crude Oil Volatility Index is referred to as OVX.&lt;/p&gt;&lt;p data-start=&quot;0&quot; data-end=&quot;97&quot;&gt;It shows implied volatility of options on United States Oil Fund (USO).&lt;/p&gt;&lt;ul&gt;&lt;li&gt;tracks 30-day expected volatility in crude oil prices, derived from the pricing of USO options — similar to how the VIX measures expected equity volatility from S&amp;amp;P 500 options.&lt;/li&gt;&lt;li&gt;Higher OVX values indicate greater expected oil price swings (volatility)&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;
-
-
-Lower OVX values suggest more stable expectations for oil prices&lt;/li&gt;&lt;/ul&gt;&lt;ul&gt;&lt;li&gt;Applies the VIX methodology, meaning it doesn&apos;t assume direction — it simply measures the magnitude of expected moves.&lt;/li&gt;&lt;/ul&gt;&lt;p data-start=&quot;906&quot; data-end=&quot;1028&quot;&gt;Its useful right now as a gauge of uncertainty in oil markets given Middle East war escalation risks. &lt;/p&gt;&lt;p data-start=&quot;906&quot; data-end=&quot;1028&quot;&gt;---&lt;/p&gt;&lt;p data-start=&quot;906&quot; data-end=&quot;1028&quot;&gt;It can be accessed on the Trading View website, the code is OVX,&lt;a href=&quot;https://www.tradingview.com/symbols/CBOE-OVX/?timeframe=1M&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt; here is a direct link&lt;/a&gt;. &lt;/p&gt;
                             This article was written by Eamonn Sheridan at www.forexlive.com.
                         
                         </description>
