@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) IRAN&apos;S FOREIGN MINISTRY SPOKESPERSON SAYS ITS NUCLEAR INSTALLATIONS &apos;BADLY DAMAGED&apos; BY AMERICAN STRIKES - AP REPORTER&apos;S X POST</title>
+      <link>https://x.com/DeItaone/status/1937832895185646000#m</link>
+      <pubDate>Wed, 25 Jun 2025 11:19:00 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1937832895185646000#m</guid>
+      <description>&lt;p&gt;IRAN&apos;S FOREIGN MINISTRY SPOKESPERSON SAYS ITS NUCLEAR INSTALLATIONS &apos;BADLY DAMAGED&apos; BY AMERICAN STRIKES - AP REPORTER&apos;S X POST&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>US MBA mortgage applications w.e. 20 June +1.1% vs -2.6% prior</title>
       <link>https://www.forexlive.com/news/us-mba-mortgage-applications-we-20-june-11-vs-26-prior-20250625/</link>
       <pubDate>Wed, 25 Jun 2025 11:01:46 GMT</pubDate>
@@ -622,13 +629,6 @@ AUD/USD rose during the session, reflecting broad USD softness. NZD and EUR also
       <pubDate>Tue, 24 Jun 2025 18:02:09 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1937571967051203015#m</guid>
       <description>&lt;p&gt;BESSENT: WILL NEVER DEFAULT ON NATIONAL DEBT&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) BESSENT: WE ARE ON TRACK FOR VOTE HOPEFULLY ON FRIDAY</title>
-      <link>https://x.com/DeItaone/status/1937571904258548101#m</link>
-      <pubDate>Tue, 24 Jun 2025 18:01:54 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1937571904258548101#m</guid>
-      <description>&lt;p&gt;BESSENT: WE ARE ON TRACK FOR VOTE HOPEFULLY ON FRIDAY&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
