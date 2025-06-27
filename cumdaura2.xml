@@ -5,6 +5,27 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) BESSENT: THIS IS A DEESCALATION</title>
+      <link>https://x.com/DeItaone/status/1938563094835310832#m</link>
+      <pubDate>Fri, 27 Jun 2025 11:40:33 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1938563094835310832#m</guid>
+      <description>&lt;p&gt;BESSENT: THIS IS A DEESCALATION&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) BESSENT: CONFIDENT THAT MAGNETS WILL FLOW IN CHINA-US DEAL -FOX BUSINESS NETWORK INTERVIEW</title>
+      <link>https://x.com/DeItaone/status/1938563002912931918#m</link>
+      <pubDate>Fri, 27 Jun 2025 11:40:11 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1938563002912931918#m</guid>
+      <description>&lt;p&gt;BESSENT: CONFIDENT THAT MAGNETS WILL FLOW IN CHINA-US DEAL -FOX BUSINESS NETWORK INTERVIEW&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>(My Local Feed) MUSK SAYS GROK 4 TO BE RELEASED JUST AFTER JULY 4TH</title>
+      <link>https://x.com/DeItaone/status/1938561860024074521#m</link>
+      <pubDate>Fri, 27 Jun 2025 11:35:38 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1938561860024074521#m</guid>
+      <description>&lt;p&gt;MUSK SAYS GROK 4 TO BE RELEASED JUST AFTER JULY 4TH&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>US Core PCE is expected at 2.6% Y/Y but it won&apos;t change anything for the Fed</title>
       <link>https://www.forexlive.com/news/us-core-pce-is-expected-at-26-yy-but-it-wont-change-anything-for-the-fed-20250627/</link>
       <pubDate>Fri, 27 Jun 2025 11:29:52 GMT</pubDate>
@@ -522,27 +543,6 @@ White House Press Secretary Karoline Leavitt said the July 9 trade deadline is f
       <pubDate>Thu, 26 Jun 2025 17:33:15 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1938289466688630813#m</guid>
       <description>&lt;p&gt;WHITE HOUSE: NO IMMINENT PLANS FOR REFILLING STRATEGIC PETROLEUM RESERVE&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) WHITE HOUSE: FBI INVESTIGATING WHO LEAKED ASSESSMENT ON IRAN STRIKES</title>
-      <link>https://x.com/DeItaone/status/1938287328524427460#m</link>
-      <pubDate>Thu, 26 Jun 2025 17:24:45 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1938287328524427460#m</guid>
-      <description>&lt;p&gt;WHITE HOUSE: FBI INVESTIGATING WHO LEAKED ASSESSMENT ON IRAN STRIKES&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) WHITE HOUSE: TRUMP CAN PICK RECIPROCAL TARIFF RATE IF DEALS FAIL</title>
-      <link>https://x.com/DeItaone/status/1938286710233719114#m</link>
-      <pubDate>Thu, 26 Jun 2025 17:22:18 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1938286710233719114#m</guid>
-      <description>&lt;p&gt;WHITE HOUSE: TRUMP CAN PICK RECIPROCAL TARIFF RATE IF DEALS FAIL&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) WHITE HOUSE: TRUMP OPEN TO VISIT FROM ISRAEL&apos;S NETANYAHU</title>
-      <link>https://x.com/DeItaone/status/1938286181051146585#m</link>
-      <pubDate>Thu, 26 Jun 2025 17:20:11 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1938286181051146585#m</guid>
-      <description>&lt;p&gt;WHITE HOUSE: TRUMP OPEN TO VISIT FROM ISRAEL&apos;S NETANYAHU&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
