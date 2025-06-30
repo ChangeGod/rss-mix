@@ -5,6 +5,17 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) $TSLA - TESLA TO REPORT Q2 DELIVERIES AS MUSK PUSHES DRIVERLESS TECH
+
+Tesla reports Q2 deliveries Wed; Street sees ~390K, down YoY as demand slows. Shares -14% YTD. Musk touts driverless push, posting a Tesla delivering itself near Austin. Claims millions could go fully autonomous by late 2025</title>
+      <link>https://x.com/DeItaone/status/1939651971343888464#m</link>
+      <pubDate>Mon, 30 Jun 2025 11:47:21 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1939651971343888464#m</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://localhost:8080/search?q=%23TSLA&quot;&gt;$TSLA&lt;/a&gt; - TESLA TO REPORT Q2 DELIVERIES AS MUSK PUSHES DRIVERLESS TECH&lt;br&gt;
+&lt;br&gt;
+Tesla reports Q2 deliveries Wed; Street sees ~390K, down YoY as demand slows. Shares -14% YTD. Musk touts driverless push, posting a Tesla delivering itself near Austin. Claims millions could go fully autonomous by late 2025&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>S&amp;P 500 Technical Analysis: Bulls Okay Above These Price Levels.</title>
       <link>https://www.forexlive.com/technical-analysis/sp-500-technical-analysis-bulls-okay-above-these-price-levels-20250630/</link>
       <pubDate>Mon, 30 Jun 2025 11:40:32 GMT</pubDate>
@@ -590,13 +601,6 @@ be followed by a vote on final passage. Trump wants the bill done before July 4t
       <pubDate>Sun, 29 Jun 2025 14:39:35 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1939332924995727470#m</guid>
       <description>&lt;p&gt;*TRUMP ON TARIFF DEADLINE: DON&apos;T THINK I NEED EXTEND, BUT COULD&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP: WE HAVE A BUYER FOR TIKTOK, A GROUP OF VERY WEALTHY PEOPLE</title>
-      <link>https://x.com/DeItaone/status/1939332215885771042#m</link>
-      <pubDate>Sun, 29 Jun 2025 14:36:45 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1939332215885771042#m</guid>
-      <description>&lt;p&gt;TRUMP: WE HAVE A BUYER FOR TIKTOK, A GROUP OF VERY WEALTHY PEOPLE&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
