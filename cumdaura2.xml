@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) WHITE HOUSE OFFICIAL SAYS TARIFFS WON&apos;T STACK</title>
+      <link>https://x.com/DeItaone/status/1942308390589329667#m</link>
+      <pubDate>Mon, 07 Jul 2025 19:43:01 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1942308390589329667#m</guid>
+      <description>&lt;p&gt;WHITE HOUSE OFFICIAL SAYS TARIFFS WON&apos;T STACK&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>EU looking into deal to offset US car exports against imports - report</title>
       <link>https://www.forexlive.com/news/eu-looking-into-deal-to-offset-us-car-exports-against-imports-report-20250707/</link>
       <pubDate>Mon, 07 Jul 2025 19:26:40 GMT</pubDate>
@@ -446,13 +453,6 @@
       <pubDate>Sun, 06 Jul 2025 21:34:37 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1941974089209352461#m</guid>
       <description>&lt;p&gt;TRUMP:  GOOD CHANCE WE HAVE A DEAL WITH HAMAS DURING THE WEEK&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP SAYS DISAPPOINTED WITH RECENT CALL WITH PUTIN</title>
-      <link>https://x.com/DeItaone/status/1941974021517549789#m</link>
-      <pubDate>Sun, 06 Jul 2025 21:34:21 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1941974021517549789#m</guid>
-      <description>&lt;p&gt;TRUMP SAYS DISAPPOINTED WITH RECENT CALL WITH PUTIN&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
