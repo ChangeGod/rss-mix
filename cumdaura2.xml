@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) $NVDA - Nvidia CEO Jensen Huang will hold a media briefing in Beijing on July 16, an official from the company said on Sunday.</title>
+      <link>https://x.com/DeItaone/status/1944336905946173500#m</link>
+      <pubDate>Sun, 13 Jul 2025 10:03:37 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1944336905946173500#m</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://localhost:8080/search?q=%23NVDA&quot;&gt;$NVDA&lt;/a&gt; - Nvidia CEO Jensen Huang will hold a media briefing in Beijing on July 16, an official from the company said on Sunday.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Newsquawk Week Ahead: US CPI and Retail Sales, UK CPI and Jobs report, China trade and GDP</title>
       <link>https://www.forexlive.com/centralbank/newsquawk-week-ahead-us-cpi-and-retail-sales-uk-cpi-and-jobs-report-china-trade-and-gdp-20250713/</link>
       <pubDate>Sun, 13 Jul 2025 06:39:00 GMT</pubDate>
@@ -286,13 +293,6 @@ The University of Michigan Consumer Sentiment Index is expected to rise slightly
                             This article was written by Adam Button at www.forexlive.com.
                         
                         </description>
-    </item>
-    <item>
-      <title>(My Local Feed) BRUSSELS PLANS NEW TAX ON BIG COMPANIES TO BOOST EU BUDGET - FT</title>
-      <link>https://x.com/DeItaone/status/1943725393481003225#m</link>
-      <pubDate>Fri, 11 Jul 2025 17:33:41 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1943725393481003225#m</guid>
-      <description>&lt;p&gt;BRUSSELS PLANS NEW TAX ON BIG COMPANIES TO BOOST EU BUDGET - FT&lt;/p&gt;</description>
     </item>
     <item>
       <title>MUFG: FX reserve managers big sellers of JPY and AUD in Q1</title>
