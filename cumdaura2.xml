@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *US PRESIDENT DONALD TRUMP MAKING PRIVATE SCOTLAND VISIT IN JULY</title>
+      <link>https://x.com/DeItaone/status/1944721831799165235#m</link>
+      <pubDate>Mon, 14 Jul 2025 11:33:10 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1944721831799165235#m</guid>
+      <description>&lt;p&gt;*US PRESIDENT DONALD TRUMP MAKING PRIVATE SCOTLAND VISIT IN JULY&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) AIR-RAID ALERT DECLARED IN KYIV SHORTLY AFTER U.S. ENVOY KELLOGG MEETS ZELENSKIY</title>
       <link>https://x.com/DeItaone/status/1944718960827433371#m</link>
       <pubDate>Mon, 14 Jul 2025 11:21:46 GMT</pubDate>
@@ -439,13 +446,6 @@
       <pubDate>Sun, 13 Jul 2025 13:26:20 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1944387921743605915#m</guid>
       <description>&lt;p&gt;HASSETT: THESE TARIFFS ARE REAL IF TRUMP GETS PROPOSALS THAT HE DOESN&apos;T THINK ARE GOOD ENOUGH&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) HASSETT SAYS TRUMP HAS SEEN SOME OUTLINES OF PROPOSED TRADE DEALS AND THINKS THEY NEED TO BE BETTER</title>
-      <link>https://x.com/DeItaone/status/1944387742051229697#m</link>
-      <pubDate>Sun, 13 Jul 2025 13:25:37 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1944387742051229697#m</guid>
-      <description>&lt;p&gt;HASSETT SAYS TRUMP HAS SEEN SOME OUTLINES OF PROPOSED TRADE DEALS AND THINKS THEY NEED TO BE BETTER&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
