@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) BARCLAYS RAISES CHINA 2025 GDP GROWTH FORECAST TO 4.5% FROM 4%</title>
+      <link>https://x.com/DeItaone/status/1945056000521670988#m</link>
+      <pubDate>Tue, 15 Jul 2025 09:41:02 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1945056000521670988#m</guid>
+      <description>&lt;p&gt;BARCLAYS RAISES CHINA 2025 GDP GROWTH FORECAST TO 4.5% FROM 4%&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>What are the interest rates expectations ahead of the US CPI?</title>
       <link>https://www.forexlive.com/news/what-are-the-interest-rates-expectations-ahead-of-the-us-cpi-20250715/</link>
       <pubDate>Tue, 15 Jul 2025 09:22:09 GMT</pubDate>
@@ -530,13 +537,6 @@ net 273.5bn yuan injection&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Earlier:&lt;/p&gt;&lt;u
       <pubDate>Mon, 14 Jul 2025 15:25:21 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1944780264132977079#m</guid>
       <description>&lt;p&gt;TRUMP: EXCITED ABOUT GOLDEN DOME&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP: UKRAINE IS LOSING ON EQUIPMENT</title>
-      <link>https://x.com/DeItaone/status/1944780183111704958#m</link>
-      <pubDate>Mon, 14 Jul 2025 15:25:02 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1944780183111704958#m</guid>
-      <description>&lt;p&gt;TRUMP: UKRAINE IS LOSING ON EQUIPMENT&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
