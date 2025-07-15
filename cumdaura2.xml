@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) LAVROV ON TRUMP&apos;S STATEMENT ABOUT UKRAINE: WE WANT TO UNDERSTAND WHAT THE U.S. PRESIDENT IS MOVED BY</title>
+      <link>https://x.com/DeItaone/status/1945086993014137149#m</link>
+      <pubDate>Tue, 15 Jul 2025 11:44:11 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1945086993014137149#m</guid>
+      <description>&lt;p&gt;LAVROV ON TRUMP&apos;S STATEMENT ABOUT UKRAINE: WE WANT TO UNDERSTAND WHAT THE U.S. PRESIDENT IS MOVED BY&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Forexlive European FX news wrap: Awaiting the US CPI release</title>
       <link>https://www.forexlive.com/news/forexlive-european-fx-news-wrap-awaiting-the-us-cpi-release-20250715/</link>
       <pubDate>Tue, 15 Jul 2025 11:34:50 GMT</pubDate>
@@ -563,13 +570,6 @@ expected 3.7%, prior 3.7%
       <pubDate>Mon, 14 Jul 2025 15:36:36 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1944783094495445161#m</guid>
       <description>&lt;p&gt;TRUMP: WILL HAVE MORE FRIENDLY TARIFFS&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP: WILL TALK TO COUNTRIES ON TARIFFS</title>
-      <link>https://x.com/DeItaone/status/1944782999045771622#m</link>
-      <pubDate>Mon, 14 Jul 2025 15:36:13 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1944782999045771622#m</guid>
-      <description>&lt;p&gt;TRUMP: WILL TALK TO COUNTRIES ON TARIFFS&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
