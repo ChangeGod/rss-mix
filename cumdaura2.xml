@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) TRUMP: LOWER RATE, TOO LATE!</title>
+      <link>https://x.com/DeItaone/status/1946170816967676039#m</link>
+      <pubDate>Fri, 18 Jul 2025 11:30:55 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1946170816967676039#m</guid>
+      <description>&lt;p&gt;TRUMP: LOWER RATE, TOO LATE!&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Trump continues to lambast &quot;too late&quot; Powell</title>
       <link>https://www.forexlive.com/news/trump-continues-to-lambast-too-late-powell-20250718/</link>
       <pubDate>Fri, 18 Jul 2025 10:50:37 GMT</pubDate>
@@ -485,13 +492,6 @@ $NFLX</title>
       <pubDate>Thu, 17 Jul 2025 17:51:48 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1945904280562462907#m</guid>
       <description>&lt;p&gt;*TRUMP HAD SWELLING IN LOWER LEGS EVALUATED&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) WHITE HOUSE READING DOCTOR LETTER: MINOR BRUISING ON HAND CONSISTENT WITH FREQUENT HAND SHAKING</title>
-      <link>https://x.com/DeItaone/status/1945904187092476277#m</link>
-      <pubDate>Thu, 17 Jul 2025 17:51:26 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1945904187092476277#m</guid>
-      <description>&lt;p&gt;WHITE HOUSE READING DOCTOR LETTER: MINOR BRUISING ON HAND CONSISTENT WITH FREQUENT HAND SHAKING&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
