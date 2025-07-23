@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *EU&apos;S €100 BILLION NO-DEAL PLAN TO MATCH US 30% TARIFF</title>
+      <link>https://x.com/DeItaone/status/1947973508060917808#m</link>
+      <pubDate>Wed, 23 Jul 2025 10:54:10 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1947973508060917808#m</guid>
+      <description>&lt;p&gt;*EU&apos;S €100 BILLION NO-DEAL PLAN TO MATCH US 30% TARIFF&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) $AMZN - BOFA RAISES AMAZON PRICE TARGET TO $265
 
 BofA Securities raised its Amazon price target to $265 from $248, maintaining a Buy rating. Analyst Justin Post cites strong retail trends, accelerating AWS capex, and potential for AWS growth in the second half of the year. He also sees room for multiple expansion given sector trends and Amazon’s valuation.</title>
@@ -535,17 +542,6 @@ TRUMP: WE CONCLUDED OUR TRADE DEAL WITH PHILIPPINES&lt;/p&gt;</description>
       <pubDate>Tue, 22 Jul 2025 16:02:16 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1947688657395105934#m</guid>
       <description>&lt;p&gt;🚨 TRUMP: THINKING ABOUT NO TAX ON CAPITAL GAINS, HOUSES&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) MICROSOFT: CHINESE HACKERS TARGETED SHAREPOINT SERVERS
-
-Microsoft says Chinese state-backed hackers, including Linen Typhoon, Violet Typhoon, and Storm-2603, exploited vulnerabilities in its SharePoint servers starting July 7. The company urged customers to install security updates following recent active attacks. SharePoint Online in Microsoft 365 is not affected.</title>
-      <link>https://x.com/DeItaone/status/1947688371544903834#m</link>
-      <pubDate>Tue, 22 Jul 2025 16:01:08 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1947688371544903834#m</guid>
-      <description>&lt;p&gt;MICROSOFT: CHINESE HACKERS TARGETED SHAREPOINT SERVERS&lt;br&gt;
-&lt;br&gt;
-Microsoft says Chinese state-backed hackers, including Linen Typhoon, Violet Typhoon, and Storm-2603, exploited vulnerabilities in its SharePoint servers starting July 7. The company urged customers to install security updates following recent active attacks. SharePoint Online in Microsoft 365 is not affected.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
