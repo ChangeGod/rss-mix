@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) $INTC - INTEL SHARES EXTEND DECLINES, LAST DOWN 8.2% PREMARKET</title>
+      <link>https://x.com/DeItaone/status/1948703491678982232#m</link>
+      <pubDate>Fri, 25 Jul 2025 11:14:52 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1948703491678982232#m</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://localhost:8080/search?q=%23INTC&quot;&gt;$INTC&lt;/a&gt; - INTEL SHARES EXTEND DECLINES, LAST DOWN 8.2% PREMARKET&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>What are the interest rates expectations for the major central banks?</title>
       <link>https://investinglive.com/centralbank/what-are-the-interest-rates-expectations-for-the-major-central-banks-20250725/</link>
       <pubDate>Fri, 25 Jul 2025 10:48:55 GMT</pubDate>
@@ -492,13 +499,6 @@ Tesla’s Q2 profits fell 16% and sales dropped 12%, but Elon Musk says the futu
       <pubDate>Thu, 24 Jul 2025 16:31:54 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1948420889915064640#m</guid>
       <description>&lt;p&gt;🚨 TRUMP ADMINISTRATION GREENLIGHTS CHEVRON TO RESUME PUMPING OIL IN VENEZUELA, SOURCES SAY -- WSJ&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) OPENAI PREPARES TO LAUNCH GPT-5 IN AUGUST - THE VERGE</title>
-      <link>https://x.com/DeItaone/status/1948413350817177797#m</link>
-      <pubDate>Thu, 24 Jul 2025 16:01:57 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1948413350817177797#m</guid>
-      <description>&lt;p&gt;OPENAI PREPARES TO LAUNCH GPT-5 IN AUGUST - THE VERGE&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
