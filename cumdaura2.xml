@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *TESLA APPROVES 96M SHARE STOCK AWARD TO ELON MUSK</title>
+      <link>https://x.com/DeItaone/status/1952314701389709365#m</link>
+      <pubDate>Mon, 04 Aug 2025 10:24:31 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1952314701389709365#m</guid>
+      <description>&lt;p&gt;*TESLA APPROVES 96M SHARE STOCK AWARD TO ELON MUSK&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>S&amp;P 500 Technical Analysis – Time to buy the dip?</title>
       <link>https://investinglive.com/stocks/sp-500-technical-analysis-time-to-buy-the-dip-20250804/</link>
       <pubDate>Mon, 04 Aug 2025 09:55:42 GMT</pubDate>
@@ -607,13 +614,6 @@ CANADA&apos;S TRADE MINISTER SAYS A DEAL TO BRING DOWN SOME TARIFFS IS AN &apos;
       <pubDate>Fri, 01 Aug 2025 20:38:55 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1951382157701546292#m</guid>
       <description>&lt;p&gt;TRUMP ON BLS: THERE&apos;S LOTS OF GOOD CANDIDATES&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP SAYS THE BLS COMMISSIONER PUT OUT NOS BEFORE THE ELECTION TO HELP DEMOCRATS</title>
-      <link>https://x.com/DeItaone/status/1951381943129452771#m</link>
-      <pubDate>Fri, 01 Aug 2025 20:38:04 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1951381943129452771#m</guid>
-      <description>&lt;p&gt;TRUMP SAYS THE BLS COMMISSIONER PUT OUT NOS BEFORE THE ELECTION TO HELP DEMOCRATS&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
