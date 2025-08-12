@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) *EVERGRANDE TO BE DELISTED IN HONG KONG</title>
+      <link>https://x.com/DeItaone/status/1955228815434584285#m</link>
+      <pubDate>Tue, 12 Aug 2025 11:24:10 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1955228815434584285#m</guid>
+      <description>&lt;p&gt;*EVERGRANDE TO BE DELISTED IN HONG KONG&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>USDCHF Technical Analysis – All eyes on the US CPI data</title>
       <link>https://investinglive.com/forex/usdchf-technical-analysis-all-eyes-on-the-us-cpi-data-20250812/</link>
       <pubDate>Tue, 12 Aug 2025 10:38:51 GMT</pubDate>
@@ -591,13 +598,6 @@ TRUMP: MEETING WAS A VERY INTERESTING ONE&lt;/p&gt;</description>
       <pubDate>Mon, 11 Aug 2025 15:34:18 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1954929374857396469#m</guid>
       <description>&lt;p&gt;TRUMP ON CHINA TRADE: THEY&apos;VE BEEN DEALING NICELY&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP ON CHINA: WE&apos;LL SEE WHAT HAPPENS</title>
-      <link>https://x.com/DeItaone/status/1954929291600543792#m</link>
-      <pubDate>Mon, 11 Aug 2025 15:33:58 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1954929291600543792#m</guid>
-      <description>&lt;p&gt;TRUMP ON CHINA: WE&apos;LL SEE WHAT HAPPENS&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
