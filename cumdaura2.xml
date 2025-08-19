@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) XIAOMI PRESIDENT LU: XIAOMI EV TO ENTER EUROPE IN 2027</title>
+      <link>https://x.com/DeItaone/status/1957747751552426120#m</link>
+      <pubDate>Tue, 19 Aug 2025 10:13:31 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1957747751552426120#m</guid>
+      <description>&lt;p&gt;XIAOMI PRESIDENT LU: XIAOMI EV TO ENTER EUROPE IN 2027&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) RUSSIAN FOREIGN MINISTER LAVROV: RUSSIA DOES NOT REJECT ANY FORMATS TO DISCUSS PEACE PROCESS IN UKRAINE</title>
       <link>https://x.com/DeItaone/status/1957742714369503625#m</link>
       <pubDate>Tue, 19 Aug 2025 09:53:30 GMT</pubDate>
@@ -676,13 +683,6 @@ important core measure (Trim and Median) is expected to stay elevated around 3.1
       <pubDate>Mon, 18 Aug 2025 19:01:01 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1957518112862965785#m</guid>
       <description>&lt;p&gt;TRUMP: WE ALSO NEED TO DISCUSS THE POSSIBLE EXCHANGES OF TERRITORY&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP: RUSSIA AGREED TO ACCEPT SECURITY GUARANTEES</title>
-      <link>https://x.com/DeItaone/status/1957518063986966603#m</link>
-      <pubDate>Mon, 18 Aug 2025 19:00:50 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1957518063986966603#m</guid>
-      <description>&lt;p&gt;TRUMP: RUSSIA AGREED TO ACCEPT SECURITY GUARANTEES&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
