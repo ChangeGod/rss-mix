@@ -5,6 +5,17 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) $NVDA - NVIDIA WORKING ON NEW AI CHIP FOR CHINA: SOURCES
+
+Nvidia is developing a new AI chip for China based on its latest Blackwell architecture that will be more powerful than the H20 model it is currently allowed to sell there, two people briefed on the matter said</title>
+      <link>https://x.com/DeItaone/status/1957755101654704358#m</link>
+      <pubDate>Tue, 19 Aug 2025 10:42:44 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1957755101654704358#m</guid>
+      <description>&lt;p&gt;&lt;a href=&quot;http://localhost:8080/search?q=%23NVDA&quot;&gt;$NVDA&lt;/a&gt; - NVIDIA WORKING ON NEW AI CHIP FOR CHINA: SOURCES&lt;br&gt;
+&lt;br&gt;
+Nvidia is developing a new AI chip for China based on its latest Blackwell architecture that will be more powerful than the H20 model it is currently allowed to sell there, two people briefed on the matter said&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>NZDUSD Technical Analysis – RBNZ and Fed Chair Powell on the agenda</title>
       <link>https://investinglive.com/forex/nzdusd-technical-analysis-rbnz-and-fed-chair-powell-on-the-agenda-20250819/</link>
       <pubDate>Tue, 19 Aug 2025 10:24:31 GMT</pubDate>
@@ -720,13 +731,6 @@ important core measure (Trim and Median) is expected to stay elevated around 3.1
       <pubDate>Mon, 18 Aug 2025 19:01:16 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1957518175412895818#m</guid>
       <description>&lt;p&gt;TRUMP: PEACE AGREEMENT AT END IS ATTAINABLE&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP: WE ALSO NEED TO DISCUSS THE POSSIBLE EXCHANGES OF TERRITORY</title>
-      <link>https://x.com/DeItaone/status/1957518112862965785#m</link>
-      <pubDate>Mon, 18 Aug 2025 19:01:01 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1957518112862965785#m</guid>
-      <description>&lt;p&gt;TRUMP: WE ALSO NEED TO DISCUSS THE POSSIBLE EXCHANGES OF TERRITORY&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
