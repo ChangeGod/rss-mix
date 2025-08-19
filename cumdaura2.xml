@@ -5,6 +5,13 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>(My Local Feed) 🚨 TRUMP: I WILL BE INTERVIEWED ON FOX &amp; FRIENDS AT 8:00 A.M</title>
+      <link>https://x.com/DeItaone/status/1957765173092958399#m</link>
+      <pubDate>Tue, 19 Aug 2025 11:22:45 GMT</pubDate>
+      <guid>http://localhost:8080/DeItaone/status/1957765173092958399#m</guid>
+      <description>&lt;p&gt;🚨 TRUMP: I WILL BE INTERVIEWED ON FOX &amp; FRIENDS AT 8:00 A.M&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>(My Local Feed) RUSSIAN FOREIGN MINISTER LAVROV: TERRITORIAL CHANGES QUITE OFTEN ARE INDISPENSABLE PARTS OF REACHING AGREEMENTS - VESTI TELEGRAM CHANNEL</title>
       <link>https://x.com/DeItaone/status/1957762743643045973#m</link>
       <pubDate>Tue, 19 Aug 2025 11:13:06 GMT</pubDate>
@@ -728,13 +735,6 @@ important core measure (Trim and Median) is expected to stay elevated around 3.1
       <pubDate>Mon, 18 Aug 2025 19:16:25 GMT</pubDate>
       <guid>http://localhost:8080/DeItaone/status/1957521988735655973#m</guid>
       <description>&lt;p&gt;TRUMP: PUTIN WANTS TO FIND AN ANSWER&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>(My Local Feed) TRUMP: PUTIN REALLY WOULD LIKE TO DO SOMETHING</title>
-      <link>https://x.com/DeItaone/status/1957519063254475243#m</link>
-      <pubDate>Mon, 18 Aug 2025 19:04:48 GMT</pubDate>
-      <guid>http://localhost:8080/DeItaone/status/1957519063254475243#m</guid>
-      <description>&lt;p&gt;TRUMP: PUTIN REALLY WOULD LIKE TO DO SOMETHING&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
