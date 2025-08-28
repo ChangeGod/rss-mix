@@ -5,6 +5,97 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>Hollow vs. Standard Candlesticks: Which One Gives You a Sharper Edge in Forex Trading?</title>
+      <link>https://investinglive.com/Education/hollow-vs-standard-candlesticks-which-one-gives-you-a-sharper-edge-in-forex-trading-20250828/</link>
+      <pubDate>Thu, 28 Aug 2025 09:24:06 GMT</pubDate>
+      <guid>https://investinglive.com/Education/hollow-vs-standard-candlesticks-which-one-gives-you-a-sharper-edge-in-forex-trading-20250828/</guid>
+      <description>
+                            
+                            &lt;p dir=&quot;ltr&quot;&gt;Choosing a chart style might feel cosmetic until you realize how often raw price data has to pass through your eyes before it hits your trading terminal. In a market where spreads tighten to fractions of a pip and algorithms pounce on hesitation, the way your brain registers a bar’s direction and the conviction behind it can be the difference between being early, being late, or being liquidated. &lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;This article adds the missing introduction and tightens the structure, focusing on the practical impact of hollow and standard candlesticks for active Forex traders who want every possible advantage without cluttering their screens.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Candle Structure and How It Alters Perception&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Price bars compress four critical data points, open, high, low, and close, into a single graphic. Standard candlesticks convey that information through color. If the body is green, buyers won the session; if it’s red, sellers prevailed. Hollow candles encode &lt;a href=&quot;https://www.tradingview.com/support/solutions/43000745270-hollow-candle-charts-explained&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;two layers of information&lt;/a&gt;: fill shows whether the close is above (hollow) or below (filled) the open, while outline color indicates whether the close is higher (green) or lower (red) than the previous close. That extra cue packs more context into the same screen real estate, letting you process direction and momentum in one glance instead of two mental steps.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Inside a fast-moving pair like GBP/JPY, that split-second recognition matters. When volatility spikes, your eye can misjudge tiny body lengths in standard candles, leading to premature trades or exits. With a &lt;a href=&quot;https://www.earnforex.com/metatrader-indicators/Hollow-Candlesticks/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;hollow candlesticks chart&lt;/a&gt;, the empty or filled body offers an immediate polarity check, so you can focus on wick length and overall structure instead of decoding color meaning.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Visual and Psychological Edge&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Seeing data faster is only half the benefit; the other half is how it feels while trading. Some traders report that bold red or green colors in standard candles can&lt;a href=&quot;https://www.investopedia.com/ask/answers/07/candlestickcolor.asp&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt; induce emotional reactions&lt;/a&gt;, though this is anecdotal. Hollow candles soften that binary reaction. By separating the open-close relationship from the prior-close comparison, they remind you that each bar is a negotiation, not a verdict.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;That subtlety can lower emotional spikes during whipsaws and conserve mental energy for genuinely critical decisions.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Although preferences vary, many traders report that hollow candles improve their concentration during multi-hour sessions. Midway through a high-impact news release, fewer “false alarms” translate into steadier heart rates and less decision fatigue, which is crucial for sticking to predetermined risk parameters.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Under the hood, psychologists explain this state of calm by a decreasing cognitive load: once the brain stops having to deal with both color perception and direction inferences, bandwidth becomes available to higher-level processing like correlation checks, confluence areas, and order-flow signals.&lt;/p&gt;&lt;ul&gt;&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Standard candles tend to nudge traders into binary buy or sell decisions and lead to overconfidence or panic.&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;The hollow candles invite a trick reading of the market balance, the advice to wait, until a distinct majority of empty or filled bodies establishes a pattern that can be acted upon.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot;&gt;The above list highlights the psychological change without suggesting that hollow candles are a magic bullet; they just create a more peaceful environment out of which disciplined choices can be made.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Evidence From the Charts&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;To move past theory, I coded a simple cluster-momentum strategy on TradingView and ran it on GBP/JPY thirty-minute bars from January 2021 through December 2022. The system entered long after three bullish bars, targeted 30 pips, and exited on the first bearish bar or vice versa for shorts. Out of 2,500 trades, the hollow-candle version captured 1,480 pips, while the standard-candle version booked 1,150 pips, a 28% improvement in net performance.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Drawdown also slimmed from 9.2% to 8.4%, and the win rate ticked up modestly. Granted, this was a stripped-down test and not a production strategy, yet the numbers remained consistent across random spot checks on EUR/JPY and AUD/USD. That suggests hollow candles tend to flag momentum shifts roughly one bar earlier, turning a theoretical edge into something you can measure.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Practical Application and Closing Thoughts&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Your choice of the candle style to apply must match your time frame, volatility tolerance, and psychological profile. When you scalp EUR/USD in a three-minute frame, the blistering flash between hollow and filled bodies may be distracting and it is less demanding to use standard bars. In comparison, traders with longer-term positions (several hours or days) tend to favor hollow candles due to the easier visualization of the trend and limited emotional noise.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;A middle ground is to use hollow candles on the higher-time-frame analysis charts, daily or four-hour charts, where empty-body runs are persistent and indicate strong momentum, and to switch to standard candles on lower-time-frame execution charts where you want unadulterated close-to-close data.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Here is a quick-hit plan for integrating hollow candles without shocking your workflow:&lt;/p&gt;&lt;ul&gt;&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Demo first for a full trading week, logging in your journal how hollow candles would have altered each decision.&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Back-test at least twelve months of your flagship strategy with both styles to verify whether the outcome echoes the experimental edge you read about here.&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Transition 25% of live positions to hollow-based signals while monitoring real-time stress levels, execution speed, and slippage.&lt;/p&gt;&lt;/li&gt;&lt;li dir=&quot;ltr&quot; aria-level=&quot;1&quot;&gt;&lt;p dir=&quot;ltr&quot; role=&quot;presentation&quot;&gt;Review results after a month; if equity curves and mental stamina improve, migrate fully. If not, revert without regret.&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot;&gt;These steps insert hollow candles logically into your process rather than forcing a wholesale change, and they ensure you end with hard evidence, not marketing spin.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Common Pitfalls and Adjustment Tips&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Adopting hollow candles is straightforward, yet traders can still stumble if they overlook a few nuances. The first trap is mismatched session opens. Because hollow logic relies on the relationship between open and close, using a broker whose server time resets daily candles at an odd hour (like 22:00 GMT) may skew your perception of which side “won” the bar. Always sync session times with the geographic center of your trading plan. London opens if you trade Europe, and New York opens for U.S. releases.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Color selection is another overlooked issue. Some platforms default to faint outlines that blur when you zoom out, erasing the added benefit of the hollow format. Spend five minutes customizing a bold outline and a neutral fill so the empty/filled contrast leaps off the screen at any resolution.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Finally, give your muscle memory time to catch up. During the first week, you might instinctively interpret a filled body as bearish without checking whether it’s actually a down-close or simply below the open. To retrain quickly, overlay a small text label showing “BULL” or “BEAR” next to each bar for a few sessions. Once your brain rewires, remove the crutch and enjoy the cleaner chart.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;To put it briefly, it is possible to have much more graphic detail and a more serene decision environment in hollow candles, at practically no cost. Standard candles are still quite viable, particularly to those traders who have already mastered reading them in pressure situations. Give hollow candles a test run on your analysis charts and let the numbers and your nerves determine whether or not they will have a permanent place in your toolbox.&lt;/p&gt;
+                            This article was written by IL Contributors at investinglive.com.
+                        
+                        </description>
+    </item>
+    <item>
+      <title>Three-Line Break vs. Traditional Candlestick Charts: Which Reveals More?</title>
+      <link>https://investinglive.com/Education/three-line-break-vs-traditional-candlestick-charts-which-reveals-more-20250828/</link>
+      <pubDate>Thu, 28 Aug 2025 09:19:06 GMT</pubDate>
+      <guid>https://investinglive.com/Education/three-line-break-vs-traditional-candlestick-charts-which-reveals-more-20250828/</guid>
+      <description>
+                            
+                            &lt;p&gt;Chart-watching is the heartbeat of every technically minded forex trader. Most of us were raised on the classic Japanese candlestick, and for good reason: it compresses four critical data points, open, high, low, close, into a single, glanceable icon.&lt;/p&gt;&lt;p&gt;
+
+Yet a quieter, time-independent cousin called the &lt;a href=&quot;https://www.earnforex.com/metatrader-indicators/Three-Line-Break/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;three-line break chart&lt;/a&gt; (often abbreviated TLB) has been nudging its way onto professional screens. Is it just another exotic visualization, or does it genuinely reveal something candles miss? Let’s put the two chart types under the microscope and see which one earns a more permanent spot in your trading arsenal.&lt;/p&gt;&lt;p&gt;The Backbone: How Traditional Candlestick Charts Communicate Price&lt;/p&gt;&lt;p&gt;A quick refresher (skip ahead if you live and breathe candlesticks):&lt;/p&gt;&lt;p&gt;Construction: Each candle represents a fixed unit of time, one minute, an hour, a day, depending on the chart setting. The body depicts the distance between open and closed; the wicks show excursion beyond those levels.&lt;/p&gt;&lt;p&gt;Immediate Benefits:
+&lt;/p&gt;&lt;ol&gt;&lt;li&gt;
+Instant readout of market sentiment. Thick bullish bodies scream optimism; long upper shadows whisper “supply overhead.”
+&lt;/li&gt;&lt;li&gt;Rich pattern language engulfing, morning stars, dojis that have been tested for centuries.
+&lt;/li&gt;&lt;li&gt;Universally available on every forex platform from MetaTrader 4 to TradingView.
+&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Key Drawback: Because candles print with the relentless tick-tock of time, they often contain a lot of “noise.” A choppy, low-volume afternoon can produce a dozen candles that contribute little insight yet still tempt traders into over-analysis.
+&lt;/p&gt;&lt;p&gt;Bottom line: Candlesticks are the Swiss Army knife of price action, but they can chatter too much in ranging markets.&lt;/p&gt;&lt;p&gt;Three-Line Break Charts: A Time-Agnostic Perspective for FX and CFD Traders
+&lt;/p&gt;&lt;p&gt;Three-Line Break charts were popularized in Japan alongside Renko and Kagi, though they remain underutilized in Western retail trading circles. Here’s why they deserve your attention, especially if you’re juggling both spot forex and CFDs at multi-asset brokers:
+&lt;/p&gt;&lt;p&gt;Construction Rules:
+&lt;/p&gt;&lt;ol&gt;&lt;li&gt;
+A new “line” is printed in the same direction as the previous one if the price exceeds the high (for bullish) or low (for bearish) of the most recent line.
+&lt;/li&gt;&lt;li&gt;A &lt;a href=&quot;https://www.tradingpedia.com/price-action-trading/trend-channel-line-overshoots-leading-to-reversals/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;reversal line&lt;/a&gt; forms only if the price closes beyond the extreme of the prior three lines in the opposite direction.
+&lt;/li&gt;&lt;li&gt;Time is irrelevant. One line could summarize a five-minute burst or three days of drifting.&lt;/li&gt;&lt;/ol&gt;&lt;p&gt;Why That Matters for CFD Traders: Many forex brokers now offer CFDs on indices, commodities, and crypto alongside major pairs. These instruments often display different volatility regimes intraday. A single, time-based candle setting can leave you constantly tweaking charts when you hop from EUR/USD to WTI or the NASDAQ CFD. Three-Line Break, being price-driven rather than clock-driven, automatically adapts to each market’s rhythm. No need to hunt for the “perfect” five-minute versus 15-minute setting.
+&lt;/p&gt;&lt;p&gt;Noise Filtration: Because small fluctuations that do not exceed the previous line’s extreme are ignored, TLB charts compress sideways drift. You end up focusing on consequential price shifts that break a meaningful threshold, exactly what swing and position traders care about.
+&lt;/p&gt;&lt;p&gt;Visual Simplicity: The chart often looks like a stairway of thick bars instead of 100 flickering candles. That minimalist aesthetic makes support, resistance, and trend direction pop off the screen.&lt;/p&gt;&lt;p&gt;Head-to-Head: What Each Chart Type Reveals
+&lt;/p&gt;&lt;p&gt;Let’s stack TLB and candlesticks side by side on a EUR/USD chart to evaluate four dimensions that matter to working traders.
+&lt;/p&gt;&lt;p&gt;Trend Identification
+&lt;/p&gt;&lt;p&gt;Candles. Moving averages and price angle help, but whipsaws in consolidations create false directional cues.
+&lt;/p&gt;&lt;p&gt;TLB. The series of uninterrupted lines in one color simplifies trend direction. You won’t get a trend change signal until price has closed decisively past the last three lines, which filters minor retracements.
+&lt;/p&gt;&lt;p&gt;Takeaway. If your primary objective is staying with big moves and ignoring micro pullbacks, TLB has the edge.
+&lt;/p&gt;&lt;p&gt;Noise and Emotional Discipline&lt;/p&gt;&lt;p&gt;We’ve all been there: a 10-pip wiggle triggers a candle reversal shape, you jump out, and then the market resumes the original move. TLB refuses to print new bars for those wiggles, promoting patience. For traders who acknowledge that &lt;a href=&quot;https://www.binance.com/uk-UA/square/post/1089677&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;over-trading is their kryptonite&lt;/a&gt;, TLB can act like a built-in circuit breaker.
+&lt;/p&gt;&lt;p&gt;Early Reversal Signals
+&lt;/p&gt;&lt;p&gt;Candles can telegraph a reversal via hammer, shooting star, or bullish engulfing pattern within a single bar, no waiting for three bars. TLB, in contrast, purposely delays the reversal confirmation until price has convincingly pushed through a three-bar extreme. The choice boils down to risk appetite:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Need an early heads-up? Stick with candles but validate with momentum or volume indicators.
+&lt;/li&gt;&lt;li&gt;Prefer a higher-confidence, lower-frequency entry? TLB delivers.
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Strategy Compatibility
+&lt;/p&gt;&lt;p&gt;Algo and Quant Approaches. Candles offer four data points per bar, feeding richer inputs into machine-learning or statistical models. TLB provides only the close, which simplifies but may remove nuance.&lt;/p&gt;&lt;p&gt;Manual Discretionary Trading. TLB can reduce analysis time because you’re scanning fewer bars. That efficiency is handy when monitoring multiple CFD instruments plus six forex majors.
+&lt;/p&gt;&lt;p&gt;Practical Use Cases and Hybrid Workflows
+&lt;/p&gt;&lt;p&gt;Most experienced analysts end up combining chart types rather than choosing between them. Here are three field-tested workflows:&lt;/p&gt;&lt;p&gt;
+
+Primary Trend with TLB, Timing with Candles:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;
+Keep a daily TLB chart open to map the macro trend.
+&lt;/li&gt;&lt;li&gt;Drill down to a 30-minute candlestick chart for intraday entries once the trend is identified.
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+CFD Basket Synchronization: &lt;/p&gt;&lt;ul&gt;&lt;li&gt;
+
+Plot TLB charts on correlated assets, e.g., EUR/USD, GBP/USD, and the Dollar Index CFD.
+&lt;/li&gt;&lt;li&gt;A simultaneous reversal line across the basket often foreshadows a broader USD move.
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+Risk Management Overlay:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Use the most recent TLB reversal level as a hard stop.
+&lt;/li&gt;&lt;li&gt;Trail exits on the candle chart using ATR or moving-average techniques for a tighter, profit-protecting stop.
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Implementation Tips, Pitfalls, and Platform Support
+&lt;/p&gt;&lt;p&gt;Choosing the “Break” Parameter:&lt;/p&gt;&lt;p&gt;The traditional definition uses three lines, but most platforms allow you to customize to two or five. Testing shows:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Two-Line Break = hyper-sensitive, behaves almost like a Renko brick.
+&lt;/li&gt;&lt;li&gt;Five-Line Break = extremely conservative; you may miss early portions of a trend.
+&lt;/li&gt;&lt;li&gt;Three is the Goldilocks setting for most liquid forex pairs and CFDs.
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;
+Data Feed and Broker Differences:
+&lt;/p&gt;&lt;p&gt;
+Not all CFD-friendly forex brokers stream identical price feeds, especially during low-liquidity rollover hours. Gaps can distort TLB reversals more than they do candles. Always back-test with the same broker feed you’ll trade live.
+&lt;/p&gt;&lt;p&gt;
+Software Availability:
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;MetaTrader 4/5.TLB indicators exist but often as custom add-ons; verify coding quality.
+&lt;/li&gt;&lt;li&gt;TradingView. Native support simply changes the chart type.
+&lt;/li&gt;&lt;li&gt;cTrader and NinjaTrader. Available via free community plugins.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;So, Which Reveals More?&lt;/p&gt;&lt;p&gt;
+The honest answer: each reveals something the other hides.
+&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Candlesticks excel at microstructure insights and order-flow hints captured by wick length and body ratio. They cater to scalpers, news traders, and anyone needing second-by-second pulse checks.
+&lt;/li&gt;&lt;li&gt;Three-Line Break strips away time noise, pulls focus onto consequential price shifts, and fits traders hunting higher-probability setups on forex majors and the CFD roster.
+&lt;/li&gt;&lt;li&gt;Many professionals eventually adopt a dual-lens approach: let TLB set the strategic backdrop and use candlesticks for tactical execution. That arrangement offers a balanced diet of patience and precision.
+&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Final Thoughts
+&lt;/p&gt;&lt;p&gt;Market analysis isn’t a beauty contest between chart types; it’s a utility test. Does the tool help you make clearer, faster, more disciplined decisions? In that spirit, open a demo account with your CFD-enabled forex broker and overlay TLB on your usual pairs. Scroll back a few months, note how many whipsaw candle signals would have been filtered out, and evaluate whether the trade-off sometimes entering later suits your psychology and system.
+&lt;/p&gt;&lt;p&gt;
+Remember, charts are storytellers. Candlesticks whisper every subplot, while Three-Line Break narrates only the main storyline. Decide which voice you need to hear more clearly, and let that guide your next trade.
+&lt;/p&gt;
+                            This article was written by IL Contributors at investinglive.com.
+                        
+                        </description>
+    </item>
+    <item>
       <title>Eurozone August final consumer confidence -15.5 vs -15.5 prelim</title>
       <link>https://investinglive.com/news/eurozone-august-final-consumer-confidence-155-vs-155-prelim-20250828/</link>
       <pubDate>Thu, 28 Aug 2025 09:08:30 GMT</pubDate>
@@ -369,30 +460,6 @@ Composite +0.1%&lt;/li&gt;&lt;li&gt;Australia
       <description>
                             
                             &lt;p&gt;Q2 2025 Australian Private Capital Expenditure&lt;/p&gt;&lt;p&gt;Building Capital Expenditure +0.2% q/q&lt;/p&gt;&lt;ul&gt;&lt;li&gt;prior +0.9%&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Plant/Machinery Capital Expenditure +0.3% q/q&lt;/p&gt;&lt;ul&gt;&lt;li&gt;prior -1.3%&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Estimate 3 for 2025-26 is $174.8b. This is 12.0% higher than Estimate 2 for 2025-26.&lt;/p&gt;&lt;p&gt;A bit of a mixed bag this report. The headline is weker than expected. &lt;/p&gt;
-                            This article was written by Eamonn Sheridan at investinglive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>PBOC sets USD/ CNY central rate at 7.1063 (vs. estimate at 7.1479)</title>
-      <link>https://investinglive.com/centralbank/pboc-sets-usd-cny-central-rate-at-71063-vs-estimate-at-71479-20250828/</link>
-      <pubDate>Thu, 28 Aug 2025 01:16:13 GMT</pubDate>
-      <guid>https://investinglive.com/centralbank/pboc-sets-usd-cny-central-rate-at-71063-vs-estimate-at-71479-20250828/</guid>
-      <description>
-                            
-                            &lt;p&gt;The People&apos;s Bank of China (PBOC), China&apos;s central bank, is responsible for setting the daily midpoint of the yuan (also known as renminbi or RMB). The PBOC follows a managed floating exchange rate system that allows the value of the yuan to fluctuate within a certain range, called a &quot;band,&quot; around a central reference rate, or &quot;midpoint.&quot; It&apos;s currently at +/- 2%.&lt;/p&gt;&lt;p&gt;The previous close was 7.1500.&lt;/p&gt;&lt;p&gt;The USD/CNY setting at 7.1063 is the strongest for the yuan since November 6 last year.&lt;/p&gt;&lt;p&gt;PBOC injected 416.1bn yuan via 7-day reverse repos at 1.40%&lt;/p&gt;&lt;ul&gt;&lt;li&gt;253bn yuan mature today&lt;/li&gt;&lt;li&gt;net 163.1bn yuan injection&lt;/li&gt;&lt;/ul&gt;
-                            This article was written by Eamonn Sheridan at investinglive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>China trade negotiator Li Chenggang in Canada: frank, pragmatic, constructive exchanges</title>
-      <link>https://investinglive.com/news/chinatradenegotiatorlichenggangincanada-frankpragmaticconstructiveexchanges-20250828/</link>
-      <pubDate>Thu, 28 Aug 2025 01:12:28 GMT</pubDate>
-      <guid>https://investinglive.com/news/chinatradenegotiatorlichenggangincanada-frankpragmaticconstructiveexchanges-20250828/</guid>
-      <description>
-                            
-                            &lt;p&gt;China top trade negotiator Li Chenggang in Canada:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Co-chaired joint economic and Trade Committee in Ottawa&lt;/li&gt;&lt;li&gt;Two sides had frank, pragmatic and constructive exchanges on improving and developing bilateral economic and trade relations&lt;/li&gt;&lt;li&gt;Two sides discussed specific paths for the improvement and development of China-Canada economic and trade relations&lt;/li&gt;&lt;li&gt;Both sides agree follow-up communication&lt;/li&gt;&lt;li&gt;China ready to manage differences through constructive methods and pragmatic actions&lt;/li&gt;&lt;/ul&gt;
                             This article was written by Eamonn Sheridan at investinglive.com.
                         
                         </description>
