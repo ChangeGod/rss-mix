@@ -5,6 +5,184 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>EU says too early to give any details on next sanctions package against Russia</title>
+      <link>https://investinglive.com/news/eu-says-too-early-to-give-any-details-on-next-sanctions-package-against-russia-20250911/</link>
+      <pubDate>Thu, 11 Sep 2025 11:12:20 GMT</pubDate>
+      <guid>https://investinglive.com/news/eu-says-too-early-to-give-any-details-on-next-sanctions-package-against-russia-20250911/</guid>
+      <description>
+                            
+                            &lt;p class=&quot;text-align-justify&quot;&gt;European Commission president von der Leyen said that they were already working on it but so far, there&apos;s no exact timing on when that might come about. The exact details are also not confirmed yet it would seem but it could also target Russia&apos;s payment and credit card systems, crypto exchanges, as well as the ones mentioned above related to oil.&lt;/p&gt;
+                            This article was written by Justin Low at investinglive.com.
+                        
+                        </description>
+    </item>
+    <item>
+      <title>Building a Winning Trading Strategy from Scratch</title>
+      <link>https://investinglive.com/Education/building-a-winning-trading-strategy-from-scratch-20250911/</link>
+      <pubDate>Thu, 11 Sep 2025 11:02:05 GMT</pubDate>
+      <guid>https://investinglive.com/Education/building-a-winning-trading-strategy-from-scratch-20250911/</guid>
+      <description>
+                            
+                            &lt;p&gt;Every Forex trader
+remembers the day they realized random button-clicking is not a plan. If you’re
+reading this, you’re ready to move from improvised trades to a structured,
+data-driven strategy you can actually trust. The road is not glamorous, but it
+is logical. By the end of this guide, you’ll know how to turn a simple market
+idea into a repeatable edge, test it without risking a cent, and keep it sharp
+while the market evolves.&lt;/p&gt;&lt;p&gt;Start
+with a Clear Objective&lt;/p&gt;&lt;p&gt;A strategy is only as
+good as the goal it serves. For most self-directed traders, that goal is steady
+account growth with controlled downside, not a moon-shot lottery ticket. Write
+your objective in one sentence, e.g., “Earn 3% monthly on EUR/USD with a maximum
+5% drawdown.” That single line becomes your north star when temptation strikes.&lt;/p&gt;&lt;p&gt;Before diving into
+charts or testing &lt;a href=&quot;https://www.earnforex.com/indicators/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;Forex indicators&lt;/a&gt;, collect basic constraints:
+available trading hours, leverage rules of your broker, and personal tolerance
+for stress. If you can’t watch markets during London’s close, strategies that
+demand lightning-fast reaction there are off the table. Narrowing the scope
+early prevents costly rewrites later.&lt;/p&gt;&lt;p&gt;Define
+Your Edge&lt;/p&gt;&lt;p&gt;Now ask, “Why should
+the market pay me?” An edge could be statistical (mean-reversion after news
+spikes), structural (liquidity gaps at Asian session open), or behavioral
+(crowded positioning near option expiries). Pull at one thread, not five.
+Gathering sample charts that illustrate your hypothesis helps you visualize the
+edge and keeps the coming rule-building phase grounded in reality rather than
+wishful thinking.&lt;/p&gt;&lt;p&gt;Once you can point to
+ten historical examples that look similar, you’re ready to formalize the rules.&lt;/p&gt;&lt;p&gt;Transform
+Ideas into Concrete Rules&lt;/p&gt;&lt;p&gt;Trading plans fail
+when entries, exits, and filters are fuzzy. If a rule contains the words “looks
+like” or “feels like,” tighten it. For example:&lt;/p&gt;&lt;p&gt;●      Entry. Buy EUR/USD when the 20-period EMA
+crosses above the 50-period EMA AND RSI(14) closes above 55 on a 1-hour chart.&lt;/p&gt;&lt;p&gt;●      Exit. Close when RSI hits 70 or at 2× risk.&lt;/p&gt;&lt;p&gt;●      Filter. No trades one hour before major USD
+news.&lt;/p&gt;&lt;p&gt;Placing rules in plain
+language, then translating them to code (MetaTrader’s MQL, TradingView’s Pine
+Script, or Python) forces precision. Even if you don’t code yourself, handing a
+developer a bulletproof specification saves time and errors.&lt;/p&gt;&lt;p&gt;Avoid
+over-engineering. Two or three complementary indicators usually outperform a
+Frankenstein collection of ten. Each extra variable increases curve-fitting
+risk, where a model dazzles in the past and collapses in the future.&lt;/p&gt;&lt;p&gt;After drafting rules,
+step away for a day. If you can’t recall them clearly the next morning, they’re
+too complicated.&lt;/p&gt;&lt;p&gt;A quick gut-check:
+could you explain the logic to a friend in under two minutes? Clarity often
+predicts durability.&lt;/p&gt;&lt;p&gt;Validate
+with Data, Not Hope&lt;/p&gt;&lt;p&gt;The most sobering part
+of strategy creation is discovering that many clever ideas break when tested.
+Embrace it; rejection saves real money.&lt;/p&gt;&lt;p&gt;Begin with a clean
+historical data set. Most retail platforms provide at least ten years of minute
+data for major pairs; commercial sources such as TickData offer tick-level
+granularity if you’re serious. Segment your test:&lt;/p&gt;&lt;p&gt;●      In-sample (60% of history) for initial
+calibration.&lt;/p&gt;&lt;p&gt;●      Out-of-sample (30%) for genuine validation.&lt;/p&gt;&lt;p&gt;●      Forward-sample (live demo) for real-time proof.&lt;/p&gt;&lt;p&gt;During tests, record
+more than net profit: max drawdown, profit factor, Sharpe ratio, trade
+frequency, and R-multiple distribution. A strategy that triples your account
+but suffers 40 % drawdowns could ruin you emotionally before the payoff
+arrives.&lt;/p&gt;&lt;p&gt;Add a &lt;a href=&quot;https://www.investopedia.com/terms/m/montecarlosimulation.asp&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;Monte Carlo simulation&lt;/a&gt; that randomizes trade
+orders. If profitability evaporates after shuffling, your edge is fragile.&lt;/p&gt;&lt;p&gt;Backtesting
+Pitfalls to Avoid&lt;/p&gt;&lt;p&gt;Slippage, spread
+widening, and swap charges are easy to ignore on spreadsheets yet brutal in
+reality. Always include them at pessimistic levels; if a method survives with
+worst-case assumptions, it likely thrives in normal conditions.&lt;/p&gt;&lt;p&gt;Finally, guard against
+“look-ahead bias.” Your code must read only candles that existed at the trade
+timestamp, not future ones. Simple oversight here can turn a losing idea into a
+paper superstar.&lt;/p&gt;&lt;p&gt;Risk
+Management: The Unsung Hero&lt;/p&gt;&lt;p&gt;Edge and risk are
+inseparable; mismatching them is why statistically sound systems still blow up.
+Begin by fixing the percentage you risk per trade, commonly 0.5%–1% of equity.
+At first, this feels tiny, but small bets compound surprisingly fast when wins
+outnumber losses.&lt;/p&gt;&lt;p&gt;Position sizing is
+more than lot calculation. Correlate trades so you’re not short EUR/USD and
+long USD/CHF simultaneously if both hinge on the same dollar thesis. Sector
+exposure applies in currency land, too.&lt;/p&gt;&lt;p&gt;Set daily and weekly
+loss limits. Sports-psychology research shows decision quality drops sharply
+after three consecutive setbacks. A hard stop prevents revenge trading and
+preserves mental capital.&lt;/p&gt;&lt;p&gt;Risk isn’t just
+downside; opportunity cost matters. If a strategy ties up margin for days to
+earn 15 pips, capital could work harder elsewhere. Track return on margin the
+same way businesses track return on assets.&lt;/p&gt;&lt;p&gt;Keep in mind that U.S.
+retail brokers reported roughly &lt;a href=&quot;https://investmenttrends.com/resource/us-retail-margin-forex-and-crypto-trading-surge-in-2024-amid-new-trader-influx-and-diversification-trends&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;186,000 active margin-Forex accounts&lt;/a&gt; in 2024,
+with 71,000 of them opened or reactivated that year, a surge that underscores
+how quickly fresh capital floods the market and how essential disciplined risk
+controls are when the crowd piles in.&lt;/p&gt;
+                            This article was written by IL Contributors at investinglive.com.
+                        
+                        </description>
+    </item>
+    <item>
+      <title>How Professional Traders Learn and Refine Their Skills</title>
+      <link>https://investinglive.com/Education/how-professional-traders-learn-and-refine-their-skills-20250911/</link>
+      <pubDate>Thu, 11 Sep 2025 10:59:03 GMT</pubDate>
+      <guid>https://investinglive.com/Education/how-professional-traders-learn-and-refine-their-skills-20250911/</guid>
+      <description>
+                            
+                            &lt;p&gt;The FX market is a
+moving target, liquidity shifts by the hour, regime changes sneak in through
+new macro narratives, and technology redraws the execution landscape faster
+than most traders can adapt. That reality makes lifelong learning the only
+durable edge. In 2025, the gap between average and elite performance is no
+longer about who has the fanciest chart package; it’s about who can shorten the
+feedback loop between fresh information and refined execution. Below is a
+practical exploration of how seasoned professionals keep evolving long after
+they’ve “figured trading out.”&lt;/p&gt;&lt;p&gt;The
+Mindset That Keeps Pros in Motion&lt;/p&gt;&lt;p&gt;Professional traders
+don’t merely accept uncertainty; they court it. From that core belief flow
+three psychological habits that separate the stable from the stagnant.&lt;/p&gt;&lt;p&gt;Curiosity
+Beats Conviction&lt;/p&gt;&lt;p&gt;Confidence is
+necessary to hit the buy or sell button, but curiosity is what keeps you
+solvent over decades. Pros routinely ask, “What am I missing?” That question
+pushes them to run sensitivity tests on everything from stop-loss distances to
+China’s latest loan-prime-rate tweak. Curiosity also inoculates traders from
+dogmatism; they’re willing to flip a long-held bias the moment the data
+discredits it. Many successful traders supplement this curiosity by studying a
+wide range of &lt;a href=&quot;https://www.earnforex.com/forex-e-books/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;Forex e-books&lt;/a&gt;, which expose them to
+alternative strategies, historical market patterns, and diverse analytical
+frameworks.&lt;/p&gt;&lt;p&gt;Probability
+Over Prediction&lt;/p&gt;&lt;p&gt;Instead of aiming to
+be right, veterans aim to be profitable. They think in ranges, not certainties,
+marking out best-, base-, and worst-case scenarios for each idea. Position size
+then adjusts to the probability-weighted payoff, turning the portfolio into a
+statistics project rather than a collection of “hunches.”&lt;/p&gt;&lt;p&gt;Process
+Before P/L&lt;/p&gt;&lt;p&gt;A run of green days
+feels terrific, but pros treat results as lagging indicators of process
+quality. They obsess over whether they followed their checklist, not whether
+they caught the exact high or low. When results stray from expectations, the
+first question is, “Did I execute my plan or wing it?”&lt;/p&gt;&lt;p&gt;Learning
+Loops That Never Close&lt;/p&gt;&lt;p&gt;Skill compounders in
+trading resemble the scientific method: hypothesis, test, measure, iterate. Two
+loops dominate professional routines.&lt;/p&gt;&lt;p&gt;Deliberate
+Post-Trade Review&lt;/p&gt;&lt;p&gt;After the session,
+pros dissect each trade along four axes: thesis, execution, risk management,
+and psychology. They annotate charts, archive screenshots, and tag emotions
+(“impatient,” “frustrated”) at entry and exit. By quarter-end, error clusters
+emerge, maybe slippage spikes during NFP releases, or stops cluster too tightly
+in mean-reversion setups. Each cluster spawns a tiny corrective behavior, such
+as widening stops by one ATR during Tier-1 data or using limit orders only when
+bid–ask spreads exceed three ticks.&lt;/p&gt;&lt;p&gt;Peer
+Feedback and Market Feedback&lt;/p&gt;&lt;p&gt;Markets give feedback
+in the form of equity curves, but that data is noisy. Pros blunt the noise by
+overlaying peer review weekly desk meetings, small mastermind calls, or a paid
+performance coach. Presenting your logic to someone else forces you to verbalize
+assumptions, exposing logical sinkholes you’d never spot alone.&lt;/p&gt;&lt;p&gt;Resources
+Worth the Bandwidth&lt;/p&gt;&lt;p&gt;With tutorials
+exploding across social media, information quality, not quantity, defines an
+edge. Here’s where pros actually spend time.&lt;/p&gt;&lt;p&gt;Execution-Focused
+Data Platforms&lt;/p&gt;&lt;p&gt;●      Order-book visualizers such as Bookmap
+highlight iceberg orders that plain level-2 screens hide.&lt;/p&gt;&lt;p&gt;●      Python-based back-testing frameworks let
+traders simulate thousands of parameter tweaks overnight, identifying
+robustness rather than curve-fit magic.&lt;/p&gt;&lt;p&gt;●      Transaction-cost-analysis dashboards show when
+your slippage explodes around option-expiry windows or central-bank pressers.&lt;/p&gt;&lt;p&gt;Selective
+Mentorship&lt;/p&gt;&lt;p&gt;Mentors who walk the
+walk don’t merely show P/L screenshots; they share decision trees, contingency
+plans, and coping tactics for drawdowns. Institutional desks provide this via
+apprenticeship. Independent pros replicate it through vetted communities where
+membership hinges on verified track records and transparent process notes.&lt;/p&gt;&lt;p&gt;Deep-Dive
+Research, Not Headlines&lt;/p&gt;&lt;p&gt;Macro isn’t about
+scanning news feeds all day; it’s about reading footnotes in IMF working papers
+or combing through a sovereign’s budget annex. Pros might skim headlines for
+context, but the meat comes from primary documents: FOMC minutes, commodity-flow
+data, or satellite imagery of copper-smelter activity. Quality inputs yield
+quality hypotheses.&lt;/p&gt;
+                            This article was written by IL Contributors at investinglive.com.
+                        
+                        </description>
+    </item>
+    <item>
       <title>FBS Analysis Shows Ethereum Positioning as Wall Street’s Base Layer</title>
       <link>https://investinglive.com/Education/fbs-analysis-shows-ethereum-positioning-as-wall-streets-base-layer-20250911/</link>
       <pubDate>Thu, 11 Sep 2025 10:51:36 GMT</pubDate>
@@ -472,44 +650,6 @@ Composite +0.92%&lt;/li&gt;&lt;li&gt;Australia
 oppose tightening rules on foreign workers
 &lt;/li&gt;&lt;li&gt;Half of Japan firms
 see Oct-March earnings match initial outlook&lt;/li&gt;&lt;/ul&gt;&lt;p data-start=&quot;121&quot; data-end=&quot;478&quot;&gt;While the views on Bank of Japan Governor Ueda are interesting scuttlebutt what is more interesting are firms&apos; views on their own businesses and what&apos;s impacting. &lt;/p&gt;&lt;p data-start=&quot;121&quot; data-end=&quot;478&quot;&gt;A majority of Japanese firms oppose tougher restrictions on foreign workers, with more than three-quarters of survey respondents saying tighter rules should not be introduced. “With the Japanese population shrinking, we have no options but to accept foreigners for the development of the country,” an official at a transportation company told researchers.&lt;/p&gt;&lt;p data-start=&quot;480&quot; data-end=&quot;682&quot;&gt;Labour shortages remain a pressing issue, with Tokyo Shoko Research reporting 238 bankruptcies linked to staff shortfalls in the first eight months of 2025—putting the year on track for a record high.&lt;/p&gt;&lt;p data-start=&quot;684&quot; data-end=&quot;994&quot;&gt;On earnings prospects for the second half of the fiscal year beginning in October, 47% of companies expect to meet initial forecasts, while 32% see risks of undershooting. &lt;/p&gt;&lt;p data-start=&quot;684&quot; data-end=&quot;994&quot;&gt;Key concerns cited include &lt;/p&gt;&lt;ul&gt;&lt;li&gt;raw material price volatility, &lt;/li&gt;&lt;li&gt;exchange-rate swings, &lt;/li&gt;&lt;li&gt;interest rate moves, &lt;/li&gt;&lt;li&gt;and the impact of new U.S. tariffs. &lt;/li&gt;&lt;/ul&gt;
-                            This article was written by Eamonn Sheridan at investinglive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>Trump makes Oval Office statement on Charlie Kirk’s death</title>
-      <link>https://investinglive.com/news/trump-makes-oval-office-statement-on-charlie-kirks-death-20250911/</link>
-      <pubDate>Thu, 11 Sep 2025 02:01:51 GMT</pubDate>
-      <guid>https://investinglive.com/news/trump-makes-oval-office-statement-on-charlie-kirks-death-20250911/</guid>
-      <description>
-                            
-                            &lt;p&gt;Trump makes Oval Office statement on Charlie Kirk’s death.&lt;/p&gt;&lt;p&gt;&lt;a href=&quot;https://edition.cnn.com/2025/09/10/us/video/trump-oval-office-statement-white-house-charlie-kirk-death-digvid&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;CNN has the speech in ful&lt;/a&gt;l, made from Trump&apos;s office in the White House. &lt;/p&gt;&lt;p&gt;Trump blamed &quot;Violence and murder tragic consequence of demonizing those with whom you disagree&quot;. He&apos;s right. Let&apos;s hope something can be gleaned from this terrible event.&lt;/p&gt;&lt;p&gt;Trump:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;“I ask all Americans to commit themselves to the American values for which Charlie Kirk lived &amp;amp; died. The values of free speech, citizenship, the rule of law &amp;amp; the patriotic devotion &amp;amp; love of God.”&lt;/li&gt;&lt;/ul&gt;
-                            This article was written by Eamonn Sheridan at investinglive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>Belarus embraces crypto amid sanctions, Lukashenko calls digital assets “strategic”</title>
-      <link>https://investinglive.com/Cryptocurrency/belarus-embraces-crypto-amid-sanctions-lukashenko-calls-digital-assets-strategic-20250911/</link>
-      <pubDate>Thu, 11 Sep 2025 01:48:21 GMT</pubDate>
-      <guid>https://investinglive.com/Cryptocurrency/belarus-embraces-crypto-amid-sanctions-lukashenko-calls-digital-assets-strategic-20250911/</guid>
-      <description>
-                            
-                            &lt;p data-start=&quot;124&quot; data-end=&quot;337&quot;&gt;Belarusian President Alexander Lukashenko has authorised the country’s banks to expand their use of cryptocurrencies in a bid to counter the impact of international sanctions and shore up the struggling economy.&lt;/p&gt;&lt;p data-start=&quot;339&quot; data-end=&quot;574&quot;&gt;At a meeting with central and commercial bank leaders, Lukashenko called for urgent action to treat digital assets as strategic tools to stabilise and grow the financial system, according to the state-run Belarusian Telegraph Agency.&lt;/p&gt;&lt;p data-start=&quot;576&quot; data-end=&quot;805&quot;&gt;“Over the past five years, the national economy, and with it the Belarusian banking sector, have faced unprecedented challenges. The government and the National Bank have been given corresponding instruction. Now act,” he said.&lt;/p&gt;&lt;p data-start=&quot;807&quot; data-end=&quot;1105&quot;&gt;The move follows Lukashenko’s recent push for lawmakers to establish a transparent regulatory framework for digital assets. Sanctions tied to Belarus’s backing of Russia in the Ukraine war have deepened its economic woes, prompting authorities to look to cryptocurrencies as a potential lifeline.&lt;/p&gt;&lt;p data-start=&quot;807&quot; data-end=&quot;1105&quot;&gt;-&lt;/p&gt;&lt;p data-start=&quot;807&quot; data-end=&quot;1105&quot;&gt;Crypto media outlets carry they story. &lt;/p&gt;&lt;p data-start=&quot;807&quot; data-end=&quot;1105&quot;&gt;-&lt;/p&gt;&lt;p data-start=&quot;807&quot; data-end=&quot;1105&quot;&gt;Lukashenko’s push underscores how sanctioned states may lean on digital assets, reinforcing the case for crypto as a geopolitical hedge.&lt;/p&gt;
-                            This article was written by Eamonn Sheridan at investinglive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>PBOC sets USD/ CNY reference rate for today at 7.1034</title>
-      <link>https://investinglive.com/centralbank/pboc-sets-usd-cny-reference-rate-for-today-at-71034-20250911/</link>
-      <pubDate>Thu, 11 Sep 2025 01:16:39 GMT</pubDate>
-      <guid>https://investinglive.com/centralbank/pboc-sets-usd-cny-reference-rate-for-today-at-71034-20250911/</guid>
-      <description>
-                            
-                            &lt;p&gt;The People&apos;s Bank of China (PBOC), China&apos;s central bank, is responsible for setting the daily midpoint of the yuan (also known as renminbi or RMB). The PBOC follows a managed floating exchange rate system that allows the value of the yuan to fluctuate within a certain range, called a &quot;band,&quot; around a central reference rate, or &quot;midpoint.&quot; It&apos;s currently at +/- 2%.&lt;/p&gt;&lt;p&gt;Previous close was 7.1207&lt;/p&gt;&lt;p&gt;PBOC injected 292bn yuan via 7-day reverse repos at 1.40%
-&lt;/p&gt;&lt;ul&gt;&lt;li&gt;
-net 79.4bn injection yuan&lt;/li&gt;&lt;/ul&gt;
                             This article was written by Eamonn Sheridan at investinglive.com.
                         
                         </description>
