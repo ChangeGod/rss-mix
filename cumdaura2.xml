@@ -5,6 +5,18 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>US treasury to auction off $22 billion of 30 year bonds at the top of the hour</title>
+      <link>https://investinglive.com/news/us-treasury-to-auction-off-22-billion-of-30-year-bonds-at-the-top-of-the-hour-20250911/</link>
+      <pubDate>Thu, 11 Sep 2025 16:53:28 GMT</pubDate>
+      <guid>https://investinglive.com/news/us-treasury-to-auction-off-22-billion-of-30-year-bonds-at-the-top-of-the-hour-20250911/</guid>
+      <description>
+                            
+                            &lt;p&gt;The U.S. Treasury will auction off $22 billion up 30 year bonds at the top of the hour. The auction is the last up 3 coupon auctions this week which saw the 3 and 10 year note auctions find solid support from international buyers.&lt;/p&gt;&lt;p&gt;The results of the auction will be compared to the six-month averages of the major components. Those averages for the components shows:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Tail: 0.0 basis points.&lt;/li&gt;&lt;li&gt;Bid to cover: 2.37X.&lt;/li&gt;&lt;li&gt;Directs (a proxy of domestic demand) 24.9%.&lt;/li&gt;&lt;li&gt;Indirects (a proxy of international demand: 60.9%.&lt;/li&gt;&lt;li&gt;Dealers: 14.1%&lt;/li&gt;&lt;/ul&gt;
+                            This article was written by Greg Michalowski at investinglive.com.
+                        
+                        </description>
+    </item>
+    <item>
       <title>ECB policymakers are convinced that no further rate cuts are needed to deliver 2% inflaton</title>
       <link>https://investinglive.com/centralbank/ecb-policymakers-are-convinced-that-no-further-rate-cuts-are-needed-to-deliver-2-inflaton-20250911/</link>
       <pubDate>Thu, 11 Sep 2025 16:49:43 GMT</pubDate>
@@ -365,94 +377,6 @@ Consumer Sentiment report.&lt;/p&gt;
                             
                             &lt;p class=&quot;text-align-justify&quot;&gt;European Commission president von der Leyen said that they were already working on it but so far, there&apos;s no exact timing on when that might come about. The exact details are also not confirmed yet it would seem but it could also target Russia&apos;s payment and credit card systems, crypto exchanges, as well as the ones mentioned above related to oil.&lt;/p&gt;
                             This article was written by Justin Low at investinglive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>Building a Winning Trading Strategy from Scratch</title>
-      <link>https://investinglive.com/Education/building-a-winning-trading-strategy-from-scratch-20250911/</link>
-      <pubDate>Thu, 11 Sep 2025 11:02:05 GMT</pubDate>
-      <guid>https://investinglive.com/Education/building-a-winning-trading-strategy-from-scratch-20250911/</guid>
-      <description>
-                            
-                            &lt;p&gt;Every Forex trader
-remembers the day they realized random button-clicking is not a plan. If you’re
-reading this, you’re ready to move from improvised trades to a structured,
-data-driven strategy you can actually trust. The road is not glamorous, but it
-is logical. By the end of this guide, you’ll know how to turn a simple market
-idea into a repeatable edge, test it without risking a cent, and keep it sharp
-while the market evolves.&lt;/p&gt;&lt;p&gt;Start
-with a Clear Objective&lt;/p&gt;&lt;p&gt;A strategy is only as
-good as the goal it serves. For most self-directed traders, that goal is steady
-account growth with controlled downside, not a moon-shot lottery ticket. Write
-your objective in one sentence, e.g., “Earn 3% monthly on EUR/USD with a maximum
-5% drawdown.” That single line becomes your north star when temptation strikes.&lt;/p&gt;&lt;p&gt;Before diving into
-charts or testing &lt;a href=&quot;https://www.earnforex.com/indicators/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;Forex indicators&lt;/a&gt;, collect basic constraints:
-available trading hours, leverage rules of your broker, and personal tolerance
-for stress. If you can’t watch markets during London’s close, strategies that
-demand lightning-fast reaction there are off the table. Narrowing the scope
-early prevents costly rewrites later.&lt;/p&gt;&lt;p&gt;Define
-Your Edge&lt;/p&gt;&lt;p&gt;Now ask, “Why should
-the market pay me?” An edge could be statistical (mean-reversion after news
-spikes), structural (liquidity gaps at Asian session open), or behavioral
-(crowded positioning near option expiries). Pull at one thread, not five.
-Gathering sample charts that illustrate your hypothesis helps you visualize the
-edge and keeps the coming rule-building phase grounded in reality rather than
-wishful thinking.&lt;/p&gt;&lt;p&gt;Once you can point to
-ten historical examples that look similar, you’re ready to formalize the rules.&lt;/p&gt;&lt;p&gt;Transform
-Ideas into Concrete Rules&lt;/p&gt;&lt;p&gt;Trading plans fail
-when entries, exits, and filters are fuzzy. If a rule contains the words “looks
-like” or “feels like,” tighten it. For example:&lt;/p&gt;&lt;p&gt;●      Entry. Buy EUR/USD when the 20-period EMA
-crosses above the 50-period EMA AND RSI(14) closes above 55 on a 1-hour chart.&lt;/p&gt;&lt;p&gt;●      Exit. Close when RSI hits 70 or at 2× risk.&lt;/p&gt;&lt;p&gt;●      Filter. No trades one hour before major USD
-news.&lt;/p&gt;&lt;p&gt;Placing rules in plain
-language, then translating them to code (MetaTrader’s MQL, TradingView’s Pine
-Script, or Python) forces precision. Even if you don’t code yourself, handing a
-developer a bulletproof specification saves time and errors.&lt;/p&gt;&lt;p&gt;Avoid
-over-engineering. Two or three complementary indicators usually outperform a
-Frankenstein collection of ten. Each extra variable increases curve-fitting
-risk, where a model dazzles in the past and collapses in the future.&lt;/p&gt;&lt;p&gt;After drafting rules,
-step away for a day. If you can’t recall them clearly the next morning, they’re
-too complicated.&lt;/p&gt;&lt;p&gt;A quick gut-check:
-could you explain the logic to a friend in under two minutes? Clarity often
-predicts durability.&lt;/p&gt;&lt;p&gt;Validate
-with Data, Not Hope&lt;/p&gt;&lt;p&gt;The most sobering part
-of strategy creation is discovering that many clever ideas break when tested.
-Embrace it; rejection saves real money.&lt;/p&gt;&lt;p&gt;Begin with a clean
-historical data set. Most retail platforms provide at least ten years of minute
-data for major pairs; commercial sources such as TickData offer tick-level
-granularity if you’re serious. Segment your test:&lt;/p&gt;&lt;p&gt;●      In-sample (60% of history) for initial
-calibration.&lt;/p&gt;&lt;p&gt;●      Out-of-sample (30%) for genuine validation.&lt;/p&gt;&lt;p&gt;●      Forward-sample (live demo) for real-time proof.&lt;/p&gt;&lt;p&gt;During tests, record
-more than net profit: max drawdown, profit factor, Sharpe ratio, trade
-frequency, and R-multiple distribution. A strategy that triples your account
-but suffers 40 % drawdowns could ruin you emotionally before the payoff
-arrives.&lt;/p&gt;&lt;p&gt;Add a &lt;a href=&quot;https://www.investopedia.com/terms/m/montecarlosimulation.asp&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;Monte Carlo simulation&lt;/a&gt; that randomizes trade
-orders. If profitability evaporates after shuffling, your edge is fragile.&lt;/p&gt;&lt;p&gt;Backtesting
-Pitfalls to Avoid&lt;/p&gt;&lt;p&gt;Slippage, spread
-widening, and swap charges are easy to ignore on spreadsheets yet brutal in
-reality. Always include them at pessimistic levels; if a method survives with
-worst-case assumptions, it likely thrives in normal conditions.&lt;/p&gt;&lt;p&gt;Finally, guard against
-“look-ahead bias.” Your code must read only candles that existed at the trade
-timestamp, not future ones. Simple oversight here can turn a losing idea into a
-paper superstar.&lt;/p&gt;&lt;p&gt;Risk
-Management: The Unsung Hero&lt;/p&gt;&lt;p&gt;Edge and risk are
-inseparable; mismatching them is why statistically sound systems still blow up.
-Begin by fixing the percentage you risk per trade, commonly 0.5%–1% of equity.
-At first, this feels tiny, but small bets compound surprisingly fast when wins
-outnumber losses.&lt;/p&gt;&lt;p&gt;Position sizing is
-more than lot calculation. Correlate trades so you’re not short EUR/USD and
-long USD/CHF simultaneously if both hinge on the same dollar thesis. Sector
-exposure applies in currency land, too.&lt;/p&gt;&lt;p&gt;Set daily and weekly
-loss limits. Sports-psychology research shows decision quality drops sharply
-after three consecutive setbacks. A hard stop prevents revenge trading and
-preserves mental capital.&lt;/p&gt;&lt;p&gt;Risk isn’t just
-downside; opportunity cost matters. If a strategy ties up margin for days to
-earn 15 pips, capital could work harder elsewhere. Track return on margin the
-same way businesses track return on assets.&lt;/p&gt;&lt;p&gt;Keep in mind that U.S.
-retail brokers reported roughly &lt;a href=&quot;https://investmenttrends.com/resource/us-retail-margin-forex-and-crypto-trading-surge-in-2024-amid-new-trader-influx-and-diversification-trends&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;186,000 active margin-Forex accounts&lt;/a&gt; in 2024,
-with 71,000 of them opened or reactivated that year, a surge that underscores
-how quickly fresh capital floods the market and how essential disciplined risk
-controls are when the crowd piles in.&lt;/p&gt;
-                            This article was written by IL Contributors at investinglive.com.
                         
                         </description>
     </item>
