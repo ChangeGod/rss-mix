@@ -5,6 +5,51 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>New to Day Trading? Use Micro Contracts to Take Partial Profits</title>
+      <link>https://investinglive.com/Education/use-micro-contracts-to-take-partial-profits-20251105/</link>
+      <pubDate>Wed, 05 Nov 2025 13:50:40 GMT</pubDate>
+      <guid>https://investinglive.com/Education/use-micro-contracts-to-take-partial-profits-20251105/</guid>
+      <description>
+                            
+                            &lt;p data-start=&quot;166&quot; data-end=&quot;231&quot;&gt;How to Use Micro-Contracts to Take Partials With Small Accounts&lt;/p&gt;&lt;p data-start=&quot;233&quot; data-end=&quot;460&quot;&gt;Many traders skip the first take profit because they only hold one contract. That undermines the plan. The first take profit is where we secure the trade by moving the stop to entry on the remainder. Micro-contracts solve this.&lt;/p&gt;&lt;p data-start=&quot;462&quot; data-end=&quot;655&quot;&gt;Rule of thumb: 1 E-mini = 10 Micros
+ES ↔ MES. NQ ↔ MNQ. YM ↔ MYM. RTY ↔ M2K. CL ↔ MCL. GC ↔ MGC. SI ↔ SIL.
+If you cannot split one E-mini into five partial exits, you can do it with Micros.&lt;/p&gt;&lt;p data-start=&quot;657&quot; data-end=&quot;676&quot;&gt;Why this matters to traders, and especially to day traders&lt;/p&gt;&lt;ol data-start=&quot;677&quot; data-end=&quot;917&quot;&gt;&lt;li data-start=&quot;677&quot; data-end=&quot;764&quot;&gt;&lt;p data-start=&quot;680&quot; data-end=&quot;764&quot;&gt;You keep the discipline of the plan. You still take TP1 even with a small account.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;765&quot; data-end=&quot;845&quot;&gt;&lt;p data-start=&quot;768&quot; data-end=&quot;845&quot;&gt;You reduce regret. You stop watching TP1 hit and pass while you do nothing.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;846&quot; data-end=&quot;917&quot;&gt;&lt;p data-start=&quot;849&quot; data-end=&quot;917&quot;&gt;You keep flexibility. You can scale out in steps without oversizing.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p data-start=&quot;919&quot; data-end=&quot;943&quot;&gt;Two practical methods for trading Emini and Micro contracts&lt;/p&gt;&lt;p data-start=&quot;945&quot; data-end=&quot;983&quot;&gt;Method A. Convert to Micros at TP1&lt;/p&gt;&lt;p data-start=&quot;984&quot; data-end=&quot;1059&quot;&gt;Use when you want the main position to flip to Micros after the first exit.&lt;/p&gt;&lt;p data-start=&quot;1061&quot; data-end=&quot;1068&quot;&gt;Steps&lt;/p&gt;&lt;ol data-start=&quot;1069&quot; data-end=&quot;1262&quot;&gt;&lt;li data-start=&quot;1069&quot; data-end=&quot;1106&quot;&gt;&lt;p data-start=&quot;1072&quot; data-end=&quot;1106&quot;&gt;At TP1, close the single E-mini.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;1107&quot; data-end=&quot;1203&quot;&gt;&lt;p data-start=&quot;1110&quot; data-end=&quot;1203&quot;&gt;Immediately re-enter with 8 Micros in the same direction to keep about 80 percent exposure.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;1204&quot; data-end=&quot;1262&quot;&gt;&lt;p data-start=&quot;1207&quot; data-end=&quot;1262&quot;&gt;Scale out 2 Micros at each remaining target until flat.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p data-start=&quot;1264&quot; data-end=&quot;1390&quot;&gt;Why it works
+You book TP1 properly. You still participate in the move with controlled size. You can match any 5-target plan.&lt;/p&gt;&lt;p data-start=&quot;1392&quot; data-end=&quot;1448&quot;&gt;Method B. Hedge with Micros while keeping the E-mini&lt;/p&gt;&lt;p data-start=&quot;1449&quot; data-end=&quot;1515&quot;&gt;Use when you want to keep the original E-mini open the whole time.&lt;/p&gt;&lt;p data-start=&quot;1517&quot; data-end=&quot;1524&quot;&gt;Steps&lt;/p&gt;&lt;ol data-start=&quot;1525&quot; data-end=&quot;1916&quot;&gt;&lt;li data-start=&quot;1525&quot; data-end=&quot;1556&quot;&gt;&lt;p data-start=&quot;1528&quot; data-end=&quot;1556&quot;&gt;Keep the 1 E-mini running.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;1557&quot; data-end=&quot;1851&quot;&gt;&lt;p data-start=&quot;1560&quot; data-end=&quot;1851&quot;&gt;At each target, offset 20 percent by trading 2 Micros the other way.
+• Long trade example: at TP1, sell 2 Micros; at TP2, sell 2 Micros; continue until you have sold 10 Micros across 5 TPs.
+• Short trade example: at TP1, buy 2 Micros; at TP2, buy 2 Micros; continue to 10 Micros.&lt;/p&gt;&lt;/li&gt;&lt;li data-start=&quot;1852&quot; data-end=&quot;1916&quot;&gt;&lt;p data-start=&quot;1855&quot; data-end=&quot;1916&quot;&gt;If the final TP or the stop hits first, flatten everything.&lt;/p&gt;&lt;/li&gt;&lt;/ol&gt;&lt;p data-start=&quot;1918&quot; data-end=&quot;2011&quot;&gt;Why it works
+You hold the E-mini for simplicity, but Micros let you simulate partial exits.&lt;/p&gt;&lt;p data-start=&quot;2013&quot; data-end=&quot;2195&quot;&gt;Notes
+• Use limit orders for exact fills.
+• Place your Micro orders at the same prices as the plan’s TPs.
+• If liquidity is thin in Micros for a given market, work your orders.&lt;/p&gt;&lt;p data-start=&quot;2197&quot; data-end=&quot;2250&quot;&gt;Palladium future example for the math and plan discipline&lt;/p&gt;&lt;p data-start=&quot;2251&quot; data-end=&quot;2278&quot;&gt;A plan from our &lt;a href=&quot;https://t.me/investingLiveStocks&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;investingLive.com Telegram channel&lt;/a&gt; (come and join see the trade ideas live), four targets.&lt;/p&gt;&lt;p data-start=&quot;2280&quot; data-end=&quot;2471&quot;&gt;Long Palladium (PA futures or your CFD)
+• 1st buy: 1437 filled
+• 2nd buy: 1425 pending
+• 3rd buy: 1412.5 pending
+• Stop: 1390
+• TP1: 1470
+• TP2: 1562
+• TP3: 1584.5
+• TP4: 1636&lt;/p&gt;&lt;p data-start=&quot;2473&quot; data-end=&quot;2568&quot;&gt;All entries are equal size.
+Weighted average entry: 1424.83
+Risk per contract: 34.83 points&lt;/p&gt;&lt;p data-start=&quot;2570&quot; data-end=&quot;2723&quot;&gt;Potential gains from average entry
+• TP1: +45.17 pts → RR 1.3
+• TP2: +137.17 pts → RR 3.9
+• TP3: +159.67 pts → RR 4.6
+• TP4: +211.17 pts → RR 6.1&lt;/p&gt;&lt;p data-start=&quot;2725&quot; data-end=&quot;2766&quot;&gt;Blended RR with equal target weights: 4.0&lt;/p&gt;&lt;p data-start=&quot;2768&quot; data-end=&quot;3090&quot;&gt;How to apply the micro idea
+Palladium does not have a common Micro future, but the discipline still applies. If you trade a product that does have Micros, use Method A or Method B to ensure TP1 is taken and the stop can move to entry on the remainder. If you use CFDs, replicate the same logic by sizing down at each TP.&lt;/p&gt;&lt;p data-start=&quot;3092&quot; data-end=&quot;3132&quot;&gt;NQ range example to show sizing logic&lt;/p&gt;&lt;p data-start=&quot;3133&quot; data-end=&quot;3528&quot;&gt;If your three buy orders are at 25,500, 25,450, and 25,400, that is a 100-point ladder. With an E-mini NQ, 100 points is large for many small accounts. With Micros it is one tenth the monetary swing. The point range is the same, but the dollar value per point is smaller. That makes it practical to cast a net of buys over a wide range without oversizing and still take multiple partial profits.&lt;/p&gt;&lt;p data-start=&quot;3530&quot; data-end=&quot;3549&quot;&gt;Common questions&lt;/p&gt;&lt;p data-start=&quot;3551&quot; data-end=&quot;3675&quot;&gt;What if I only want three partials
+Use the same methods, but scale 3, 3, 4 Micros, or 4, 3, 3 Micros across three targets.&lt;/p&gt;&lt;p data-start=&quot;3677&quot; data-end=&quot;3824&quot;&gt;What if my first fill is late
+Base the switch to Micros on the next achieved TP. The principle is the same. Book something and maintain the plan.&lt;/p&gt;&lt;p data-start=&quot;3826&quot; data-end=&quot;3973&quot;&gt;What if slippage is a concern
+Use resting limit orders at TP prices. For newsy markets, consider bracket orders or reduce the number of partials.&lt;/p&gt;&lt;p data-start=&quot;3975&quot; data-end=&quot;4003&quot;&gt;Risk management reminders&lt;/p&gt;&lt;p data-start=&quot;4004&quot; data-end=&quot;4315&quot;&gt;• After TP1 is reached, cancel unfilled entries and move the stop to the entry on the remainder, as per our default trade-management rule.
+• Match your Micro size to the plan. Do not add leverage by accident.
+• Never skip TP1 because of position size constraints. Use Micros to execute the plan as designed.&lt;/p&gt;&lt;p data-start=&quot;4317&quot; data-end=&quot;4335&quot;&gt;Quick reference&lt;/p&gt;&lt;p data-start=&quot;4336&quot; data-end=&quot;4644&quot;&gt;• 1 E-mini equals about 10 Micros in notional exposure.
+• Method A converts at TP1 and scales out Micros.
+• Method B hedges with Micros while holding the E-mini.
+• Always place Micro orders at the same target prices as the plan.
+• The goal is to keep the methodology intact, even with small accounts.&lt;/p&gt;&lt;p data-start=&quot;4336&quot; data-end=&quot;4644&quot;&gt;Most importantly, even if you are paying slightly more commissions when trading 10 micro contracts vs. 1 emini, your trading can become so much better with 10 micros since you will be able to plan and take PARTIAL PROFITS, which is critical and is a key part of the &lt;a href=&quot;https://investinglive.com/technical-analysis/welcome-to-tradecompass-your-trusted-guide-to-navigating-the-markets-20250123/&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;tradeCompass method&lt;/a&gt;.&lt;/p&gt;
+                            This article was written by Itai Levitan at investinglive.com.
+                        
+                        </description>
+    </item>
+    <item>
       <title>Treasury repeats that it will keep coupon auction sizes steady</title>
       <link>https://investinglive.com/news/treasury-repeats-that-it-will-keep-coupon-auction-sizes-steady-20251105/</link>
       <pubDate>Wed, 05 Nov 2025 13:41:16 GMT</pubDate>
@@ -438,33 +483,6 @@ their prices accordingly.&quot;&lt;/p&gt;
                             
                             &lt;p class=&quot;text-align-justify&quot;&gt;It is reported that Beijing has issued a guidance that requires new data centre projects that have received any state funds to only use domestically developed AI chips. Thus, ruling out the use of foreign AI chips with authorities even ordering data centres that are less than 30% complete to remove all previously installed foreign chips.&lt;/p&gt;&lt;p class=&quot;text-align-justify&quot;&gt;Adding to that, the government has also order for said centres to cancel plans to purchase foreign chips as it appears that there is a continued fallout between the US and China on this matter at least.&lt;/p&gt;&lt;p class=&quot;text-align-justify&quot;&gt;For some context, most data centres in China do received some form of state funding in their setting up. So, this ruling will impact the majority of the development in this space. One of the sources say that this directive is already starting to have impact with a facility in the northwestern province now being suspended after earlier planning to deploy Nvidia chips instead.&lt;/p&gt;&lt;p class=&quot;text-align-justify&quot;&gt;The source also adds that the guidance issued will cover Nvidia&apos;s H20 chips as well as B200 and H2000 processors. On the latter two, they have been banned by Beijing but had been widely available in China through backdoor channels. So, the government is moving to outright just ban their usage it would seem.&lt;/p&gt;
                             This article was written by Justin Low at investinglive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>What are the main events for today?</title>
-      <link>https://investinglive.com/news/what-are-the-main-events-for-today-20251105/</link>
-      <pubDate>Wed, 05 Nov 2025 07:34:04 GMT</pubDate>
-      <guid>https://investinglive.com/news/what-are-the-main-events-for-today-20251105/</guid>
-      <description>
-                            
-                            &lt;p&gt;In the European session, we have several low tier releases on the agenda including the French Industrial Production, the Italian Retail Sales, the Eurozone PPI and the final services PMIs for the major Eurozone economies and the UK. None of the data is going to change anything for the respective central banks. &lt;/p&gt;&lt;p&gt;In the American session, we have the US ADP and the US ISM Services PMI. The ADP is expected at 28K vs -32K prior. This might be the only major US jobs report we get this month as the shutdown should have impaired the BLS collection of October data as well, so the next NFP could come only in December before the next FOMC decision (but take it with a pinch of salt). &lt;/p&gt;&lt;p&gt;The ISM Services PMI is expected at 50.8 vs 50.0 prior. The focus will likely be on prices index. The latest &lt;a href=&quot;https://www.pmi.spglobal.com/Public/Home/PressRelease/eb6ffb6222214cbfbb42d44541c5ebbe&quot; target=&quot;_blank&quot; rel=&quot;nofollow noopener noreferrer&quot; class=&quot;article-link&quot;&gt;S&amp;amp;P Global US PMIs&lt;/a&gt; showed an acceleration in business activity to the &quot;second-fastest&quot; so far this year. The agency added that &quot;while employment growth picked up, the pace
-of job creation remained only modest, and weakened
-especially in manufacturing.&quot;&lt;/p&gt;&lt;p&gt;&quot;Jobs growth was also limited
-by a worsening of business confidence, principally reflecting
-ongoing concerns over the impact of government policies
-such as tariffs.&quot;&lt;/p&gt;&lt;p&gt;&quot;Sentiment was supported, however, by lower
-interest rates.
-Prices charged for goods and services rose at the slowest
-rate since April, but firms’ costs continued to increase
-sharply, attributed to the impact of tariffs alongside upward
-wage pressures.&quot;&lt;/p&gt;&lt;p&gt;The worsening in 
-business confidence is mainly because of tariff policies, therefore it 
-should improve in the next months after the US-China 
-de-escalation. &lt;/p&gt;&lt;p&gt;Lastly, we have the US Supreme Court tariff hearing. The hearing follows a Federal Circuit ruling that found Trump exceeded 
-his authority under the International Emergency Economic Powers Act 
-(IEEPA) when imposing tariffs on several trading partners. The Court&apos;s final decision is expected by early next year, so the tariffs will remain in place for now. But even if they are striked down, Trump has other powers to impose tariffs, so in my personal view, this is not a big deal. &lt;/p&gt;&lt;p&gt;Central bank speakers:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;10:00 GMT/06:00 ET - ECB&apos;s Villeroy (dovish - voter) and ECB&apos;s Nagel (neutral - voter)&lt;/li&gt;&lt;li&gt;15:00 GMT/11:00 ET - ECB&apos;s Kocher (neutral - voter)&lt;/li&gt;&lt;li&gt;16:15 GMT/12:15 ET - BoE&apos;s Breeden (neutral - voter)&lt;/li&gt;&lt;li&gt;16:30 GMT/12:30 ET - SNB&apos;s Tschudin (neutral - voter)&lt;/li&gt;&lt;/ul&gt;
-                            This article was written by Giuseppe Dellamotta at investinglive.com.
                         
                         </description>
     </item>
