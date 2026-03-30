@@ -5,6 +5,95 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>Anthropic&apos;s Mythos leak is about more than cybersecurity stocks</title>
+      <link>https://investinglive.com/stocks/anthropics-mythos-leak-is-about-more-than-cybersecurity-stocks-20260330/</link>
+      <pubDate>Mon, 30 Mar 2026 17:58:36 GMT</pubDate>
+      <guid>https://investinglive.com/stocks/anthropics-mythos-leak-is-about-more-than-cybersecurity-stocks-20260330/</guid>
+      <description>
+                            
+                            &lt;p&gt;The story so far reads like something out of a bad thriller: a 
+misconfigured content management system, 3,000 unsecured documents, and 
+the accidental exposure of what Anthropic now confirms is the most 
+capable AI model it has ever built. Fortune &lt;a href=&quot;https://fortune.com/2026/03/26/anthropic-says-testing-mythos-powerful-new-ai-model-after-data-leak-reveals-its-existence-step-change-in-capabilities/&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;broke &lt;/a&gt;the story last 
+Thursday. By Friday&apos;s open, cybersecurity stocks were in free-fall.
+  &lt;/p&gt;&lt;p&gt;CrowdStrike alone lost roughly $15 billion in market cap in a single 
+session. The catalyst wasn&apos;t an earnings miss, a product failure, or
+ a CEO departure, it was a draft blog post sitting on an unsecured URL.
+  &lt;/p&gt;&lt;p&gt;What is Mythos?&lt;/p&gt;&lt;p&gt;
+    Claude Mythos — internally codenamed &quot;Capybara&quot; — is a new tier of 
+model that sits above Anthropic&apos;s current flagship Opus line. The leaked
+ draft describes it as larger and more intelligent than anything the 
+company has shipped. Anthropic confirmed this much, calling it &quot;a step 
+change&quot; in reasoning, coding, and cybersecurity capabilities.
+  &lt;/p&gt;&lt;p&gt;
+    The key detail that spooked the market: the draft warns that Mythos 
+is &quot;far ahead of any other AI model in cyber capabilities&quot; and signals 
+an incoming generation of models that can find and exploit software 
+vulnerabilities faster than human defenders can patch them. Anthropic 
+itself is reportedly warning senior government officials that 
+large-scale AI-assisted cyberattacks become substantially more likely 
+this year.
+  &lt;/p&gt;&lt;p&gt;The fear is that the new generation of models will have the capability to break the internet, or at least anything that needs to secure data.&lt;/p&gt;&lt;p&gt;
+    Traditional cybersecurity vendors — CrowdStrike, Palo Alto, Zscaler,
+ Okta — command premium multiples because they sit on proprietary threat
+ telemetry and years of accumulated detection logic. If a general-purpose frontier model can replicate or 
+exceed that capability at scale, investors are right to question the 
+durability of those margins.
+  &lt;/p&gt;&lt;p&gt;
+    Raymond James analyst Adam Tindle outlined several risks worth 
+highlighting: compression of traditional defensive advantages, rising 
+attack complexity that pushes up the cost to defend, and the possibility
+ of wholesale shifts in how security budgets are allocated.
+  &lt;/p&gt;&lt;p&gt;&quot;We read this as having the potential to become the ultimate hacking 
+tool, and one that can elevate any ordinary hacker into a nation-state 
+adversary,&quot; Stifel analyst Adam Borg in a research note on Friday.&lt;/p&gt;&lt;p&gt;The other side of the trade — and the bull case for spending — is that 
+this forces enterprises to modernize their defences immediately. The big cybersecurity names have also been given early looks at Mythos to both prepare and evaluate what they find. Ultimately, it could add to their moat and a big reason for the major bounce in security stocks today is that Palo Alto Networks CEO  Nikesh Arora bought $10m in shares last week.&lt;/p&gt;&lt;p&gt;Here&apos;s where it gets more interesting from a cross-asset perspective. 
+Mythos doesn&apos;t land in isolation. It lands in a market that is already 
+trying to reprice the velocity of AI disruption across all of software.
+  &lt;/p&gt;&lt;p&gt;
+    For macro traders, the AI capex cycle is the other thread to pull. 
+Mythos is described as extremely compute-intensive and expensive to run —
+ Anthropic says it&apos;s working on efficiency before any broad release. 
+That&apos;s bullish for the picks-and-shovels trade: NVDA, the hyperscalers, 
+power infrastructure. If the next generation of models requires 
+substantially more compute, the capital spending cycle has further to 
+run even as the downstream beneficiaries face disruption.
+  &lt;/p&gt;&lt;p&gt;
+    We also can&apos;t ignore the geopolitical overlay. Anthropic has been 
+blacklisted by the Trump administration after setting limits on military
+ use of its models, and is now in litigation with the federal 
+government. Mythos arriving during that standoff is a complication. If 
+the model is genuinely as powerful in offensive cyber capabilities as 
+described, the question of who gets access — and who doesn&apos;t — becomes a
+ national security issue.&lt;/p&gt;&lt;p&gt;The competitive angle&lt;/p&gt;&lt;p&gt;
+    OpenAI reportedly finished pre-training its own frontier model, 
+codenamed &quot;Spud,&quot; around the same time this leak hit. Both companies are
+ reportedly positioning for IPOs later this year. The timing of the 
+Mythos leak — whether genuinely accidental or not — couldn&apos;t be more 
+combustible. This is going to be a theme for the rest of 2026: frontier 
+AI labs racing to demonstrate capability while trying to manage the 
+political and regulatory consequences of that capability.
+  &lt;/p&gt;&lt;p&gt;
+    The immediate question is how cybersecurity names trade this week as
+ the story matures. Friday&apos;s sell-off was indiscriminate but the bounce today has been equally large.&lt;/p&gt;&lt;p&gt;
+    Longer term, watch for three things:
+  &lt;/p&gt;&lt;p&gt;
+    First, Anthropic&apos;s release timeline. They&apos;ve said they&apos;re giving 
+cyber defence organisations early access before any general 
+availability. How long that staged rollout takes matters enormously for 
+how fast the threat landscape actually shifts.
+  &lt;/p&gt;&lt;p&gt;
+    Second, the policy response. If Anthropic is genuinely warning 
+officials that Mythos makes large-scale attacks more likely, there is 
+going to be pressure for export controls, access restrictions, or some 
+form of licensing regime for frontier cyber models. That&apos;s a new 
+regulatory risk for the entire AI sector.
+  &lt;/p&gt;&lt;p&gt;Finally, there has been no shortage of hype around a &apos;step change&apos; in models and we&apos;ve seen it so many times before. But if it&apos;s true and we are getting a new generation of truly superior models, that further extends the ceiling of what AI can do and how disruptive it is for the economy, and ultimately, how useful it will be.&lt;/p&gt;
+                            This article was written by Adam Button at investinglive.com.
+                        
+                        </description>
+    </item>
+    <item>
       <title>Israel proposes to Trump to strike Iran&apos;s energy to accelerate regime change - report</title>
       <link>https://investinglive.com/news/israel-proposes-to-trump-to-strike-irans-energy-to-accelerate-regime-change-report-20260330/</link>
       <pubDate>Mon, 30 Mar 2026 17:26:15 GMT</pubDate>
@@ -385,65 +474,6 @@ report. &lt;/p&gt;
                             
                             &lt;p class=&quot;text-align-justify&quot;&gt;The study notes that the costs of tariffs enacted by the Trump administration are &quot;falling mostly on domestic importers and consumers&quot;. In putting a number to that, the study reveals that US consumers are bearing around a third of the tariff burden currently. And if the tariffs are going to stay for longer, that cost will increase even more.&lt;/p&gt;&lt;p class=&quot;text-align-justify&quot;&gt;For now, it is noted that US exporters are only absorbing a small fraction of the higher tariff-related costs. It is being estimated that a 10% increase in tariffs implies only a 9.5% increase in prices.&lt;/p&gt;&lt;p class=&quot;text-align-justify&quot;&gt;Overall, it is a tough situation for US consumers. The current estimate shows that they are already being burdened by about a third of the cost. But if US firms exhaust their ability to absorb the tariffs and pass it on down the chain, the burden for households could rise to over half.&lt;/p&gt;&lt;p class=&quot;text-align-justify&quot;&gt;This also implies that US firms would absorb 40% of higher tariff costs in the longer-term should the extent to which exporters absorb tariffs remains limited in scope.&lt;/p&gt;&lt;p class=&quot;text-align-justify&quot;&gt;While the US is the one being hit hardest from their own tariffs, European exporters are not immune to the situation. The study predicts that a 10% increase in tariffs would also result in a 4.3% decline in import volumes in the case of product categories that are still traded under tariffs.&lt;/p&gt;&lt;p class=&quot;text-align-justify&quot;&gt;The full study can be found &lt;a href=&quot;https://www.ecb.europa.eu/press/economic-bulletin/focus/2026/html/ecb.ebbox202602_01~e0af0d74d5.en.html&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
                             This article was written by Justin Low at investinglive.com.
-                        
-                        </description>
-    </item>
-    <item>
-      <title>Indian Rupee falls quickly back to Friday&apos;s record lows despite another RBI intervention</title>
-      <link>https://investinglive.com/forex/indian-rupee-falls-quickly-back-to-fridays-record-lows-despite-another-rbi-intervention-20260330/</link>
-      <pubDate>Mon, 30 Mar 2026 08:13:14 GMT</pubDate>
-      <guid>https://investinglive.com/forex/indian-rupee-falls-quickly-back-to-fridays-record-lows-despite-another-rbi-intervention-20260330/</guid>
-      <description>
-                            
-                            &lt;p class=&quot;MsoNormal&quot;&gt;FUNDAMENTAL
-OVERVIEW&lt;/p&gt;&lt;p&gt;USD:&lt;/p&gt;&lt;p&gt;The US
-dollar strengthened across the board heading into the weekend as traders hedged
-on risks of a potential ground invasion. This morning, we are seeing some
-weakness as those hedges get unwound. &lt;/p&gt;&lt;p&gt;The focus
-remains solely on the US-Iran negotiations and there’s some cautious optimism
-as &lt;a href=&quot;https://investinglive.com/news/pakistan-says-it-will-host-us-iran-talks-in-coming-days-as-more-us-marines-head-to-region-20260329/&quot;&gt;Pakistan confirmed that negotiations
-may take place in Islamabad&lt;/a&gt; in the coming days and &lt;a href=&quot;https://investinglive.com/commodities/trump-says-negotiations-with-iran-going-extremely-well-might-get-a-deal-soon-or-not-20260330/&quot;&gt;Trump said that they are performing
-extremely well&lt;/a&gt; and they could make a deal pretty soon, although he
-added that they might fail as well.&lt;/p&gt;&lt;p&gt;The path
-of least resistance for the dollar remains to the upside. Traders will keep a
-watchful eye on the headlines and especially on Trump’s Truth Social account,
-as we are always one post away from huge market moves. &lt;/p&gt;&lt;p&gt;Traders
-are not pricing in any change to interest rates this year as we have just 5 bps
-of tightening expected by year-end.&lt;/p&gt;&lt;p&gt;INR:&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;The Indian rupee opened
-higher today after the &lt;a href=&quot;https://www.bloomberg.com/news/articles/2026-03-30/india-unleashes-curbs-on-rupee-bets-as-intervention-costs-swell&quot;&gt;RBI
-capped the open positions banks can hold&lt;/a&gt; in the onshore currency
-market at $100 million at the end of each trading day. This measure was announced
-on Friday after market close. &lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;The central bank
-continues to intervene in the market but with no avail. In fact, the gains were
-quickly faded, and the rupee is now trading around Friday levels again. &lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;Traders continue
-to focus on the US-Iran negotiations and the risks of further escalation. If we
-do get an escalation like a ground invasion, then we will likely see the USDINR
-pair skyrocketing again. On the other hand, if the US and Iran reach a deal or Trump
-decides to pull back militarily and end the hostilities, then we should get a
-meaningful correction.  &lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;In the big
-picture, the Indian Rupee remains on a bearish structural trend against the US dollar,
-so the dip-buyers will likely look for opportunities around strong technical
-levels to keep pushing into new highs.&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;USDINR TECHNICAL
-ANALYSIS – DAILY TIMEFRAME&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;On the daily
-chart, we can see that &lt;a href=&quot;https://www.tradingview.com/symbols/USDINR/?exchange=VANTAGE&quot;&gt;USDINR&lt;/a&gt; opened near the upper bound of the broken channel and rose immediately as dip-buyers quickly piled in to fade the intervention. If the price falls
-back to the upper bound of the channel, we can expect the buyers to step in to
-keep pushing into new highs. The sellers will need the price to fall below the upper
-bound of the channel to regain some control and target a bigger correction into
-the lower bound of the channel. &lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;USDINR TECHNICAL
-ANALYSIS – 4 HOUR TIMEFRAME&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;On the 4 hour
-chart, we can see how quickly traders faded the RBI’s intervention once again.
-The price is now trading right around Friday’s levels. We can expect the
-sellers to step in here with a defined risk above the highs to position for a
-drop back into the upper bound of the channel. The buyers, on the other hand,
-will look for a break higher to increase the bullish bets into new highs.&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;USDINR TECHNICAL
-ANALYSIS – 1 HOUR TIMEFRAME&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;On the 1 hour
-chart, there’s not much we can add here as the sellers will look for a pullback
-into the lower bound of the channel, while the buyers will target a break.&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;UPCOMING CATALYSTS&lt;/p&gt;&lt;p class=&quot;MsoNormal&quot;&gt;&lt;a href=&quot;https://investinglive.com/EconomicCalendar&quot;&gt;Today&lt;/a&gt; we have Fed Chair Powell speaking. Tomorrow, we get the US Consumer
-Confidence and US Job Openings data. On Wednesday, we have the US ADP, the US
-Retail Sales and the US ISM Manufacturing PMI. On Thursday, we get the latest
-US Jobless Claims figures. On Friday, we conclude the week with the US NFP
-report. &lt;/p&gt;
-                            This article was written by Giuseppe Dellamotta at investinglive.com.
                         
                         </description>
     </item>
