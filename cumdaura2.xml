@@ -5,6 +5,84 @@
     <description>RSS feed merged from source 2</description>
     <language>en</language>
     <item>
+      <title>PBOC sets USD/ CNY mid-point today at 6.7829 (vs. estimate at 6.7238)</title>
+      <link>https://investinglive.com/central-banks/pboc-sets-usd-cny-mid-point-today-at-6-vs-estimate-at-6-7238/</link>
+      <pubDate>Wed, 02 Sep 2026 01:15:24 GMT</pubDate>
+      <guid>https://investinglive.com/central-banks/pboc-sets-usd-cny-mid-point-today-at-6-vs-estimate-at-6-7238/</guid>
+      <description>
+                        
+                            &lt;p&gt;The PBOC allows the yuan to fluctuate within a +/- 2% range, around this reference rate. &lt;a href=&quot;https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-7238-reuters-estimate/&quot; rel=&quot;follow&quot;&gt;More here on this.&lt;/a&gt;&lt;/p&gt;&lt;p&gt;more to come&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
+                            This article was written by Eamonn Sheridan at investinglive.com.
+                        
+                    </description>
+    </item>
+    <item>
+      <title>The information gap: what retail traders don&apos;t see, and why that might be okay </title>
+      <link>https://investinglive.com/education/the-information-gap-what-retail-traders-don-t-see-and-why-that-might-be-okay/</link>
+      <pubDate>Wed, 02 Sep 2026 00:44:23 GMT</pubDate>
+      <guid>https://investinglive.com/education/the-information-gap-what-retail-traders-don-t-see-and-why-that-might-be-okay/</guid>
+      <description>
+                        
+                            &lt;p dir=&quot;ltr&quot;&gt;Two of Wall Street&apos;s most-read desks flagged the same underlying worry within weeks of each other, and neither flag was visible to the retail trader watching a standard price chart.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://investinglive.com/stock-market-update/equities-on-thin-ice-momentum-basket-selloff-turns-self-fulfilling-as-systematic-funds-deleverage/&quot; rel=&quot;follow&quot;&gt;Mizuho&apos;s multi-asset team noted that momentum baskets had completely round-tripped,&lt;/a&gt; breaking below the lows set during July&apos;s Situational Awareness hedge fund unwind, and warned the move had turned self-fulfilling as systematic strategies de-risked into the weakness. Around the same time, JPMorgan&apos;s chief technical strategist drew a more historically loaded comparison, telling clients that the current divergence in AI stocks echoed the pattern seen in the months before the dot-com bubble burst in 2000.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;The JPMorgan note, published August 21, pointed to a market that looked outwardly fine. The S&amp;amp;P 500 was sitting just below resistance in the 7,909 to 7,935 range and still holding above support near 7,521 to 7,620, technically bullish by any conventional read. But the internals told a different story. In a healthy rally, the strategist noted, the companies buying the chips and the companies selling them tend to rise together. He likened today&apos;s setup to 1999, when communications equipment suppliers surged while the heavy capital spenders behind them cratered from peak valuations. The modern version of that split was stark: the Philadelphia Semiconductor Index was up 87 percent on the year and had just logged its best quarter ever, while the hyperscalers actually funding the AI buildout were lagging badly, with Microsoft posting its worst monthly decline since 2000 (the tech bubble) and Meta down on the year. The conclusion was that the index could still look bullish on the surface while cracking underneath it, and that conditions could deteriorate quickly heading into September.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;What connects the Mizuho and JPMorgan notes isn&apos;t the specific call, it&apos;s the type of evidence behind it. Both were built on internals: positioning data, factor basket construction, and proprietary technical levels that live inside institutional research, not on anything a retail trader can pull up on a standard charting platform. That&apos;s worth sitting with, because it points to a structural gap in what different market participants actually get to see.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;The tool retail can&apos;t touch&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Take the Morgan Stanley Tech Momentum Index, ticker MSZZTMTM, as a concrete example of what that gap looks like in practice. It&apos;s a proprietary Morgan Stanley index, part of the same family as their broader US momentum products, that appears to track a long and short pair trade in tech, media and telecom names ranked by momentum, rebalanced systematically. During July&apos;s momentum unwind, its 17-day rate of change hit negative 35.9 percent, described at the time as the steepest decline in the index&apos;s 27-year history. Days later, during the short squeeze that followed, the same factor reportedly rose more than 12 percent in a single session, the largest one-day gain on record, surpassing anything seen even in the 2000 dot-com unwind.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;That&apos;s a genuinely useful, granular signal, and it&apos;s completely invisible to anyone outside a small circle of institutional clients. MSZZTMTM has no public ticker on Yahoo Finance, Google Finance, or any retail charting platform. It isn&apos;t listed on an exchange. The only realistic ways to see it are through a Bloomberg terminal, which runs in the order of $2,000 a month per seat, through direct access to Morgan Stanley&apos;s prime brokerage or Quantitative Investment Strategies desk, or secondhand, glimpsed only when a strategist chooses to quote a data point from it in a note that eventually filters into financial media. For the overwhelming majority of independent and retail traders, that price tag alone puts the index out of reach, and even those who could justify the cost still need the relationship or mandate to access the underlying data feed.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;That&apos;s the real shape of the access gap. It isn&apos;t that retail traders are bad at reading markets. It&apos;s that an entire layer of the market, built from data most people will never see, shapes how the largest, most sophisticated participants are positioned, and that layer only becomes visible in fragments, after the fact, when a sell-side note happens to mention it.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;The proxies, and where they quietly diverge&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Faced with that gap, the natural instinct is to reach for a public stand-in. For tech-flavoured momentum specifically, the most obvious candidates are the iShares MSCI USA Momentum Factor ETF (MTUM) and the Invesco S&amp;amp;P 500 High Beta ETF (SPHB), both freely chartable on TradingView, Yahoo Finance, or any standard platform. For something closer to MSZZTMTM&apos;s tech concentration, the Invesco S&amp;amp;P 500 Momentum ETF (SPMO) and the Invesco Dorsey Wright Technology Momentum ETF (PTF) narrow the gap further.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;These are useful, but they are not the same instrument, and the differences matter more than they first appear. MTUM and its peers are long-only funds, they hold the winners and nothing else, while a pair-trade index like MSZZTMTM is built long and short simultaneously, which means it captures the violence of a short squeeze or a forced unwind on both sides at once. A long-only proxy simply cannot replicate that magnitude. Rebalancing cadence adds another layer of drift, since MTUM&apos;s holdings are set on a periodic schedule rather than adjusted daily, so it can still be sitting on names that were momentum leaders months ago even as real-time leadership rotates underneath it.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;The gap isn&apos;t theoretical. When Mizuho described momentum baskets breaking below their July lows in a fresh, self-fulfilling unwind, the obvious retail proxy, MTUM, was doing nothing of the sort. Its July low was $302.09, set on July 17, and weeks later it was still trading comfortably above that level, nowhere near confirming the breakdown Mizuho was describing in the actual proprietary baskets. Used carelessly, a proxy like that doesn&apos;t just give an incomplete picture, it can point in a different direction entirely from what the professional data is showing.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Working with what you can actually see&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;None of this is a reason for retail traders to feel shut out of the conversation, even though the frustration is a fair one to feel. The honest position is that retail is working with a lower-resolution picture of certain internals, and no amount of wishing changes that. What does help is knowing precisely where the resolution drops off, so a proxy gets used for what it&apos;s genuinely good for, a directional read on whether momentum broadly is strengthening or weakening, and not mistaken for a precise stand-in for a number it was never built to replicate.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;That&apos;s really the only sustainable posture here. Focus on what&apos;s within your control: your own price action, your volume, your risk management, and a disciplined skepticism toward any single data point, including your own proxies. Treat notes like Mizuho&apos;s and JPMorgan&apos;s as valuable color on a layer of the market you can&apos;t observe directly, rather than as instructions to be replicated. The professional desks will always see something retail doesn&apos;t. The traders who do well over time aren&apos;t the ones who resent that gap, they&apos;re the ones who build a process robust enough not to need it closed.&lt;/p&gt;
+                            This article was written by Eamonn Sheridan at investinglive.com.
+                        
+                    </description>
+    </item>
+    <item>
+      <title>US strikes Iranian tankers for first time under new deterrence policy</title>
+      <link>https://investinglive.com/commodities/us-strikes-iranian-tankers-for-first-time-under-new-deterrence-policy/</link>
+      <pubDate>Wed, 02 Sep 2026 00:42:07 GMT</pubDate>
+      <guid>https://investinglive.com/commodities/us-strikes-iranian-tankers-for-first-time-under-new-deterrence-policy/</guid>
+      <description>
+                        
+                            &lt;p dir=&quot;ltr&quot;&gt;The scale of Tuesday&apos;s strikes, around 100 targets including radar, mine laying and anti ship missile capabilities, points to a deliberate US effort to degrade Iran&apos;s ability to threaten Hormuz shipping for an extended period, with one official citing at least a month of reduced threat levels. That framing, combined with roughly 40 vessels safely transiting the strait on the day of the strikes, will likely support the case that near term supply disruption risk has eased even as the underlying conflict remains unresolved. The new tanker for tanker policy marks an escalation in US rules of engagement that traders should watch closely, since it introduces a fresh and more direct retaliatory mechanism tied specifically to attacks on shipping. Iran&apos;s largely intercepted missile and drone response, alongside disputed casualty claims from a strike in Kuhestak, adds a layer of information risk that could still move sentiment depending on how the narrative develops.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;---&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Earlir:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://investinglive.com/commodities/centcom-confirms-hits-iranian-air-defence-and-naval-sites-after-hormuz-mine-attempt&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;CENTCOM confirms hits Iranian air defence and naval sites after Hormuz mine attempt&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;---&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;
+The US just showed Iran that attacking tankers now means losing tankers of its own.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Summary:&lt;/p&gt;&lt;ul dir=&quot;ltr&quot;&gt;&lt;li&gt;US forces struck two Iranian government tankers for the first time, part of a new tanker for tanker policy approved by President Trump to deter attacks on shipping in the Strait of Hormuz, a&lt;a href=&quot;https://www.axios.com/2026/09/02/iran-tankers-hormuz-attacks-oil&quot; rel=&quot;follow&quot;&gt;ccording to Axios&lt;/a&gt;&lt;/li&gt;&lt;li&gt;Around 100 targets were hit in Tuesday&apos;s strikes, including IRGC air defence sites, radar systems, mine laying capabilities, communications sites, anti ship cruise missile launchers and attack drone launchers&lt;/li&gt;&lt;li&gt;US drones hit the anchored tankers&apos; engine rooms with missiles; the vessels were positioned north of the US naval blockade line&lt;/li&gt;&lt;li&gt;Iran&apos;s retaliation largely failed, with only about half of roughly 25 ballistic missiles reaching Jordanian airspace, most drones aimed at Bahrain and Kuwait intercepted, and two drones targeting a base in Erbil also intercepted&lt;/li&gt;&lt;li&gt;A US official said the strikes degraded Iran&apos;s attack capabilities and bought at least a month of lowered threat levels for commercial shipping&lt;/li&gt;&lt;li&gt;Around 40 ships transited the strait on Tuesday despite the exchange of fire, with US forces intercepting several anti ship missiles and drones aimed at them&lt;/li&gt;&lt;li&gt;Iranian state media reported a US strike hit a wedding ceremony in Kuhestak, killing at least four people and wounding 35, a claim CENTCOM&apos;s spokesman disputed&lt;/li&gt;&lt;li&gt;A US official said Iran has lost control of both the Strait of Hormuz and the broader conflict&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot;&gt;
+The United States struck Iranian government tankers for the first time on Tuesday, marking a new phase in its response to Iranian attacks on shipping in the Strait of Hormuz, according to Axios. US officials said the strikes were carried out under a newly approved tanker for tanker policy, personally authorised by President Trump, designed to further deter Iranian attacks on vessels moving through the strait. Unlike earlier strikes aimed at preventing Iran from violating the US naval blockade, Tuesday&apos;s action against the two anchored tankers was explicitly retaliatory, a shift US officials described as significant.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;The tankers were anchored off Iran&apos;s coast, north of the blockade line, when US drones launched missiles that struck their engine rooms. They were among roughly 100 targets hit during the day&apos;s strikes, which also included Islamic Revolutionary Guard Corps air defence sites, radar systems, mine laying capabilities, communications infrastructure, anti ship cruise missile launchers and attack drone launchers. Officials said the broader campaign was also intended to prevent Iran from rebuilding the radar and missile systems it needs to threaten ships crossing the strait, part of a plan Axios had reported was under consideration by Trump and his senior aides in the days prior. One official described the intent as reducing the risk to oil tankers, US Navy vessels and Air Force aircraft, characterising the approach as an effort to keep Iran&apos;s capabilities in check on an ongoing basis.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Iran&apos;s response fell well short of its apparent aims. Of roughly 25 ballistic missiles fired, only about half reached Jordanian airspace, with ten intercepted and three landing without causing casualties. A separate wave of two dozen drones aimed at US bases in Bahrain was mostly intercepted, as were two drones targeting a US base in Erbil, in Iraq&apos;s Kurdistan region. Iran also fired ballistic missiles and drones at US bases in Kuwait. Despite the exchange, American forces continued guiding commercial traffic through the strait, with around 40 ships transiting in and out on the day of the strikes, carrying millions of barrels of oil. US forces intercepted several anti ship cruise missiles and drones the IRGC fired toward those vessels, and none were hit.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;A dispute over civilian casualties added a further layer of friction. Iranian state media reported that a US strike hit a wedding ceremony in the town of Kuhestak, killing at least four people and wounding 35. CENTCOM spokesman Captain Tim Hawkins responded that the US military never targets civilians, unlike the IRGC, while noting the report originated from Iranian state media. A US official framed the day&apos;s events as a clear setback for Tehran, arguing that Iran has lost control of both the Strait of Hormuz and the wider conflict, adding that the coming days would test whether the tanker for tanker policy succeeds in altering Iran&apos;s calculus around further attacks on shipping.&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;/p&gt;
+                            This article was written by Eamonn Sheridan at investinglive.com.
+                        
+                    </description>
+    </item>
+    <item>
+      <title>Ueda signals more BOJ hikes ahead but flags cumulative rate risks</title>
+      <link>https://investinglive.com/central-banks/ueda-signals-more-boj-hikes-ahead-but-flags-cumulative-rate-risks/</link>
+      <pubDate>Wed, 02 Sep 2026 00:22:28 GMT</pubDate>
+      <guid>https://investinglive.com/central-banks/ueda-signals-more-boj-hikes-ahead-but-flags-cumulative-rate-risks/</guid>
+      <description>
+                        
+                            &lt;p dir=&quot;ltr&quot;&gt;Ueda&apos;s comments strike a carefully balanced tone that leaves the door open for further tightening without committing to a specific timeline, keeping September pricing intact without validating it outright. His framing of long-term yield rises as largely a global phenomenon rather than a domestic policy signal will likely ease some concern that the BOJ sees its own hikes as destabilising the JGB market, even as the benchmark yield sits near 3 percent. At the same time, his acknowledgment that upside price risks remain part of the policy calculus, alongside underlying inflation sitting close to the 2 percent target, keeps a hawkish undertone in play. Katayama&apos;s comments on monitoring debt markets with heightened urgency, paired with his refusal to comment on specific JGB levels, suggest the finance ministry is watching yield moves closely without signalling imminent intervention.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;---&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Earlier:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://investinglive.com/central-banks/bank-of-japan-governor-ueda-says-no-comment-on-markets-pricing-a-september-rate-hike&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;Bank of Japan Governor Ueda says no comment on markets pricing a September rate hike&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot;&gt;---&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;
+Ueda keeps the door open to more hikes while urging caution over how much tightening the economy can absorb.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Summary:&lt;/p&gt;&lt;ul dir=&quot;ltr&quot;&gt;&lt;li&gt;BOJ Governor Ueda says the bank wants to continue raising rates given monetary conditions remain accommodative&lt;/li&gt;&lt;li&gt;Ueda says the BOJ has raised its policy rate five times so far and needs to carefully scrutinise the cumulative impact on the economy&lt;/li&gt;&lt;li&gt;Ueda says the bank will also factor in upside price risks when deliberating policy&lt;/li&gt;&lt;li&gt;Ueda says whether the likelihood of its economic scenario materialising, and whether inflation risks have heightened, will be discussed at the next board meeting&lt;/li&gt;&lt;li&gt;Ueda says underlying inflation is quite close to 2 percent and the BOJ must ensure it stabilises around that level&lt;/li&gt;&lt;li&gt;Ueda says recent rises in long-term rates are driven largely by global yield increases, and the economic impact will depend on what is driving the moves&lt;/li&gt;&lt;li&gt;Ueda says the BOJ would not react more strongly than before to FX moves alone in setting policy&lt;/li&gt;&lt;li&gt;Japan Finance Minister Katayama declines to comment on the benchmark JGB yield hitting 3 percent, saying rates are determined by markets, but says he is monitoring debt market conditions with an extremely high sense of urgency&lt;/li&gt;&lt;li&gt;Katayama says Japan will conduct debt management policy appropriately while communicating closely with markets, and believes total budget requests have been at a reasonable level&lt;/li&gt;&lt;li&gt;Katayama says he held 30 minutes of talks with Fed Chair Warsh, and separately relayed that Bessent has said it is right to aim for higher economic growth potential and productivity through domestic investment&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot;&gt;
+Bank of Japan Governor Kazuo Ueda signalled the central bank intends to keep raising interest rates, telling reporters that monetary conditions remain accommodative and that the BOJ would like to continue tightening policy. He noted the bank has already raised its policy rate five times, and said officials need to carefully scrutinise how the cumulative impact of those hikes could affect the broader economy. Even so, Ueda said the bank will also weigh upside price risks in its deliberations, keeping a hawkish option firmly on the table.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Ueda said the central bank&apos;s next board meeting would specifically address whether the likelihood of its current economic scenario materialising has increased, and whether inflation risks themselves have heightened, framing the coming meeting as a genuine decision point rather than a formality. He added that underlying inflation is now quite close to the BOJ&apos;s 2 percent target, and that the bank&apos;s task is to ensure it stabilises around that level rather than overshooting or slipping back below it.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;On the recent rise in long-term Japanese government bond yields, which has pushed the benchmark toward the 3 percent level, Ueda said the moves are being driven largely by global increases in yields rather than domestic factors specific to Japan. He said the ultimate impact of those yield moves on the economy would depend on what is actually driving them, a distinction that suggests the BOJ is not treating the rise as an immediate policy problem in itself. Ueda also addressed the exchange rate directly, saying the bank would not focus on FX in isolation or react more strongly than it has previously to currency moves when setting policy, pushing back gently against the idea that a weaker yen alone would force the BOJ&apos;s hand.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Japan&apos;s Finance Minister Katayama, speaking alongside Ueda&apos;s comments, declined to comment on the benchmark JGB yield&apos;s move toward 3 percent specifically, saying interest rates are ultimately determined by markets based on a range of factors. He said Japan is monitoring debt market conditions with an extremely high sense of urgency and will manage its debt policy appropriately while maintaining close communication with markets, adding that he believes the government&apos;s total budget requests have been set at a reasonable level. Katayama also said he held a 30 minute conversation with Federal Reserve Chair Warsh, and separately noted that US Treasury Secretary Bessent has said it is right for countries to aim for higher economic growth potential and productivity through domestic investment, a theme that appeared to run through several of the sidelines conversations at the G20 gathering.&amp;nbsp;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;/p&gt;
+                            This article was written by Eamonn Sheridan at investinglive.com.
+                        
+                    </description>
+    </item>
+    <item>
+      <title>PBOC is expected to set the USD/CNY reference rate at 6.7238 – Reuters estimate</title>
+      <link>https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-7238-reuters-estimate/</link>
+      <pubDate>Wed, 02 Sep 2026 00:17:27 GMT</pubDate>
+      <guid>https://investinglive.com/central-banks/pboc-is-expected-to-set-the-usd-cny-reference-rate-at-6-7238-reuters-estimate/</guid>
+      <description>
+                        
+                            The People’s Bank of China is due to set the daily USD/CNY reference rate at around 0115 GMT (2115 US Eastern time), a fixing that remains one of the most closely watched signals in Asian foreign exchange markets.&amp;nbsp;China operates a managed floating exchange rate system, under which the renminbi (yuan) is allowed to trade within a prescribed band around a central reference rate, or midpoint, set each trading day by the PBOC. The current trading band permits the currency to move plus or minus 2% from the official midpoint during onshore trading hours.&amp;nbsp;Each morning, the PBOC determines the midpoint based on a range of inputs. These include the previous day’s closing price, movements in major currencies, particularly the US dollar, broader international FX conditions, and domestic economic considerations such as capital flows, growth momentum and financial stability objectives. The midpoint is not a purely mechanical calculation, allowing policymakers discretion to guide market expectations.&amp;nbsp;Once the midpoint is announced, onshore USD/CNY is free to trade within the allowable band. If market pressures push the yuan toward either edge of that range, the central bank may step in to smooth volatility. Intervention can take the form of direct buying or selling of yuan, adjustments to liquidity conditions, or guidance through state-owned banks.&amp;nbsp;As a result, the daily fixing is often interpreted as a policy signal rather than just a technical reference point. A stronger-than-expected CNY midpoint is typically read as a sign the PBOC is leaning against depreciation pressure, while a weaker fixing for the CNY can indicate tolerance for a softer currency, often in response to dollar strength or domestic economic headwinds.In periods of heightened global volatility, such as shifts in US rate expectations, trade tensions or capital flow pressures, the fixing takes on added significance. For investors, it provides insight into Beijing’s currency priorities, balancing competitiveness, capital stability and financial market confidence.&lt;p&gt;&lt;/p&gt;
+                            This article was written by Eamonn Sheridan at investinglive.com.
+                        
+                    </description>
+    </item>
+    <item>
+      <title>Bank of Japan Governor Ueda says no comment on markets pricing a September rate hike</title>
+      <link>https://investinglive.com/central-banks/bank-of-japan-governor-ueda-says-no-comment-on-markets-pricing-a-september-rate-hike/</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:10 GMT</pubDate>
+      <guid>https://investinglive.com/central-banks/bank-of-japan-governor-ueda-says-no-comment-on-markets-pricing-a-september-rate-hike/</guid>
+      <description>
+                        
+                            &lt;p dir=&quot;ltr&quot;&gt;Ueda&apos;s refusal to push back on market pricing for a September rate hike is likely to be read as a tacit acknowledgment that the central bank is comfortable with current expectations, rather than a signal of hesitation. His comments on the need for closer communication between central banks as the global environment shifts add a layer of caution, suggesting policymakers are wary of divergent moves creating volatility across currency and rate markets. The undisclosed talks with Bessent will draw attention given the parallel comments from Japan&apos;s finance minister on joint FX intervention being in line with G7 commitments, keeping the yen in focus. With Ueda offering no pushback on hike expectations and no fresh dovish signal either, the path of least resistance for policy pricing remains intact heading into the September meeting.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;---&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;We had a day of comments from Katayama abd Bessent yesterday:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;a href=&quot;https://investinglive.com/news/investinglive-asia-pacific-market-news-oil-steady-near-highs-gold-flat&quot; target=&quot;_blank&quot; rel=&quot;follow&quot;&gt;investingLive Asia-Pacific market news: Oil steady near highs, gold flat&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;---&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;
+Ueda offers no pushback on September hike bets, letting the market&apos;s own pricing do the talking.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Summary:&lt;/p&gt;&lt;ul dir=&quot;ltr&quot;&gt;&lt;li&gt;BOJ Governor Ueda held talks with US Treasury Secretary Bessent on the sidelines of the G20, giving no details on what was discussed&lt;/li&gt;&lt;li&gt;Ueda said central banks discussed the need for improved communication to achieve appropriate monetary policy as the global environment changes&lt;/li&gt;&lt;li&gt;Ueda declined to comment on day-to-day market moves or on markets pricing in a strong chance of a September rate hike&lt;/li&gt;&lt;li&gt;Japan Finance Minister Katayama said he held separate talks with the Fed chief and discussed global imbalances, emerging market debt, and financial literacy at the G20&lt;/li&gt;&lt;li&gt;Katayama said debt expansion is a global trend and explained Japan&apos;s fiscal policy of pursuing growth alongside fiscal sustainability&lt;/li&gt;&lt;li&gt;Katayama said Bessent outlined US plans for controlling debt&lt;/li&gt;&lt;li&gt;Katayama said JPMorgan&apos;s Dimon praised Japan&apos;s recent policy changes in a separate conversation&lt;/li&gt;&lt;li&gt;Katayama said US Japan FX intervention was in line with G7 commitments, declining to comment on specific FX levels, and called the G20 meeting a good opportunity to build understanding around joint FX intervention&lt;/li&gt;&lt;/ul&gt;&lt;p dir=&quot;ltr&quot;&gt;
+Bank of Japan Governor Kazuo Ueda held talks with US Treasury Secretary Scott Bessent on the sidelines of the G20 meeting, though he declined to give any details on what was discussed. Ueda&apos;s remarks came alongside a broader comment on the need for central banks to improve communication with one another in order to achieve appropriate monetary policy as the global economic environment continues to shift, a signal that policymakers are increasingly conscious of the risks posed by diverging paths across major economies.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;Most notably for markets, Ueda declined to comment on day to day price moves or to push back on market pricing that currently reflects a strong chance of a rate hike at the BOJ&apos;s September meeting. His silence on the matter is likely to be interpreted as a lack of objection to current expectations rather than any signal of new information, leaving the market&apos;s own pricing largely intact heading into the meeting.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;The G20 gathering also produced comments from Japan&apos;s Finance Minister Shunichi Katayama, who said he held separate talks with the head of the Federal Reserve and that discussions at the G20 more broadly covered global imbalances, emerging market debt, and financial literacy. Katayama noted that debt expansion is now a global trend and said Japan used the opportunity to explain its own fiscal policy, which aims to balance economic growth with long term fiscal sustainability. He added that Bessent had outlined the US administration&apos;s own plans for bringing its debt under control, though he did not elaborate further on specifics.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;On currency policy, Katayama said Japan told the G20 that its FX intervention alongside the United States remained consistent with the G7&apos;s existing commitments, while declining to comment on any specific exchange rate levels. He characterised the meeting as a useful opportunity to build broader understanding among G20 members for the kind of joint FX intervention Japan and the US have pursued. In a separate aside, Katayama noted that JPMorgan chief executive Jamie Dimon had praised Japan&apos;s recent policy changes during a conversation on the sidelines of the summit, an informal but notable endorsement from one of Wall Street&apos;s most prominent voices. Taken together, the comments from both Ueda and Katayama suggest Japan enters September with its rate path and currency strategy broadly intact, even as officials stress the importance of coordinating more closely with global counterparts against a backdrop of shifting monetary conditions worldwide.&lt;/p&gt;&lt;p dir=&quot;ltr&quot;&gt;&lt;/p&gt;
+                            This article was written by Eamonn Sheridan at investinglive.com.
+                        
+                    </description>
+    </item>
+    <item>
       <title>Equities on thin ice: Momentum basket selloff turns self-fulfilling as systematic funds deleverage</title>
       <link>https://investinglive.com/stock-market-update/equities-on-thin-ice-momentum-basket-selloff-turns-self-fulfilling-as-systematic-funds-deleverage/</link>
       <pubDate>Tue, 01 Sep 2026 23:21:42 GMT</pubDate>
@@ -311,169 +389,6 @@ Digital and media rules: U.S. officials object to requirements that major platfo
 &lt;/li&gt;&lt;li&gt;
 The goods trade deficit: Trump argues that Canada benefits disproportionately from access to American consumers. The White House cites an average annual U.S. goods deficit of roughly $50 billion over the past decade. A trade deficit itself, however, does not establish unfair trading practices. 
 &lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The key context is that some complaints concern longstanding Canadian protections, while others concern Canadian retaliation against U.S. tariffs. Canada explicitly describes its latest counter-tariffs as a matching response to Washington’s actions. That distinction matters when assessing who imposed which barriers and why.It is now being reported that the Canadian Finance Minister Champagne will meet with Treas Secretary Bessent this afternoon.&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;If there is a problem, look to fix them in an equitable way like grown ups without threatening the sovereignty of a nation. &amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/p&gt;&lt;p&gt;The USDCAD is trading higher today, after&amp;nbsp;falling yesterday after failing to extend above its 100 day moving average at the start of trading yesterday, but &amp;nbsp;finding support buyers early today against its 200 day moving average. The pricing the North American session has moved back above its 100 hour moving average at 1.3872 and looks back toward the 100 day moving average at 1.39161. The current price is trading at 1.3895.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;/ul&gt;
-                            This article was written by Greg Michalowski at investinglive.com.
-                        
-                    </description>
-    </item>
-    <item>
-      <title>US construction spending for July -0.5% versus 0.0% expected.</title>
-      <link>https://investinglive.com/news/us-construction-spending-for-july-0-5-versus-0-0-expected/</link>
-      <pubDate>Tue, 01 Sep 2026 14:28:49 GMT</pubDate>
-      <guid>https://investinglive.com/news/us-construction-spending-for-july-0-5-versus-0-0-expected/</guid>
-      <description>
-                        
-                            &lt;ul&gt;&lt;li&gt;Prior month 0.0% revised from -0.1%&lt;/li&gt;&lt;li&gt;Construction spending for July -0.5% versus 0.0% expected&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Details from the US Census:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Total construction spending fell -0.5% in July to a seasonally adjusted annual rate of $2,157.6 billion, from June’s revised $2,167.7 billion.
-&lt;/li&gt;&lt;li&gt;
-Spending was down 3.8% from July 2025.
-&lt;/li&gt;&lt;li&gt;
-Year-to-date spending totaled $1,244.6 billion through July, down 3.5% from the same period in 2025.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Private construction data for the month of July:&amp;nbsp;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;
-Private construction spending fell 0.5% to $1,614.2 billion.
-&lt;/li&gt;&lt;li&gt;
-Private residential spending declined 1.3% to $859.0 billion, leading the overall pullback.
-&lt;/li&gt;&lt;li&gt;
-Private nonresidential spending rose 0.4% to $755.2 billion, providing a partial offset.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Public construction data for the the month of July&lt;/p&gt;&lt;ul&gt;&lt;li&gt;
-Public construction spending slipped 0.2% to $543.4 billion.
-&lt;/li&gt;&lt;li&gt;
-Public educational construction fell 0.2% to $112.3 billion.
-&lt;/li&gt;&lt;li&gt;
-Public highway construction declined 0.2% to $150.3 billion.
-&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Overall, a weaker report, with residential construction driving the monthly decline. Private nonresidential spending was the bright spot, but spending remained below year-earlier levels both in July and year to date.&lt;/p&gt;
-                            This article was written by Greg Michalowski at investinglive.com.
-                        
-                    </description>
-    </item>
-    <item>
-      <title>US manufacturing PMI 54.6 versus 55.2 estimate</title>
-      <link>https://investinglive.com/news/us-manufacturing-pmi-54-6-versus-55-2-estimate/</link>
-      <pubDate>Tue, 01 Sep 2026 14:15:22 GMT</pubDate>
-      <guid>https://investinglive.com/news/us-manufacturing-pmi-54-6-versus-55-2-estimate/</guid>
-      <description>
-                        
-                            &lt;ul&gt;&lt;li&gt;Prior month&amp;nbsp; 55.6&lt;/li&gt;&lt;li&gt;ISM manufacturing PMI for August 54.6 versus 55.2 estimate.&lt;/li&gt;&lt;li&gt;Employment index 51.2 versus 53.0 estimate. Last month 52.8&lt;/li&gt;&lt;li&gt;New orders 53.7 versus 56.7 last month&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Summary of the components vs last month and the changes&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Manufacturing PMI: August 54.6 vs July 55.6. Down 1.0 point MoM.
-&lt;/li&gt;&lt;li&gt;
-New Orders: August 53.7 vs July 56.7. Down 3.0 points MoM.
-&lt;/li&gt;&lt;li&gt;
-Production: August 58.3 vs July 58.5. Down 0.2 point MoM.
-&lt;/li&gt;&lt;li&gt;
-Employment: August 51.2 vs July 52.8. Down 1.6 points MoM.
-&lt;/li&gt;&lt;li&gt;
-Supplier Deliveries: August 59.3 vs July 58.9. Up 0.4 point MoM.
-&lt;/li&gt;&lt;li&gt;
-Inventories: August 50.6 vs July 51.2. Down 0.6 point MoM.
-&lt;/li&gt;&lt;li&gt;
-Customers’ Inventories: August 42.8 vs July 40.7. Up 2.1 points MoM.
-&lt;/li&gt;&lt;li&gt;
-Prices: August 71.1 vs July 71.1. Unchanged MoM.
-&lt;/li&gt;&lt;li&gt;
-Backlog of Orders: August 51.8 vs July 55.0. Down 3.2 points MoM.
-&lt;/li&gt;&lt;li&gt;
-New Export Orders: August 53.2 vs July 53.0. Up 0.2 point MoM.
-&lt;/li&gt;&lt;li&gt;
-Imports: August 52.5 vs July 55.7. Down 3.2 points MoM.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The components showed more weakness vs last month&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Including the headline PMI, 3 readings rose, 7 fell and 1 was unchanged.
-&lt;/li&gt;&lt;li&gt;
-Among the 10 components alone, 3 rose, 6 fell and 1 was unchanged.
-&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Overall, the August report was weaker than July although most of the levels remain above the 50 level. Manufacturing continued to expand, but the headline PMI fell to 54.6 from 55.6. New orders, production, employment and order backlogs all lost momentum, while imports also slowed.&lt;/p&gt;&lt;p&gt;The increases were not uniformly positive. Higher supplier deliveries indicated slower deliveries, while rising customers’ inventories meant inventories were less depleted. New export orders improved only marginally. Prices remained elevated at 71.1, showing no easing in price pressures despite the slower growth.&lt;/p&gt;
-                            This article was written by Greg Michalowski at investinglive.com.
-                        
-                    </description>
-    </item>
-    <item>
-      <title>JOLTs job openings 7.271M vs 7.300M estimate</title>
-      <link>https://investinglive.com/news/jolts-job-openings-7-271m-vs-7-300m-estimate/</link>
-      <pubDate>Tue, 01 Sep 2026 14:04:48 GMT</pubDate>
-      <guid>https://investinglive.com/news/jolts-job-openings-7-271m-vs-7-300m-estimate/</guid>
-      <description>
-                        
-                            &lt;ul&gt;&lt;li&gt;Prior month 7.182 million&lt;/li&gt;&lt;li&gt;JOLTs job openings for July 7.271M vs 7.300M estimate.&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Details from the&amp;nbsp;Bureau of Labor Statistics&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Job openings: Little changed at 7.3 million in July, with the openings rate steady at 4.4%. Durable goods manufacturing openings increased by 76,000.
-&lt;/li&gt;&lt;li&gt;
-Hires: Little changed at 5.1 million, with a hiring rate of 3.2%. Professional and business services hiring fell by 188,000, a softer detail.
-&lt;/li&gt;&lt;li&gt;
-Total separations: Little changed at 5.1 million, with a rate of 3.2%. No significant changes across industries.
-&lt;/li&gt;&lt;li&gt;
-Quits: Little changed at 3.1 million, with the quits rate at 1.9%. Quits in other services declined by 46,000. Workers showed no increased willingness or ability to leave their jobs.
-&lt;/li&gt;&lt;li&gt;
-Layoffs and discharges: Little changed at 1.7 million, with a rate of 1.0%. Finance and insurance layoffs declined by 22,000.
-&lt;/li&gt;&lt;li&gt;
-Other separations: Essentially unchanged at 350,000, including retirements and other departures.
-&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Overall, the report was broadly steady, with a few softer details. Hiring and quits showed no pickup, and the decline in professional and business services hiring stood out as a weakness. However, layoffs remained stable, providing no indication of an acceleration in job cuts. The labor market is holding its ground rather than gaining momentum. &lt;/p&gt;&lt;p&gt;The US jobs report will be announced on Friday at 8:30 AM ET.&amp;nbsp;&lt;/p&gt;
-                            This article was written by Greg Michalowski at investinglive.com.
-                        
-                    </description>
-    </item>
-    <item>
-      <title>S&amp;P global manufacturing PMI final for August 53.9 versus 53.2 preliminary</title>
-      <link>https://investinglive.com/news/s-p-global-manufacturing-pmi-final-for-august-53-9-versus-53-2-preliminary/</link>
-      <pubDate>Tue, 01 Sep 2026 13:47:20 GMT</pubDate>
-      <guid>https://investinglive.com/news/s-p-global-manufacturing-pmi-final-for-august-53-9-versus-53-2-preliminary/</guid>
-      <description>
-                        
-                            &lt;ul&gt;&lt;li&gt;Prior month&amp;nbsp;53.9&lt;/li&gt;&lt;li&gt;Preliminary estimate for manufacturing PMI 53.2&lt;/li&gt;&lt;li&gt;S&amp;amp;P global manufacturing PMI final 53.9&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Details from S&amp;amp;P Global on the survey report:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;S&amp;amp;P Global US manufacturing PMI held at 53.9 in August, signaling another solid expansion in operating conditions.
-&lt;/li&gt;&lt;li&gt;Production increased for the 15th consecutive month, but growth slowed to its weakest pace since February as higher prices and tight supplies weighed.
-&lt;/li&gt;&lt;li&gt;New orders rose at a solid pace, little changed from July, with demand largely driven by the domestic market.
-&lt;/li&gt;&lt;li&gt;Export orders declined for the 14th consecutive month. Tariffs weighed on foreign sales, although some firms reported improving demand from Europe.
-&lt;/li&gt;&lt;li&gt;Supply pressures persisted, with delivery times lengthening markedly. Firms cited the Middle East war and tariff uncertainty as contributing factors.
-&lt;/li&gt;&lt;li&gt;Manufacturers continued building inventories to protect against higher prices and delivery delays. Finished goods stocks increased at the fastest pace since May.
-&lt;/li&gt;&lt;li&gt;Backlogs rose for the sixth consecutive month, reflecting higher order volumes and material shortages.
-&lt;/li&gt;&lt;li&gt;Business confidence climbed to a three-month high, supporting the fastest pace of hiring so far in 2026.&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Usamah Bhatti, Economist at S&amp;amp;P Global Market
-Intelligence commented on the report saying:
-&lt;/p&gt;&lt;p&gt;“Growth in the US manufacturing economy remained
-welcome, but the August data point to some cracks in
-the sector’s health. Data covering most of the second
-quarter and the period to August indicated that
-stock building was a key driver of sustained growth in
-manufacturing output and demand. Moreover, both
-output and new order growth slowed in August amid
-concerns that further price rises and material shortages
-would weigh on the sector.
-Indeed, although purchasing activity and preproduction inventories increased further, manufacturers
-continued to report difficulties sourcing and receiving
-raw materials because of supply delays and price rises.
-These pressures were commonly linked to the war in the
-Middle East, which has exacerbated existing supply and
-inflationary pressures from tariffs.
-There were, however, areas of encouragement for US
-goods producers. Business expectations for output
-over the year ahead improved from July to a threemonth high, partly reflecting hopes for an end to the
-war and a smoother domestic policy path. Firms also
-noted that greater stability in conditions were likely to
-support business expansion and customer retention
-plans. In response, businesses raised employment at the
-strongest rate seen so far this year.&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;&lt;/p&gt;
-                            This article was written by Greg Michalowski at investinglive.com.
-                        
-                    </description>
-    </item>
-    <item>
-      <title>Fed&apos;s Barr: Inflation remains too high. If inflation does not moderate soon, will be time for a hike.</title>
-      <link>https://investinglive.com/central-banks/fed-s-barr-inflation-remains-too-high-if-inflation-does-not-moderate-soon-will-be-time-for-a-hike/</link>
-      <pubDate>Tue, 01 Sep 2026 13:12:00 GMT</pubDate>
-      <guid>https://investinglive.com/central-banks/fed-s-barr-inflation-remains-too-high-if-inflation-does-not-moderate-soon-will-be-time-for-a-hike/</guid>
-      <description>
-                        
-                            &lt;p class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;Fed Governor Michael Barr’s comments:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;
-Inflation remains too high.
-&lt;/li&gt;&lt;li&gt;
-Favors holding rates steady if confident inflation is moderating.
-&lt;/li&gt;&lt;li&gt;
-The labor market is stable, with low unemployment.
-&lt;/li&gt;&lt;li&gt;
-The economy is growing solidly, boosted by artificial intelligence investment.
-&lt;/li&gt;&lt;li&gt;
-If inflation does not moderate soon, it will be time for an interest rate hike.
-&lt;/li&gt;&lt;li&gt;
-Persistent inflation above target creates risks.&lt;/li&gt;&lt;/ul&gt;&lt;p class=&quot;PDq2pG_selectionAnchorContainer&quot;&gt;Fed Governor Michael Barr’s comments lean more hawkish, with a rate hike on the table if inflation does not moderate soon. Although he would favor holding rates steady if inflation is moving lower, his warning that persistent above-target inflation creates risks puts the burden on the data to show improvement.&lt;/p&gt;&lt;p&gt;Meanwhile, solid economic growth, AI investment and a stable labor market with low unemployment suggest little urgency to cut rates. The message: steady rates remain an option, but stubborn inflation could make the next move a hike.&lt;/p&gt;&lt;p&gt;US stocks are looking increasingly more fragile at the open with the S&amp;amp;P index now down -55 points or -0.72%. The Dow futures are down -318.70.&amp;nbsp; NASDAQ futures are down -420 points&lt;/p&gt;&lt;p&gt;2 year yield is trading up 2.5 basis points at 4.375%. The 10 year is at 4.784%, up 2.6 basis points. The expectation for September rate hike is 66%. That is up from the low 30s last week pre-Warsh Jackson Hole speech.&amp;nbsp;&lt;/p&gt;
-                            This article was written by Greg Michalowski at investinglive.com.
-                        
-                    </description>
-    </item>
-    <item>
-      <title>ECBs Nagel: Despite the middle east, the global economy remains in a growth trajectory</title>
-      <link>https://investinglive.com/central-banks/ecbs-nagel-despite-the-middle-east-the-global-economy-remains-in-a-growth-trajectory/</link>
-      <pubDate>Tue, 01 Sep 2026 13:05:39 GMT</pubDate>
-      <guid>https://investinglive.com/central-banks/ecbs-nagel-despite-the-middle-east-the-global-economy-remains-in-a-growth-trajectory/</guid>
-      <description>
-                        
-                            &lt;p&gt;ECB&apos;s Nagel is speaning and says:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;Despite tensions in the middle east,&amp;nbsp;the global economy remains on a growth trajectory. &lt;/li&gt;&lt;li&gt;Easing in core and services is good news and not seeing second-round effects&lt;/li&gt;&lt;li&gt;He welcomes&amp;nbsp;coordinated intervention on the JPY&lt;/li&gt;&lt;li&gt;He expects consultations on future intervention measures&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;The USDJPY&amp;nbsp;remains above its 100 day moving average at 160.01.&lt;/p&gt;&lt;p&gt;For the EURJPY, it has been&amp;nbsp;trading above and below its 100 and 200 hour moving averages near 185.57 and 185.63. The converged moving averages are begging for the next a shove. On the downside, the 100 day moving average comes in at 185.099. Below that and the 100 and 200 hour moving averages on the 4 hour chart are near 184.85 in 184.76 followed by the 200 day moving average of 184.266. On a move higher, there is resistance between 185.93 and 185.03 (see red numbered circles)&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;p&gt;Meanwhile ECB Simkus is also speaking and says:&lt;/p&gt;&lt;ul&gt;&lt;li&gt;September hike is not going to be enough.&amp;nbsp;&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;
                             This article was written by Greg Michalowski at investinglive.com.
                         
                     </description>
